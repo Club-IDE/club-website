@@ -6,6 +6,7 @@ import Members from './Components/Members';
 import Navbar from './Components/Navbar';
 
 
+
 function App() {
   return (
   <>
@@ -13,6 +14,7 @@ function App() {
   <Hero />
   <Members />
   <Course />
+
   </>
   );
 }

@@ -6,7 +6,7 @@ import Homepage_img from '../imgs/HomePageCommnity.png'
 const Hero = (props) => {
     return (
         <>
-        <div class="container px-6 py-40 mx-auto pt-32 lg:pt-40">
+        <div class="container px-6 py-40 mx-auto  pt-32 pt lg:pt-28">
                 <div class="items-center lg:flex">
                     <div class="w-full lg:w-1/2">
                         <div class="mx-0 lg:max-w-lg lg:mx-20">

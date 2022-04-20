@@ -47,11 +47,29 @@ code {
 /*Course CSS*/
 
 .course_hover:hover {
-            transition: transform;
-            transition-duration: 0.5s;
-            transform: scale(0.8);
-            cursor: pointer;
+  transition: transform;
+  transition-duration: 0.5s;
+  transform: scale(0.8);
+  cursor: pointer;
 
 }
 
 
+/*Navbar Css*/
+
+.slideInDown {
+  animation-name: slideInDown;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
