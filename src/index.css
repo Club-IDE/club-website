@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3F8FF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pl-160 {
+  padding-left: 160px;
+}
+
+/*Members Cards CSS*/
+
+.Member_hover {
+  transition: transform;
+  transition-timing-function: cubic-bezier(.08, .82, .17, 1);
+  transition-duration: 1s;
+}
+
+.Member_hover:hover {
+  color: white;
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+
+.Member_hover:hover h2 {
+  color: white;
+}
+
+.Member_hover:hover svg {
+  color: white;
+}
+
+/*Course CSS*/
+
+.course_hover:hover {
+            transition: transform;
+            transition-duration: 0.5s;
+            transform: scale(0.8);
+            cursor: pointer;
+
+}
+
+
