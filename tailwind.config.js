@@ -6,10 +6,9 @@ module.exports = {
 
     extend: {
       colors: {
-        site_color: {
-          400: '#40599C',
-        },
-
+        'primary' : '#3f599D',
+        'secondary' : '#182A59',
+        'back' : '#f3f8ff',
     },
     },
   },
