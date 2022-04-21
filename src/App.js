@@ -5,6 +5,7 @@ import Hero from './Components/Hero';
 import Members from './Components/Members';
 import Navbar from './Components/Navbar';
 import Discord from './Components/Discord';
+import Activities from './Components/Activities'
 
 
 
@@ -15,6 +16,7 @@ function App() {
   <Hero />
   <Members />
   <Course />
+  <Activities />
   <Discord />
 
 

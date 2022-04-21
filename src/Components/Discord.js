@@ -24,7 +24,7 @@ export default function Discord() {
 
                     <div className="mt-12 sm:-mx-2 ">
                         <div className="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
-                            <a href="#" className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-gradient-to-r from-secondary to-primary hover:from-secondary hover:to-blue-900 sm:w-auto">
+                            <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white  bg-primary  hover:bg-secondary">
 
                                 <span className="mx-2">
                                     Become a Member
@@ -32,8 +32,8 @@ export default function Discord() {
                             </a>
                         </div>
 
-                        <div className="inline-flex w-full mt-4 overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 lg:ml-32">
-                            <a href="#" className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto bg-gradient-to-r from-blue-700 to-blue-900 hover:from-blue-600 hover:to-blue-600">
+                        <div className="inline-flex w-full mt-4 overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 lg:ml-32 border-4 border-primary">
+                            <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto">
 
                                 <span className="mx-8">
                                     Join Discord
@@ -46,12 +46,12 @@ export default function Discord() {
                     <img src={Vector} alt="Vectore imge" />
                 </div>
             </div>
-  <div class="container px-5 mx-auto lg:relative lg:-top-36 ">
-    <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="text-3xl sm:text-4xl  font-extrabold title-font mb-4 text-white">Get notified about <span className='text-yellow'> New Amazing Events</span></h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed  text-gray-50 text-2xl pt-5">Do not miss any updates</p>
+  <div className="container px-5 mx-auto lg:relative lg:-top-36 ">
+    <div className="flex flex-col text-center w-full mb-12">
+      <h1 className="text-3xl sm:text-4xl  font-extrabold title-font mb-4 text-white">Get notified about <span className='text-yellow'> New Amazing Events</span></h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed  text-gray-50 text-2xl pt-5">Do not miss any updates</p>
     </div>
-    <div class="flex w-max m-auto ">
+    <div className="flex w-max m-auto ">
         <a href="/">
       <img src={WhatsappLogo} alt="" className='w-14 mx-5 lg:mx-10 icon'/>
       </a>
