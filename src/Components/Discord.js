@@ -51,7 +51,7 @@ export default function Discord() {
                     </div>
                 </div>
                 <div className="flex justify-center xl:w-1/2 lg:relative lg:bottom-48">
-                    <img data-aos="fade-left" src={Vector} alt="Vectore imge" />
+                    <img data-aos="fade-up" src={Vector} alt="Vectore imge" />
                 </div>
             </div>
   <div className="container px-5 mx-auto lg:relative lg:-top-36 ">
