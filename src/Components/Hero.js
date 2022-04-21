@@ -14,7 +14,7 @@ const Hero = (props) => {
     return (
         <>
         <div className="container px-6 py-40 mx-auto  pt-32 pt lg:pt-28">
-                <div  className="items-center lg:flex">
+                <div  className="items-center lg:flex xl:mt-16">
                     <div data-aos="zoom-in" className="w-full lg:w-1/2">
                         <div className="mx-0 lg:max-w-lg lg:mx-20">
                             <h1 className="text-primary text-5xl lg:text-6xl font- font-bold">A Commuinty,

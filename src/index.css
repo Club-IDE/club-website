@@ -47,9 +47,9 @@ code {
 /*Course CSS*/
 
 .course_hover:hover {
-  transition: transform;
+  transition: transform,color;
   transition-duration: 0.5s;
-  transform: scale(0.8);
+  transform: scale(0.95);
   cursor: pointer;
 
 }
