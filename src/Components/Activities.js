@@ -5,7 +5,7 @@ import blog from '../imgs/BlogIcon.png';
 import newsletter from '../imgs/NewsletterIcon.png';
 import aos from "aos";
 import 'aos/dist/aos.css';
-// import Achievements from '../imgs/Achievments.png';
+import Achievements from '../imgs/Achievments.png';
 
 
 const Activities = (props) => {
@@ -44,7 +44,7 @@ const Activities = (props) => {
             </div>
             <div data-aos="flip-left" className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-primary hover:bg-secondary p-6 rounded-lg flex flex-col justify-center items-center transition-colors">
-                <img className="h-24 w-24 object-center mb-6 object-cover" src={newsletter} alt="content" />
+                <img className="h-24 w-24 object-center mb-6 object-cover" src={Achievements} alt="content" />
                 <h2 className="text-3xl text-white font-medium title-font mb-4 text-center">Achievements</h2>
                 <p className="leading-relaxed text-base text-white font-medium text-center px-6 pb-10">Take a look at our Hall of Fame Lorem ipsum dolor sit.</p>
               </div>
