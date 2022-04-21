@@ -6,6 +6,7 @@ import Members from './Components/Members';
 import Navbar from './Components/Navbar';
 import Discord from './Components/Discord';
 import Activities from './Components/Activities'
+import Sponser from './Components/Sponsers';
 
 
 
@@ -17,9 +18,8 @@ function App() {
   <Members />
   <Course />
   <Activities />
+  <Sponser />
   <Discord />
-
-
   </>
   );
 }
