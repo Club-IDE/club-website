@@ -30,7 +30,7 @@ const Hero = (props) => {
                 Why Club IDE ?
             </h2>
 
-            <p class="block max-w-2xl mt-4 text-xl text-gray-500 dark:text-gray-300 pt-4 lg:pt-6">Our aim is to develop competencies in the field of technology among the students and help them dive deeper into the field of research and entrepreneurship.</p>
+            <p class="block max-w-2xl mt-4 text-xl text-white dark:text-white pt-4 lg:pt-6">Our aim is to develop competencies in the field of technology among the students and help them dive deeper into the field of research and entrepreneurship.</p>
 
         </div>
     </section>
