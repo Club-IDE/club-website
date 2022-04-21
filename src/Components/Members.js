@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import Members_icon from '../imgs/Members.svg'
 import CountUp from 'react-countup';
+import aos from "aos";
+import 'aos/dist/aos.css';
 import { IoMdArrowRoundForward } from 'react-icons/io';
 
 
 
+
 export default function Members() {
+    useEffect(() => {
+        aos.init({duration : 2000});
+
+      }, [])
     return (
-        <section className="text-black body-font my-8" id="members">
+        <section data-aos="fade-up" className="text-black body-font my-8" id="members">
             <div className="container px-5 py-24 mx-auto">
 
                 <div className="flex flex-wrap -m-4 text-center ">

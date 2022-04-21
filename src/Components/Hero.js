@@ -1,20 +1,27 @@
 // import react from "react";
 import { IoMdArrowRoundForward } from 'react-icons/io';
 import Homepage_img from '../imgs/HomePageCommnity.png'
+import aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 const Hero = (props) => {
+    useEffect(() => {
+        aos.init({duration : 2000});
+
+      }, [])
     return (
         <>
         <div className="container px-6 py-40 mx-auto  pt-32 pt lg:pt-28">
-                <div className="items-center lg:flex">
-                    <div className="w-full lg:w-1/2">
+                <div  className="items-center lg:flex">
+                    <div data-aos="zoom-in" className="w-full lg:w-1/2">
                         <div className="mx-0 lg:max-w-lg lg:mx-20">
                             <h1 className="text-primary text-5xl lg:text-6xl font- font-bold">A Commuinty,
                                 By the Students
                                 For the Students</h1>
                             <p className="mt-6 text-gray-800  font-bold text-lg"><span className='text-primary'> Club IDE</span> is initiative by Governement Engineering College, Gandhinagar (CE/IT Department) for all the enthusiastic students of  institution.</p>
-                            <button className="w-full h-10 px-8 py-2 mt-6 text-xs text-white uppercase transition-colors duration-200 transform bg-primary rounded-md lg:w-auto hover:bg-secondary font-bold zoomInDown">join us <IoMdArrowRoundForward className=" inline-block  font-bold pb-1 text-lg"/></button>
+                            <button className="w-full h-10 px-8 py-2 mt-6 text-xs text-white uppercase transition-colors duration-200 transform bg-primary rounded-md lg:w-auto hover:bg-secondary font-bold">join us <IoMdArrowRoundForward className=" inline-block  font-bold pb-1 text-lg"/></button>
                         </div>
                     </div>
 
@@ -24,7 +31,7 @@ const Hero = (props) => {
                 </div>
             </div>
 
-    <section className="h-80 bg-gradient-to-r from-secondary via-primary to-secondary">
+    <section data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000"  className="h-80 bg-gradient-to-r from-secondary via-primary to-secondary">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
             <h2 className="text-5xl font-bold tracking-tight text-white lg:text-6xl">
                 Why Club IDE ?

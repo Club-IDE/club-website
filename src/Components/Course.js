@@ -1,7 +1,13 @@
 import React, { useEffect } from 'react'
+import aos from "aos";
+import 'aos/dist/aos.css';
 
 
 export default function Course() {
+    useEffect(() => {
+        aos.init({duration : 2000});
+
+      }, [])
     return (
 
         <section className="text-primary font-bold body-font">
