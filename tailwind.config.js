@@ -9,6 +9,8 @@ module.exports = {
         'primary' : '#3f599D',
         'secondary' : '#182A59',
         'back' : '#f3f8ff',
+        'darkback' : '#161622',
+        'yellow' : '#FAFF00',
     },
     },
   },

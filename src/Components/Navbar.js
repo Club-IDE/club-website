@@ -5,7 +5,7 @@ import { Sling as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isOpen, setOpen] = useState(false)
+
 
   return (
     <div class="px-4 py-2 mx-auto  md:max-w-full md:px-24 lg:px-8 shadow-lg bg-white z-50 fixed w-full">
