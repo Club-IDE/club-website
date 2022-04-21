@@ -70,7 +70,7 @@ const Navbar = () => {
         <div class="lg:hidden">
         <Hamburger toggled={isMenuOpen} toggle={setIsMenuOpen} />
           {isMenuOpen && (
-            <div class="absolute top-20 left-0 w-full slideInDown ">
+            <div class="absolute top-20 left-0 w-full slideInRight ">
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                 </div>

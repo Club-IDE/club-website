@@ -57,19 +57,19 @@ code {
 
 /*Navbar Css*/
 
-.slideInDown {
-  animation-name: slideInDown;
+.slideInRight {
+  animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-fill-mode: both;
 }
 
-@keyframes slideInDown {
+@keyframes slideInRight {
   0% {
-    transform: translateY(-100%);
+    transform: translateX(100%);
     visibility: visible;
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
