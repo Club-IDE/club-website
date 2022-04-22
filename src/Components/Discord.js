@@ -15,9 +15,9 @@ export default function Discord() {
     return (
 
 
-        <section  className=" bg-darkback h-max">
+        <section  className="bg-gradient-to-bl from-[#000004]  via-darkback to-[#000004] h-max">
 
-            <div data-aos="fade-right"  className='pt-7 lg:pl-20 lg:flex flex-rows mt-8 xl:items-start xl:w-1/2 xl:mt-0'>
+            <div data-aos="fade-right"  className='pt-7 lg:pl-20 lg:flex flex-rows mt-8 xl:items-start xl:w-1/2 xl:mt-0 '>
                 <img src={DiscordLogo} alt='DiscordLogo' className='w-32 m-auto lg:m-0' />
                 <h2 className="w-max m-auto lg:m-0 text-3xl font-bold text-white xl:text-6xl lg:pt-10 lg:px-5">
                     Join Club IDE
@@ -59,7 +59,7 @@ export default function Discord() {
       <h1 className="text-3xl sm:text-4xl  font-extrabold title-font mb-4 text-white">Get notified about <span className='text-yellow'> New Amazing Events</span></h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed  text-gray-50 text-2xl pt-5">Do not miss any updates</p>
     </div>
-    <div className="flex w-max m-auto">
+    <div className="pb-0 flex w-max m-auto">
         <a href="/">
       <img src={WhatsappLogo} alt="" className='w-14 mx-5 lg:mx-10 icon'/>
       </a>
@@ -70,8 +70,9 @@ export default function Discord() {
       <img src={LinkedinLogo} alt="" className='w-14 mx-5 lg:mx-10  icon linkdin'/>
       </a>
     </div>
-  </div>
 
+  </div>
+  <div className='pb-10  lg:hidden'></div>
         </section>
     )
 }

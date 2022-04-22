@@ -31,7 +31,7 @@ const Hero = (props) => {
                 </div>
             </div>
 
-    <section data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000"  className="h-80 bg-gradient-to-r from-secondary via-primary to-secondary">
+    <section data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000"  className="h-80 bg-gradient-to-b from-secondary via-primary to-secondary">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
             <h2 className="text-5xl font-bold tracking-tight text-white lg:text-6xl">
                 Why Club IDE ?
