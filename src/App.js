@@ -7,6 +7,9 @@ import Discord from './Components/Discord';
 import Activities from './Components/Activities'
 import Sponser from './Components/Sponsers';
 import IDE from './Components/IDE';
+import Navbar_aboutus from './Components/Navbar_aboutus';
+
+import Aboutus from './Components/Aboutus';
 
 
 
@@ -21,6 +24,8 @@ function App() {
   <Sponser />
   <Discord />
   <IDE />
+  <Navbar_aboutus />
+  <Aboutus />
   </>
   );
 }
