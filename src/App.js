@@ -6,11 +6,9 @@ import Navbar from './Components/Navbar';
 import Discord from './Components/Discord';
 import Activities from './Components/Activities'
 import Sponser from './Components/Sponsers';
-import IDE from './Components/IDE';
-import Navbar_aboutus from './Components/Navbar_aboutus';
 import Aboutus from './Components/Aboutus';
-import Team from './Components/Team';
-
+import Footer from './Components/Footer';
+import Team from './Team.js';
 
 
 
@@ -24,7 +22,6 @@ function App() {
   <Activities />
   <Sponser />
   <Discord />
-  <IDE />
   <Aboutus />
   <Team />
   </>
