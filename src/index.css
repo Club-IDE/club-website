@@ -41,8 +41,10 @@ code {
 }
 
 .Member_hover:hover svg {
-  color: white;
+  fill: white;
 }
+
+
 
 /*Course CSS*/
 
@@ -99,4 +101,17 @@ code {
   100%{
     transform: translateY(0);
   }
+}
+
+
+/* Team-card_icons css */
+.team-card_icon:hover{
+  transition: all ease-in-out 0.2s;
+  transform: scale(1.1);
+  fill: #9082EC;
+}
+
+.member-card{
+  transition: all ease-in 0.2s;
+
 }

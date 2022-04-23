@@ -8,8 +8,9 @@ import Activities from './Components/Activities'
 import Sponser from './Components/Sponsers';
 import IDE from './Components/IDE';
 import Navbar_aboutus from './Components/Navbar_aboutus';
-
 import Aboutus from './Components/Aboutus';
+import Team from './Components/Team';
+
 
 
 
@@ -24,8 +25,8 @@ function App() {
   <Sponser />
   <Discord />
   <IDE />
-  <Navbar_aboutus />
   <Aboutus />
+  <Team />
   </>
   );
 }
