@@ -105,13 +105,43 @@ code {
 
 
 /* Team-card_icons css */
-.team-card_icon:hover{
+.team-card_icon_twitter:hover{
   transition: all ease-in-out 0.2s;
   transform: scale(1.1);
-  fill: #9082EC;
+  fill: #00acee;
+}
+.team-card_icon_linkedin:hover{
+  transition: all ease-in-out 0.2s;
+  transform: scale(1.1);
+  fill: #0e76a8;
+}
+.team-card_icon_github:hover{
+  transition: all ease-in-out 0.2s;
+  transform: scale(1.1);
+  fill: #171515;
 }
 
 .member-card{
   transition: all ease-in 0.2s;
 
+}
+
+.member-card::after{
+  content: '';
+  margin-top: 10px;
+  height: 5px;
+  width: 0%;
+  background-color: black;
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+.member-card:hover::after{
+  content: '';
+  height: 5px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: black;
+  display: block;
+  transition: .5s ease-in-out;
 }

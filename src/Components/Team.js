@@ -20,7 +20,7 @@ const Team = () => {
         {name:'Akshat Shah' , role:'Web Development Lead'},
         {name:'Naresh Purohit' , role:'Start Up Lead'},
         {name:'Krutik Patel' , role:'AI/ML Lead'},
-        {name:'Divyesh Vyas' , role:'Competitive Programming Group Lead'},
+        {name:'Divyesh Vyas' , role:'CP Group Lead'},
     ];
     const GDSCMembers = [
         {name:'Prof. Yogendra Tank', role:'Faculty Coordinator'},
@@ -38,7 +38,7 @@ const Team = () => {
         {name:'Prof. Ashvin Prajapati', role:'Faculty Coordinator'},
         {name:'Divyesh Vyas' , role:'President'},
         {name:'Bhakti Trivedi' , role:'Event Lead'},
-        {name:'Hardik Kardam' , role:'Competitive Programming Lead'},
+        {name:'Hardik Kardam' , role:'CP Lead'},
         {name:'Suryadipsinh Vaghela' , role:'Media & Outreach Lead'}
     ];
 
@@ -64,6 +64,10 @@ const Team = () => {
             <TeamMembers title={'GDSC Leads'} members={GDSCMembers} />
             <TeamMembers title={'Codechef Leads'} members={CodechefMembers} />
             <TeamMembers title={'Developers'} members={Developers} />
+
+
+            
+           
         </div>
         </>
         

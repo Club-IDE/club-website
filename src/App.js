@@ -8,7 +8,8 @@ import Activities from './Components/Activities'
 import Sponser from './Components/Sponsers';
 import Aboutus from './Components/Aboutus';
 import Footer from './Components/Footer';
-import Team from './Team.js';
+import Team from './Components/Team.js';
+
 
 
 
@@ -24,6 +25,7 @@ function App() {
   <Discord />
   <Aboutus />
   <Team />
+
   </>
   );
 }
