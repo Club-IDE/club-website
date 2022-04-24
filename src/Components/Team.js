@@ -1,9 +1,10 @@
 import TeamMembers from './TeamMembers';
 import MemberCard from './MemberCard';
-import { Profiler } from 'react';
+import { Profiler, useState } from 'react';
+
 
 const Team = () => {
-    
+
     const faculties = [{name: 'Dr.Dhaval Parikh',role: 'HOD/Senior Advisor'},
     {name: 'john',role: 'lead'},
     {name: 'max',role: 'developer'}]
@@ -48,11 +49,12 @@ const Team = () => {
         {name:'Dhruva Patel' , role:'Developer'},
         {name:'Prachi Patel' , role:'Developer'},
         {name:'Jay Prajapati' , role:'Developer'},
-        
+
     ]
 
 
-    return ( 
+
+    return (
         <>
         <div className="faculties mx-auto max-w-full">
             <div className="flex justify-center bg-gradient-to-tr from-[#40599C] to-[#ffffff] pt-32 min-w-full">
@@ -66,14 +68,13 @@ const Team = () => {
             <TeamMembers title={'Developers'} members={Developers} />
 
 
-            
-           
+
         </div>
         </>
-        
-        
+
+
      );
-    
+
     }
- 
+
 export default Team;

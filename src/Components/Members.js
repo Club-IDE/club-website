@@ -7,9 +7,7 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import {TiGroupOutline} from 'react-icons/ti';
 import {RiGroupLine} from 'react-icons/ri';
 import {RiOrganizationChart} from 'react-icons/ri';
-
 import {VscCalendar} from 'react-icons/vsc';
-
 import '../index.css';
 
 
