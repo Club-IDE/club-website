@@ -9,6 +9,7 @@ import Sponser from './Components/Sponsers';
 import Aboutus from './Components/Aboutus';
 import Footer from './Components/Footer';
 import Team from './Components/Team.js';
+import Blogpage from './Components/Blogpage';
 
 
 
@@ -25,6 +26,7 @@ function App() {
   <Discord />
   <Aboutus />
   <Team />
+  <Blogpage />
 
   </>
   );

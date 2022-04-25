@@ -145,3 +145,26 @@ code {
   display: block;
   transition: .5s ease-in-out;
 }
+
+/* blog button css */
+.blog-buttons {
+  border-color: #182A59;
+  color: #000;
+  background-image: linear-gradient(45deg, #182A59 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: all 0.5s ease-in-out;
+}
+.blog-buttons:hover {
+  background-position: 0;
+  color: #fff;
+}
+
+.blog-card{
+  transition: all ease-in-out 0.2s;
+}
+
+.blog-card:hover{
+  transition: all ease-in-out 0.2s;
+  transform: scale(1.05);
+}

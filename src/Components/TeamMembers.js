@@ -5,7 +5,7 @@ const TeamMembers = ({title, members}) => {
     
     return ( 
         <>
-        <h1 className='font-bold text-[4rem] text-secondary mt-16 mb-12 text-center'>{title}</h1>
+        <h1 className='font-bold lg:text-[4rem] text-4xl text-secondary mt-16 mb-12 text-center'>{title}</h1>
             <div className='flex flex-wrap justify-center'>
                 {members.map((member)=>{
                     return (
