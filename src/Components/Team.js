@@ -1,7 +1,8 @@
 import TeamMembers from './TeamMembers';
 import MemberCard from './MemberCard';
-import { Profiler, useState } from 'react';
 
+import { Profiler, useState } from 'react';
+import TeamImage from '../imgs/Team.png'
 
 const Team = () => {
 
@@ -56,10 +57,20 @@ const Team = () => {
 
     return (
         <>
-        <div className="faculties mx-auto max-w-full">
-            <div className="flex justify-center bg-gradient-to-tr from-[#40599C] to-[#ffffff] pt-32 min-w-full">
-                <h2 className=" text-center mb-60 mt-10 font-bold text-4xl text-secondary">TEAM</h2>
+
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto lg:flex flex-col  py-6 md:flex-row items-center bg-[#e5e7eb] max-w-full">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 lg:text-left flex flex-col md:items-start  lg:mb-16 md:mb-0 items-center text-center lg:ml-32 md:mx-auto">
+                    <h1 class="title-font font-bold xl:text-[3.5rem] text-[2rem] mt-32 leading-normal mb-4 text-secondary">Meet Our
+                    Super Enthusiastic Team
+                    </h1>
+
+                </div>
+                <div class="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 mx-auto ">
+                    <img class="object-cover object-center " alt="hero" src={TeamImage} />
+                </div>
             </div>
+        </section>
 
             <TeamMembers title={'Faculties'} members={faculties} />
             <TeamMembers title={'Club Leads'} members={ClubMembers} />
@@ -69,7 +80,6 @@ const Team = () => {
 
 
 
-        </div>
         </>
 
 

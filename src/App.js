@@ -9,7 +9,9 @@ import Sponser from './Components/Sponsers';
 import Aboutus from './Components/Aboutus';
 import Footer from './Components/Footer';
 import Team from './Components/Team.js';
-import crousal from './Components/crousal.js';
+import Bloglist from './Components/BlogList';
+import Blogpage from './Components/Blogpage'
+import Blog_card from './Components/Blog_card';
 
 
 
@@ -25,8 +27,11 @@ function App() {
   <Sponser />
   <Discord />
   <Aboutus />
-  <Team />
-  <crousal />
+
+<Team />
+  <Blogpage />
+  <Blog_card />
+  <Footer />
 
   </>
   );
