@@ -1,14 +1,14 @@
 
 
 
-const Bloglist = () => {
+const BlogList_Horizontal = () => {
     return (
 
 
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%] mx-2 my-5">
+          <div className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[95%] w-[90%] mx-2 my-10">
             <img
               src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-              className="object-cover w-full h-64"
+              className="object-cover w-full h-72"
               alt=""
             />
             <div className="p-5 border border-t-0">
@@ -31,9 +31,9 @@ const Bloglist = () => {
               >
                 Visit the East
               </a>
-              <p className="mb-2 text-gray-700">
+              <p className="my-4 text-gray-700">
                 Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque. lorem25
+                consequuntur magni voluptatem doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio placeat consequatur, voluptates laudantium recusandae inventore dolorem nam facere impedit amet quae ullam? Laudantium, adipisci consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
               <a
                 href="/"
@@ -50,4 +50,4 @@ const Bloglist = () => {
   };
 
 
-  export default Bloglist;
+  export default BlogList_Horizontal;

@@ -11,6 +11,8 @@ import Footer from './Components/Footer';
 import Team from './Components/Team.js';
 import Blogpage from './Components/Blogpage';
 import BackAnimations from './Components/BackAnimations'
+import Blog_card from './Components/Blog_card';
+import Bloglist from './Components/BlogList';
 
 
 
@@ -20,13 +22,15 @@ function App() {
     <>
   <BackAnimations />
   <Navbar />
-  <Hero />
+  {/* <Hero />
   <Members />
   <Course />
   <Activities />
   <Sponser />
-  <Discord />
-  <footer />
+  <Discord /> */}
+  <Blogpage />
+  {/* <Blog_card /> */}
+  <Footer />
 
   </>
   );
