@@ -170,111 +170,109 @@ code {
 }
 
 
-<<<<<<< HEAD
-=======
 .back::after{
   content: '';
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 30px;
+  width: 30px;
   display: block;
   background-color: #3f599D;
   animation: animate 10s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 10%;
   animation-delay: 5s;
-  top: -300px
+  top: -50px
 }
 .back2::after{
   content: '';
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 5s linear infinite;
+  animation: animate 15s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 50%;
   left: 20%;
   animation-delay: 4s;
-  top: -300px
+  top: -2000px
 }
 .back3::after{
   content: '';
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 7s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 10%;
   left: 40%;
   animation-delay: 3.5s ;
-  top: -300px
+  top: -50px
 }
 .back4::after{
   content: '';
   position: absolute;
-  height: 350px;
-  width: 350px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 3s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 50%;
   animation-delay: 3s;
   left: 50%;
-  top: -300px
+  top: -50px
 }
 .back5::after{
   content: '';
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 6s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 50%;
-  opacity: 30%;
+  opacity: 1;
   right: 20%;
   animation-delay: 2s;
-  top: -300px
+  top: -50px
 }
 .back6::after{
   content: '';
   position: absolute;
-  height: 270px;
-  width: 270px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 9s linear infinite;
-  opacity: 30%;
+  animation: animate 20s linear infinite;
+  opacity: 1;
   z-index: -1;
   border-radius: 10%;
   animation-delay: 6s;
   float: right;
-  top: -300px
+  top: -50px
 }
 .back7::after{
   content: '';
-  opacity: 30%;
+  opacity: 1;
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
   display: block;
   background-color: #3f599D;
-  animation: animate 7s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 10%;
   animation-delay: 6s;
-  right: 60px;
-  top: -300px
+  right: 20px;
+  top: -50px
 }
 
 
@@ -291,4 +289,3 @@ code {
   }
 
 }
->>>>>>> bce8bb9582ee52dcf740236a2dcedd3fd23a11dc
