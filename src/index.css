@@ -168,3 +168,124 @@ code {
   transition: all ease-in-out 0.2s;
   transform: scale(1.05);
 }
+
+
+.back::after{
+  content: '';
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 10s linear infinite;
+  z-index: -1;
+  opacity: 30%;
+  border-radius: 10%;
+  animation-delay: 5s;
+  top: -300px
+}
+.back2::after{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 5s linear infinite;
+  z-index: -1;
+  opacity: 30%;
+  border-radius: 50%;
+  left: 20%;
+  animation-delay: 4s;
+  top: -300px
+}
+.back3::after{
+  content: '';
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 7s linear infinite;
+  z-index: -1;
+  opacity: 30%;
+  border-radius: 10%;
+  left: 40%;
+  animation-delay: 3.5s ;
+  top: -300px
+}
+.back4::after{
+  content: '';
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 3s linear infinite;
+  z-index: -1;
+  opacity: 30%;
+  border-radius: 50%;
+  animation-delay: 3s;
+  left: 50%;
+  top: -300px
+}
+.back5::after{
+  content: '';
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 6s linear infinite;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 30%;
+  right: 20%;
+  animation-delay: 2s;
+  top: -300px
+}
+.back6::after{
+  content: '';
+  position: absolute;
+  height: 270px;
+  width: 270px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 9s linear infinite;
+  opacity: 30%;
+  z-index: -1;
+  border-radius: 10%;
+  animation-delay: 6s;
+  float: right;
+  top: -300px
+}
+.back7::after{
+  content: '';
+  opacity: 30%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 7s linear infinite;
+  z-index: -1;
+  border-radius: 10%;
+  animation-delay: 6s;
+  right: 60px;
+  top: -300px
+}
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0px) rotate(0deg);
+      opacity: 0.3;
+  }
+
+  100%{
+      transform: translateY(4000px) rotate(720deg);
+      opacity: 0%;
+  }
+
+}

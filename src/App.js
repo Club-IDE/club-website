@@ -10,13 +10,15 @@ import Aboutus from './Components/Aboutus';
 import Footer from './Components/Footer';
 import Team from './Components/Team.js';
 import Blogpage from './Components/Blogpage';
+import BackAnimations from './Components/BackAnimations'
 
 
 
 
 function App() {
   return (
-  <>
+    <>
+  <BackAnimations />
   <Navbar />
   <Hero />
   <Members />
@@ -24,9 +26,7 @@ function App() {
   <Activities />
   <Sponser />
   <Discord />
-  <Aboutus />
-  <Team />
-  <Blogpage />
+  <footer />
 
   </>
   );
