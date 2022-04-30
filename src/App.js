@@ -21,9 +21,9 @@ import MemberCard from './Components/MemberCard';
 function App() {
   return (
     <>
-  <BackAnimations />
+  {/* <BackAnimations /> */}
   <Navbar />
-  <Hero />
+  {/* <Hero />
   <Members />
 
   <Course />
@@ -31,10 +31,11 @@ function App() {
   <Sponser />
   <Discord />
   <Footer />
-  {/* <Blogpage />
-  <Team />
-  <Blog_card /> */}
-  <Aboutus />
+  <Blogpage />
+  <Team /> */}
+  <Blog_card />
+  {/* <Aboutus /> */}
+  <Footer />
 
   </>
   );
