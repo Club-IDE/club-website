@@ -12,6 +12,9 @@ module.exports = {
         'darkback' : '#161622',
         'yellow' : '#FAFF00',
     },
+    backgroundImage: {
+      'AboutBackground' : "url('./imgs/About-img.png')"
+    }
     },
   },
   plugins: [],

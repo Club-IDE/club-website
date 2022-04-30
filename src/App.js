@@ -13,6 +13,7 @@ import Blogpage from './Components/Blogpage';
 import BackAnimations from './Components/BackAnimations'
 import Blog_card from './Components/Blog_card';
 import Bloglist from './Components/BlogList';
+import MemberCard from './Components/MemberCard';
 
 
 
@@ -22,15 +23,18 @@ function App() {
     <>
   <BackAnimations />
   <Navbar />
-  {/* <Hero />
+  <Hero />
   <Members />
+
   <Course />
   <Activities />
   <Sponser />
-  <Discord /> */}
-  <Blogpage />
-  {/* <Blog_card /> */}
+  <Discord />
   <Footer />
+  {/* <Blogpage />
+  <Team />
+  <Blog_card /> */}
+  <Aboutus />
 
   </>
   );

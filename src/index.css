@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F3F8FF;
+  background-color: white;
 }
 
 code {
@@ -289,3 +289,8 @@ code {
   }
 
 }
+
+
+
+
+/*Card Aniation*/

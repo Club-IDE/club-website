@@ -58,16 +58,16 @@ const Team = () => {
     return (
         <>
 
-        <section class="text-gray-600 body-font">
-            <div class="container mx-auto lg:flex flex-col  py-6 md:flex-row items-center bg-[#e5e7eb] max-w-full">
-                <div class="lg:flex-grow md:w-1/2 lg:pr-24 lg:text-left flex flex-col md:items-start  lg:mb-16 md:mb-0 items-center text-center lg:ml-32 md:mx-auto">
-                    <h1 class="title-font font-bold xl:text-[3.5rem] text-[2rem] mt-32 leading-normal mb-4 text-secondary">Meet Our
+        <section className="text-gray-600 body-font">
+            <div className="container mx-auto lg:flex flex-col  py-6 md:flex-row items-center bg-[#e5e7eb] max-w-full">
+                <div className="lg:flex-grow md:w-1/2 lg:pr-24 lg:text-left flex flex-col md:items-start  lg:mb-16 md:mb-0 items-center text-center lg:ml-32 md:mx-auto">
+                    <h1 className="title-font font-bold xl:text-[3.5rem] text-[2rem] mt-32 leading-normal mb-4 text-secondary">Meet Our
                     Super Enthusiastic Team
                     </h1>
 
                 </div>
-                <div class="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 mx-auto ">
-                    <img class="object-cover object-center " alt="hero" src={TeamImage} />
+                <div className="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 mx-auto ">
+                    <img className="object-cover object-center " alt="hero" src={TeamImage} />
                 </div>
             </div>
         </section>
