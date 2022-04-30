@@ -54,7 +54,7 @@ export default function Discord() {
                     <img data-aos="fade-up" src={Vector} alt="Vectore imge" />
                 </div>
             </div>
-  <div className="container px-5 mx-auto lg:relative lg:-top-36 ">
+  <div className="container px-3 mx-auto lg:relative lg:-top-36 ">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="text-3xl sm:text-4xl  font-extrabold title-font mb-4 text-white">Get notified about <span className='text-yellow'> New Amazing Events</span></h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed  text-gray-50 text-2xl pt-5">Do not miss any updates</p>
@@ -72,7 +72,7 @@ export default function Discord() {
     </div>
 
   </div>
-  <div className='pb-10  lg:hidden'></div>
+  <div className='pb-7  lg:hidden'></div>
         </section>
     )
 }

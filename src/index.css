@@ -173,8 +173,8 @@ code {
 .back::after{
   content: '';
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 30px;
+  width: 30px;
   display: block;
   background-color: #3f599D;
   animation: animate 10s linear infinite;
@@ -187,8 +187,8 @@ code {
 .back2::after{
   content: '';
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 35px;
+  width: 35px;
   display: block;
   background-color: #3f599D;
   animation: animate 5s linear infinite;
@@ -202,8 +202,8 @@ code {
 .back3::after{
   content: '';
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 45px;
+  width: 45px;
   display: block;
   background-color: #3f599D;
   animation: animate 7s linear infinite;
@@ -217,8 +217,8 @@ code {
 .back4::after{
   content: '';
   position: absolute;
-  height: 350px;
-  width: 350px;
+  height: 30px;
+  width: 30px;
   display: block;
   background-color: #3f599D;
   animation: animate 3s linear infinite;
@@ -232,8 +232,8 @@ code {
 .back5::after{
   content: '';
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 0px;
+  width: 0px;
   display: block;
   background-color: #3f599D;
   animation: animate 6s linear infinite;
@@ -247,8 +247,8 @@ code {
 .back6::after{
   content: '';
   position: absolute;
-  height: 270px;
-  width: 270px;
+  height: 80px;
+  width: 80px;
   display: block;
   background-color: #3f599D;
   animation: animate 9s linear infinite;
@@ -263,8 +263,8 @@ code {
   content: '';
   opacity: 30%;
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 20px;
+  width: 20px;
   display: block;
   background-color: #3f599D;
   animation: animate 7s linear infinite;

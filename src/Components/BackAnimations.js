@@ -8,8 +8,6 @@ const BackAnimations = () => {
         <div className="back5"></div>
         <div className="back6"></div>
         <div className="back7"></div>
-            
-        
         </div>
      );
 }

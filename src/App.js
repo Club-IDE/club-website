@@ -10,7 +10,11 @@ import Aboutus from './Components/Aboutus';
 import Footer from './Components/Footer';
 import Team from './Components/Team.js';
 import Blogpage from './Components/Blogpage';
-import BackAnimations from './Components/BackAnimations'
+import BackAnimations from './Components/BackAnimations';
+import { Carousel } from '@trendyol-js/react-carousel';
+import Example from './Components/MemberCard';
+
+
 
 
 
@@ -26,7 +30,9 @@ function App() {
   <Activities />
   <Sponser />
   <Discord />
-  <footer />
+  <Footer />
+  <Team />  
+  
 
   </>
   );

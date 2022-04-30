@@ -1,5 +1,4 @@
 import TeamMembers from './TeamMembers';
-import MemberCard from './MemberCard';
 import TeamImage from '../imgs/Team.png'
 
 const Team = () => {
