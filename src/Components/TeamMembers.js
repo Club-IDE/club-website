@@ -3,35 +3,32 @@ import React, { Component } from 'react';
 import Slider from 'infinite-react-carousel';
 
 const TeamMembers = ({title, members}) => {
-    const settings =  {
+    const settingsForLarge =  {
         arrows: false,
         arrowsBlock: false,
         autoplay: false,
         autoplaySpeed: 2000,
-        centerMode: true,
-        dots: true,
-        gutter: 70,
+        dots:true,
+        dotsScroll: 3,
         overScan: 1,
         slidesToShow: 3
       };
 
-    const settings2 =  {
+    const settingsForSmall =  {
         arrows: false,
         arrowsBlock: false,
         autoplay: false,
         autoplaySpeed: 2000,
         centerMode: true,
-        gutter: 70,
         overScan: 1,
         slidesToShow: 1
       };
-    const settings3 =  {
+    const settingsForMedium =  {
         arrows: false,
         arrowsBlock: false,
         autoplay: false,
         autoplaySpeed: 2000,
-        centerMode: true,
-        gutter: 70,
+        dotsScroll: 3,
         overScan: 1,
         slidesToShow: 2
       };
@@ -42,7 +39,7 @@ const TeamMembers = ({title, members}) => {
        <>
        <h1 className='text-center lg:text-4xl text-2xl font-bold mt-5 mb-7'>{title}</h1>
       <div className='hidden lg:block mb-10'>
-        <Slider { ...settings }>
+        <Slider { ...settingsForLarge }>
         {members.map((member)=>{
                      return (
                         <MemberCard name={member.name} role={member.role} />
@@ -51,7 +48,7 @@ const TeamMembers = ({title, members}) => {
         </Slider>
       </div>
       <div className='lg:hidden md:hidden mb-10'>
-        <Slider { ...settings2 }>
+        <Slider { ...settingsForSmall }>
         {members.map((member)=>{
                      return (
                         <MemberCard name={member.name} role={member.role} />
@@ -60,7 +57,7 @@ const TeamMembers = ({title, members}) => {
         </Slider>
       </div>
       <div className='hidden md:block lg:hidden mb-10'>
-        <Slider { ...settings3 }>
+        <Slider { ...settingsForMedium }>
         {members.map((member)=>{
                      return (
                         <MemberCard name={member.name} role={member.role} />
