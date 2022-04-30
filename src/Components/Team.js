@@ -44,8 +44,8 @@ const Team = () => {
     const Developers = [
         {name:'Kunj Dabhi' , role:'Developer'},
         {name:'Shlok Jadeja' , role:'Developer'},
-        {name:'Dhruva Patel' , role:'Developer'},
         {name:'Prachi Patel' , role:'Developer'},
+        {name:'Dhruva Patel' , role:'Developer'},
         {name:'Jay Prajapati' , role:'Developer'},
 
     ]

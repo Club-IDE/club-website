@@ -31,7 +31,7 @@ function App() {
   <Sponser />
   <Discord />
   <Footer />
-  <Team />  
+  <Team />
   </>
   );
 }
