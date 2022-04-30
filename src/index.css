@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F3F8FF;
+  background-color: white;
 }
 
 code {
@@ -179,100 +179,100 @@ code {
   background-color: #3f599D;
   animation: animate 10s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 10%;
   animation-delay: 5s;
-  top: -300px
+  top: -50px
 }
 .back2::after{
   content: '';
   position: absolute;
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 5s linear infinite;
+  animation: animate 15s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 50%;
   left: 20%;
   animation-delay: 4s;
-  top: -300px
+  top: -2000px
 }
 .back3::after{
   content: '';
   position: absolute;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 7s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 10%;
   left: 40%;
   animation-delay: 3.5s ;
-  top: -300px
+  top: -50px
 }
 .back4::after{
   content: '';
   position: absolute;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 3s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
-  opacity: 30%;
+  opacity: 1;
   border-radius: 50%;
   animation-delay: 3s;
   left: 50%;
-  top: -300px
+  top: -50px
 }
 .back5::after{
   content: '';
   position: absolute;
-  height: 0px;
-  width: 0px;
+  height: 50px;
+  width: 50px;
   display: block;
   background-color: #3f599D;
-  animation: animate 6s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 50%;
-  opacity: 30%;
+  opacity: 1;
   right: 20%;
   animation-delay: 2s;
-  top: -300px
+  top: -50px
 }
 .back6::after{
   content: '';
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-color: #3f599D;
+  animation: animate 20s linear infinite;
+  opacity: 1;
+  z-index: -1;
+  border-radius: 10%;
+  animation-delay: 6s;
+  float: right;
+  top: -50px
+}
+.back7::after{
+  content: '';
+  opacity: 1;
   position: absolute;
   height: 80px;
   width: 80px;
   display: block;
   background-color: #3f599D;
-  animation: animate 9s linear infinite;
-  opacity: 30%;
+  animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 10%;
   animation-delay: 6s;
-  float: right;
-  top: -300px
-}
-.back7::after{
-  content: '';
-  opacity: 30%;
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  display: block;
-  background-color: #3f599D;
-  animation: animate 7s linear infinite;
-  z-index: -1;
-  border-radius: 10%;
-  animation-delay: 6s;
-  right: 60px;
-  top: -300px
+  right: 20px;
+  top: -50px
 }
 
 
@@ -289,3 +289,8 @@ code {
   }
 
 }
+
+
+
+
+/*Card Aniation*/

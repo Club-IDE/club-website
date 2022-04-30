@@ -32,8 +32,6 @@ function App() {
   <Discord />
   <Footer />
   <Team />  
-  
-
   </>
   );
 }
