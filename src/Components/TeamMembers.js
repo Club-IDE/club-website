@@ -4,9 +4,9 @@ import Slider from 'infinite-react-carousel';
 
 const TeamMembers = ({title, members}) => {
     const settingsForLarge =  {
-        arrows: false,
-        arrowsBlock: false,
-        autoplay: false,
+        arrows: true,
+        arrowsBlock: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         dots:true,
         dotsScroll: 3,
@@ -17,8 +17,8 @@ const TeamMembers = ({title, members}) => {
     const settingsForSmall =  {
         arrows: false,
         arrowsBlock: false,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 4000,
         centerMode: true,
         overScan: 1,
         slidesToShow: 1
@@ -26,16 +26,16 @@ const TeamMembers = ({title, members}) => {
     const settingsForMedium =  {
         arrows: false,
         arrowsBlock: false,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 4000,
         dotsScroll: 3,
         overScan: 1,
         slidesToShow: 2
       };
 
     const slides = []
-    
-    return ( 
+
+    return (
        <>
        <h1 className='text-center lg:text-4xl text-2xl font-bold mt-5 mb-7'>{title}</h1>
       <div className='hidden lg:block mb-10'>
@@ -65,7 +65,7 @@ const TeamMembers = ({title, members}) => {
               })}
         </Slider>
       </div>
-      </> 
+      </>
     );
   }
 export default TeamMembers;
