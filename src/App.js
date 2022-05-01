@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 
 import { Routes, Route, Outlet, Link , BrowserRouter } from "react-router-dom";
 import Team from './Components/Team';
+import AboutUs from './Components/Aboutus';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/activities' element={<HomePage />} />
         <Route path='/team' element={<Team />} />
+        <Route path='/aboutus' element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   </>

@@ -4,7 +4,7 @@ import Aboutus from '../imgs/Aboutus.gif'
 import Mission_vision from '../imgs/Mission_Vision.gif'
 import Group from '../imgs/Group.png'
 
-const Hero = () => {
+const AboutUs = () => {
     return (
         <>
 
@@ -67,4 +67,4 @@ const Hero = () => {
 
      );
 }
-export default Hero;
+export default AboutUs;

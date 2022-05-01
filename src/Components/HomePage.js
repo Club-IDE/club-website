@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import Discord from './Discord';
 import Activities from './Activities'
 import Sponser from './Sponsers';
-import Aboutus from './Aboutus';
+import AboutUs from './Aboutus';
 import Footer from './Footer';
 import Team from './Team.js';
 import Blogpage from './Blogpage';
