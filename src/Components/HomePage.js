@@ -15,6 +15,7 @@ import { Carousel } from '@trendyol-js/react-carousel';
 import Example from './MemberCard';
 import Blog_card from './Blog_card';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
 
 
 
@@ -24,13 +25,13 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 function HomePage() {
   return (
     <>
+  <ScrollToTop />
   <Hero />
   <Members />
   <Course />
   <Student_Activities />
   <Sponser />
-  <Discord />
-  <Footer />
+
   </>
   );
 }

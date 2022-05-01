@@ -52,7 +52,7 @@ const Navbar = () => {
             <Link
               to="/team"
 
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:font-bold hover:text-primary"
+              className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:font-bold hover:text-primary"
             >
               Team
             </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/aboutus"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:font-bold hover:text-primary"
+              className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:font-bold hover:text-primary"
             >
               About Us
             </Link>

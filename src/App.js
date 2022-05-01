@@ -7,6 +7,8 @@ import Team from './Components/Team';
 import AboutUs from './Components/Aboutus';
 import ScrollToTop from './Components/ScrollToTop';
 import Blogpage from './Components/Blogpage';
+import Discord from './Components/Discord';
+import Footer from './Components/Footer';
 
 
 
@@ -16,7 +18,6 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <ScrollToTop />
       <BackAnimations />
       <Navbar />
       <Routes>
@@ -27,7 +28,9 @@ function App() {
         <Route path='/BlogPage' element={<Blogpage />} />
       </Routes>
     </BrowserRouter>
-      <BackAnimations />
+    <Discord />
+    <Footer />
+
   </>
   );
 }

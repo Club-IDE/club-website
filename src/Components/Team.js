@@ -1,5 +1,6 @@
 import TeamMembers from './TeamMembers';
 import TeamImage from '../imgs/Team.png'
+import ScrollToTop from './ScrollToTop';
 
 const Team = () => {
 
@@ -54,7 +55,7 @@ const Team = () => {
 
     return (
         <>
-
+        <ScrollToTop />
         <section className="text-gray-600 body-font">
             <div className="container mx-auto lg:flex flex-col  py-6 md:flex-row items-center bg-[#e5e7eb] max-w-full">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 lg:text-left flex flex-col md:items-start  lg:mb-16 md:mb-0 items-center text-center lg:ml-32 md:mx-auto">

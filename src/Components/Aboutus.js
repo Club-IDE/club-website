@@ -5,11 +5,12 @@ import Mission_vision from '../imgs/Mission_Vision.gif'
 import Group from '../imgs/Group.png'
 import Discord from './Discord';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop';
 
 const AboutUs = () => {
     return (
         <>
-
+        <ScrollToTop />
         <div className=" container px-6 py-0 mx-auto  pt-32 pt lg:pt-28">
 
             <div className="items-center lg:flex">
@@ -63,9 +64,6 @@ const AboutUs = () => {
                         <img className="w-[90%] h-[90%] lg:w-[80%] lg:h-[80%] " src={Group} alt="Catalogue-pana.svg"/>
                 </div>
         </div>
-
-        <Discord />
-        <Footer />
             </>
 
      );
