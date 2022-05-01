@@ -182,7 +182,7 @@ code {
   opacity: 1;
   border-radius: 10%;
   animation-delay: 5s;
-  top: -50px
+  bottom: -500vh;
 }
 .back2::after{
   content: '';
@@ -197,7 +197,7 @@ code {
   border-radius: 50%;
   left: 20%;
   animation-delay: 4s;
-  top: -2000px
+  bottom: -500vh;
 }
 .back3::after{
   content: '';
@@ -212,7 +212,7 @@ code {
   border-radius: 10%;
   left: 40%;
   animation-delay: 3.5s ;
-  top: -50px
+  bottom: -500vh;
 }
 .back4::after{
   content: '';
@@ -227,7 +227,7 @@ code {
   border-radius: 50%;
   animation-delay: 3s;
   left: 50%;
-  top: -50px
+  bottom: -500vh;
 }
 .back5::after{
   content: '';
@@ -242,7 +242,7 @@ code {
   opacity: 1;
   right: 20%;
   animation-delay: 2s;
-  top: -50px
+  bottom: -500vh;
 }
 .back6::after{
   content: '';
@@ -257,7 +257,7 @@ code {
   border-radius: 10%;
   animation-delay: 6s;
   float: right;
-  top: -50px
+  bottom: -500vh;
 }
 .back7::after{
   content: '';
@@ -272,7 +272,7 @@ code {
   border-radius: 10%;
   animation-delay: 6s;
   right: 20px;
-  top: -50px
+  bottom: -500vh;
 }
 
 
@@ -280,12 +280,12 @@ code {
 
   0%{
       transform: translateY(0px) rotate(0deg);
-      opacity: 0.3;
+
   }
 
   100%{
-      transform: translateY(4000px) rotate(720deg);
-      opacity: 0%;
+      transform: translateY(-4000px) rotate(720deg);
+
   }
 
 }
@@ -331,4 +331,9 @@ code {
     -webkit-transform-origin: 0% 50%;
             transform-origin: 0% 50%;
   }
+}
+
+.active{
+  color:#3f599D;
+  font-weight: bold;
 }

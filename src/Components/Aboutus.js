@@ -3,12 +3,14 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import Aboutus from '../imgs/Aboutus.gif'
 import Mission_vision from '../imgs/Mission_Vision.gif'
 import Group from '../imgs/Group.png'
+import Discord from './Discord';
+import Footer from './Footer';
 
-const Hero = () => {
+const AboutUs = () => {
     return (
         <>
 
-        <div className="bg-white container px-6 py-0 mx-auto  pt-32 pt lg:pt-28">
+        <div className=" container px-6 py-0 mx-auto  pt-32 pt lg:pt-28">
 
             <div className="items-center lg:flex">
 
@@ -62,9 +64,10 @@ const Hero = () => {
                 </div>
         </div>
 
-
+        <Discord />
+        <Footer />
             </>
 
      );
 }
-export default Hero;
+export default AboutUs;
