@@ -38,7 +38,7 @@ const Hero = () => {
                                  </div>
                         </div>
                         <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                            <img className="w-[120%] h-[120%] lg:max-w-2xl" src={Mission_vision} alt="Catalogue-pana.svg"/>
+                            <img className="w-[140%] h-[140%] lg:max-w-2xl" src={Mission_vision} alt="Catalogue-pana.svg"/>
                         </div>
 
                 </div>
