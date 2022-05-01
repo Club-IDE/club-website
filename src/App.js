@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import { Routes, Route, Outlet, Link , BrowserRouter } from "react-router-dom";
 import Team from './Components/Team';
 import AboutUs from './Components/Aboutus';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop />
       <BackAnimations />
       <Navbar />
       <Routes>
