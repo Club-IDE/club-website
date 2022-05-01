@@ -337,3 +337,6 @@ code {
   color:#3f599D;
   font-weight: bold;
 }
+html{
+  scroll-behavior: smooth;
+}
