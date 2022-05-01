@@ -2,6 +2,7 @@ import { useState } from "react";
 import Logo from '../imgs/IDELogo.png';
 import line from '../imgs/line.svg'
 import { Sling as Hamburger } from 'hamburger-react'
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,8 +11,8 @@ const Navbar = () => {
   return (
     <div className="px-4 py-2 mx-auto  md:max-w-full md:px-24 lg:px-8 shadow-lg bg-white z-50 fixed w-full">
       <div className="relative flex items-center justify-between lg:pl-16">
-        <a
-          href="/"
+        <Link
+          to="/"
           aria-label="Company"
           title="Company"
           className="inline-flex items-center"
@@ -21,48 +22,48 @@ const Navbar = () => {
           <span className="ml-2 text-xl font-bold tracking-wide text-primary uppercase">
             Club IDE
           </span>
-        </a>
+        </Link>
         <ul className=" items-center hidden space-x-8 lg:flex pr-16">
           <li>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="font-bold tracking-wide text-primary transition-colors duration-200 hover:text-primary hover:font-bold"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/activities"
               className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:font-bold"
             >
-              Avtivities
-            </a>
+              Activities
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/partneres"
               className="font-normal tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:font-bold"
             >
               Partners
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/team"
 
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 "
             >
-              blog
-            </a>
+              Team
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/aboutus"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 "
             >
               About Us
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -77,52 +78,52 @@ const Navbar = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/"
                         className="font-bold tracking-wide text-primary transition-colors duration-200 "
                       >
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/activities"
                         aria-label="Our product"
                         title="Our product"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Avtivities
-                      </a>
+                        Activities
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/partners"
                         aria-label="Product pricing"
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Partners
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/team"
                         aria-label="Product pricing"
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        blog
-                      </a>
+                        Team
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/aboutus"
                         aria-label="About us"
                         title="About us"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About us
-                      </a>
+                      </Link>
                     </li>
 
                   </ul>

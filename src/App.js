@@ -1,18 +1,11 @@
 import './App.css';
-import Course from './Components/Course';
-import Hero from './Components/Hero';
-import Members from './Components/Members';
-import Navbar from './Components/Navbar';
-import Discord from './Components/Discord';
-import Activities from './Components/Activities'
-import Sponser from './Components/Sponsers';
-import Aboutus from './Components/Aboutus';
-import Footer from './Components/Footer';
-import Team from './Components/Team.js';
-import Blogpage from './Components/Blogpage';
+import HomePage from './Components/HomePage';
 import BackAnimations from './Components/BackAnimations';
-import { Carousel } from '@trendyol-js/react-carousel';
-import Example from './Components/MemberCard';
+import Navbar from './Components/Navbar';
+
+
+import { Routes, Route, Outlet, Link , BrowserRouter } from "react-router-dom";
+import Team from './Components/Team';
 
 
 
@@ -22,16 +15,15 @@ import Example from './Components/MemberCard';
 function App() {
   return (
     <>
-  <BackAnimations />
-  <Navbar />
-  <Hero />
-  <Members />
-  <Course />
-  <Activities />
-  <Sponser />
-  <Discord />
-  <Footer />
-  <Team />  
+    <BrowserRouter>
+      <BackAnimations />
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/activities' element={<HomePage />} />
+        <Route path='/team' element={<Team />} />
+      </Routes>
+    </BrowserRouter>
   </>
   );
 }
