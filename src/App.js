@@ -11,6 +11,7 @@ import Discord from './Components/Discord';
 import Footer from './Components/Footer';
 import Activities_Page from './Components/Activities_Page'
 import Blog_card from './Components/Blogs/Blog_card';
+import Eventpage from './Components/EventPage'
 
 
 
@@ -30,6 +31,8 @@ function App() {
         <Route path='/team' element={<Team />} />
         <Route path='/aboutus' element={<AboutUs />} />
         <Route path='/BlogPage' element={<Blogpage />} />
+        <Route path='/EventPage' element={<Eventpage />} />
+
       </Routes>
     </BrowserRouter>
 
