@@ -176,7 +176,9 @@ code {
   height: 30px;
   width: 30px;
   display: block;
-  background-color: #3f599D;
+
+  background-image: url('/src/imgs/background-1.svg');
+  background-size: cover;
   animation: animate 10s linear infinite;
   z-index: -1;
   opacity: 1;
@@ -190,7 +192,8 @@ code {
   height: 50px;
   width: 50px;
   display: block;
-  background-color: #3f599D;
+  background-image: url('/src/imgs/background-1.svg');
+  background-size: cover;
   animation: animate 15s linear infinite;
   z-index: -1;
   opacity: 1;
@@ -205,7 +208,9 @@ code {
   height: 50px;
   width: 50px;
   display: block;
-  background-color: #3f599D;
+
+  background-image: url('/src/imgs/background-1.svg');
+  background-size: cover;
   animation: animate 20s linear infinite;
   z-index: -1;
   opacity: 1;
@@ -220,7 +225,9 @@ code {
   height: 50px;
   width: 50px;
   display: block;
-  background-color: #3f599D;
+
+  background-image: url('/src/imgs/background-1.svg');
+  background-size: cover;
   animation: animate 20s linear infinite;
   z-index: -1;
   opacity: 1;
@@ -232,10 +239,13 @@ code {
 .back5::after{
   content: '';
   position: absolute;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
+  background-image: url('/src/imgs/background-1.svg');
+  background-size: cover;
+
   display: block;
-  background-color: #3f599D;
+
   animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 50%;
@@ -247,10 +257,11 @@ code {
 .back6::after{
   content: '';
   position: absolute;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   display: block;
-  background-color: #3f599D;
+  background-image: url('/src/imgs/background-2.svg');
+  background-size: cover;
   animation: animate 20s linear infinite;
   opacity: 1;
   z-index: -1;
@@ -266,7 +277,9 @@ code {
   height: 80px;
   width: 80px;
   display: block;
-  background-color: #3f599D;
+  background-image: url('/src/imgs/background-3.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
   animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 10%;
@@ -280,11 +293,13 @@ code {
 
   0%{
       transform: translateY(0px) rotate(0deg);
+      opacity: 0.8;
 
   }
 
   100%{
-      transform: translateY(-4000px) rotate(720deg);
+      transform: translateY(-5000px) rotate(0deg);
+      opacity: 0.5;
 
   }
 

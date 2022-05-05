@@ -9,6 +9,8 @@ import ScrollToTop from './Components/ScrollToTop';
 import Blogpage from './Components/Blogpage';
 import Discord from './Components/Discord';
 import Footer from './Components/Footer';
+import Activities_Page from './Components/Activities_Page'
+
 
 
 
@@ -17,6 +19,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
+
     <BrowserRouter>
       <BackAnimations />
       <Navbar />
@@ -28,8 +31,10 @@ function App() {
         <Route path='/BlogPage' element={<Blogpage />} />
       </Routes>
     </BrowserRouter>
+    <Activities_Page />
     <Discord />
     <Footer />
+
 
   </>
   );
