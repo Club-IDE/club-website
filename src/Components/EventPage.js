@@ -12,8 +12,8 @@ const Eventpage = () => {
             <h1 className=" pb-4  text-6xl font-bold w-max m-auto text-primary">Events</h1>
         </div>
         <div className="flex justify-evenly items-center w-[100%] m-auto">
-            <button className="mt-20 bg-gray-200 px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Upcoming Events</button>
-            <button  className="mt-20 bg-gray-200 px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Past Events</button>
+            <button className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Upcoming Events</button>
+            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Past Events</button>
         </div>
 
 
@@ -37,8 +37,8 @@ const Eventpage = () => {
             <h1 className=" pb-4  text-6xl font-bold w-max m-auto text-primary">Workshops</h1>
         </div>
         <div className="flex justify-evenly items-center w-[100%] m-auto">
-            <button className="mt-20 bg-gray-200 px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Upcoming Workshop</button>
-            <button  className="mt-20 bg-gray-200 px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Past Workshop</button>
+            <button className="mt-20 bg-white shadow-lg shadow-gray-600 px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Upcoming Workshop</button>
+            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Past Workshop</button>
         </div>
 
         <div className="items-center lg:flex mt-16">

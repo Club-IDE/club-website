@@ -6,6 +6,8 @@ import Achievement from '../imgs/Achievement.png'
 import Newslatter from '../imgs/Newslatter.png'
 import ScrollToTop from './ScrollToTop';
 import ArrowDown from '../imgs/arrow_drop_down.svg'
+import { getActiveElement } from '@testing-library/user-event/dist/utils';
+
 
 
 export default function Activities_Page() {
@@ -97,8 +99,8 @@ export default function Activities_Page() {
 
                 <div>
                     <div className='w-max m-auto dropdown-header mb-20 '>
-                        <div className='w-64 py-2 bg-primary text-white text-lg rounded font-semibold text-center '>
-                           NewsLAtter <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" />
+                        <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center '>
+                        Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" />
                         </div>
                             <ul className=" py-1 text-sm text-gray-700 text-center p-4 bg-white shadow-lg w-64 dropdown">
 

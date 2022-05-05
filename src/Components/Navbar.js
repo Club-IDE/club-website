@@ -80,7 +80,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         to="/"
-                        className="font-bold tracking-wide text-primary transition-colors duration-200 "
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 "
                       >
                         Home
                       </Link>
