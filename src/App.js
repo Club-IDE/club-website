@@ -26,13 +26,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/activities' element={<HomePage />} />
+        <Route path='/activities' element={<Activities_Page />} />
         <Route path='/team' element={<Team />} />
         <Route path='/aboutus' element={<AboutUs />} />
         <Route path='/BlogPage' element={<Blogpage />} />
       </Routes>
     </BrowserRouter>
-    <Activities_Page />
+
     <Discord />
     <Footer />
     <Blog_card />

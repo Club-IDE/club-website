@@ -355,3 +355,39 @@ code {
 html{
   scroll-behavior: smooth;
 }
+
+
+/*Drop Down*/
+
+.dropdown{
+  display: none;
+}
+
+.dropdown-header:hover{
+  cursor: pointer;
+}
+.dropdown{
+  animation-name: slideInLeft;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+.dropdown-header:hover .dropdown{
+  display: block;
+}
+
+.Arrowdown{
+  transform: rotate(-90deg);
+}
+.dropdown-header:hover .Arrowdown{
+  transform: rotate(0deg);
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
