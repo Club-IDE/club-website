@@ -1,8 +1,8 @@
 import React from 'react'
-import img from '../imgs/demo.jpg'
+import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
-import eye from '../imgs/eye.svg'
-import demo from '../imgs/Blog-demo.jpg'
+import eye from '../../imgs/eye.svg'
+import demo from '../../imgs/Blog_Imgs/Post_Imgs/Blog-demo.jpg'
 
 export default function Blog_card() {
   return (

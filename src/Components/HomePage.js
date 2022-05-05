@@ -13,7 +13,7 @@ import Blogpage from './Blogpage';
 import BackAnimations from './BackAnimations';
 import { Carousel } from '@trendyol-js/react-carousel';
 import Example from './MemberCard';
-import Blog_card from './Blog_card';
+
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import ScrollToTop from './ScrollToTop';
 
