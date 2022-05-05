@@ -9,6 +9,7 @@ import ScrollToTop from './Components/ScrollToTop';
 import Blogpage from './Components/Blogpage';
 import Discord from './Components/Discord';
 import Footer from './Components/Footer';
+import Eventpage from './Components/EventPage';
 
 
 
@@ -22,10 +23,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/activities' element={<HomePage />} />
+        <Route path='/activities' element={<Eventpage />} />
         <Route path='/team' element={<Team />} />
         <Route path='/aboutus' element={<AboutUs />} />
         <Route path='/BlogPage' element={<Blogpage />} />
+
       </Routes>
     </BrowserRouter>
     <Discord />

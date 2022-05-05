@@ -179,7 +179,7 @@ code {
   background-color: #3f599D;
   animation: animate 10s linear infinite;
   z-index: -1;
-  opacity: 1;
+  opacity: 0.4;
   border-radius: 10%;
   animation-delay: 5s;
   bottom: -500vh;
@@ -193,7 +193,7 @@ code {
   background-color: #3f599D;
   animation: animate 15s linear infinite;
   z-index: -1;
-  opacity: 1;
+  opacity: 0.4;
   border-radius: 50%;
   left: 20%;
   animation-delay: 4s;
@@ -208,7 +208,7 @@ code {
   background-color: #3f599D;
   animation: animate 20s linear infinite;
   z-index: -1;
-  opacity: 1;
+  opacity: 0.4;
   border-radius: 10%;
   left: 40%;
   animation-delay: 3.5s ;
@@ -223,7 +223,7 @@ code {
   background-color: #3f599D;
   animation: animate 20s linear infinite;
   z-index: -1;
-  opacity: 1;
+  opacity: 0.4;
   border-radius: 50%;
   animation-delay: 3s;
   left: 50%;
@@ -239,7 +239,7 @@ code {
   animation: animate 20s linear infinite;
   z-index: -1;
   border-radius: 50%;
-  opacity: 1;
+  opacity: 0.4;
   right: 20%;
   animation-delay: 2s;
   bottom: -500vh;
@@ -252,7 +252,7 @@ code {
   display: block;
   background-color: #3f599D;
   animation: animate 20s linear infinite;
-  opacity: 1;
+  opacity: 0.4;
   z-index: -1;
   border-radius: 10%;
   animation-delay: 6s;
@@ -261,7 +261,7 @@ code {
 }
 .back7::after{
   content: '';
-  opacity: 1;
+  opacity: 0.4;
   position: absolute;
   height: 80px;
   width: 80px;

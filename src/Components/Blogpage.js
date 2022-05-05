@@ -1,10 +1,11 @@
 import Bloglist from "./BlogList";
 import BlogList_Horizontal from "./BlogList_Horizontal";
 import Navbar from "./Navbar";
+import ScrollToTop from "./ScrollToTop";
 const Blogpage = () => {
     return (
         <>
-        <Navbar />
+        <ScrollToTop />
         <div className="pt-32 ">
             <h1 className=" pb-4 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog</h1>
         </div>
