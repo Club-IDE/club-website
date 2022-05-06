@@ -15,7 +15,7 @@ export default function Activities_Page() {
     function openDropDown() {
         var open = document.getElementById('dropdown');
 
-        // get the current value of the clock's display property
+
         var displaySetting = open.style.display;
 
 
