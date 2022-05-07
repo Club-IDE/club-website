@@ -10,7 +10,11 @@ import Blogpage from './Components/Blogpage';
 import Discord from './Components/Discord';
 import Footer from './Components/Footer';
 import Activities_Page from './Components/Activities_Page'
-import Blog_card from './Components/Blogs/Blog_card';
+import { Blog } from 'grommet-icons';
+import Dec21_Blog1 from './Components/Blogs/Dec21_Blog1';
+
+
+
 
 
 
@@ -20,7 +24,6 @@ import Blog_card from './Components/Blogs/Blog_card';
 function App() {
   return (
     <>
-
     <BrowserRouter>
       <BackAnimations />
       <Navbar />
@@ -32,10 +35,9 @@ function App() {
         <Route path='/BlogPage' element={<Blogpage />} />
       </Routes>
     </BrowserRouter>
-    <Activities_Page />
     <Discord />
     <Footer />
-    <Blog_card />
+    <Dec21_Blog1/>
 
 
   </>
