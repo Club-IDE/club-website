@@ -10,11 +10,16 @@ import Blogpage from './Components/Blogpage';
 import Discord from './Components/Discord';
 import Footer from './Components/Footer';
 import Activities_Page from './Components/Activities_Page'
+<<<<<<< HEAD
 import { Blog } from 'grommet-icons';
 import Dec21_Blog1 from './Components/Blogs/Dec21_Blog1';
 
 
 
+=======
+import Blog_card from './Components/Blogs/Blog_card';
+import Eventpage from './Components/EventPage'
+>>>>>>> 21865ad1abfe7b856b9cc56d033cde9804a5f62f
 
 
 
@@ -29,12 +34,18 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/activities' element={<HomePage />} />
+        <Route path='/activities' element={<Activities_Page />} />
         <Route path='/team' element={<Team />} />
         <Route path='/aboutus' element={<AboutUs />} />
         <Route path='/BlogPage' element={<Blogpage />} />
+        <Route path='/EventPage' element={<Eventpage />} />
+
       </Routes>
     </BrowserRouter>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 21865ad1abfe7b856b9cc56d033cde9804a5f62f
     <Discord />
     <Footer />
     <Dec21_Blog1/>

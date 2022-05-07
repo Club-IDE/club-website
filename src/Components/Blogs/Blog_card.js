@@ -124,7 +124,7 @@ export default function Blog_card() {
       </div>
 
       <div>
-        <hr className='border-2 border-primary mb-20 mt-36 lg:mt-0' />
+        <hr className='border-2 bg-primary border-primary mb-20 mt-36 lg:mt-0' />
         <img src={eye} alt="" className='w-20 m-auto relative top-[-115px]'/>
       </div>
 

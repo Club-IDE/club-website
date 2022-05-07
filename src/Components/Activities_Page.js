@@ -4,11 +4,38 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import Blog from '../imgs/Blog.png'
 import Achievement from '../imgs/Achievement.png'
 import Newslatter from '../imgs/Newslatter.png'
+import ScrollToTop from './ScrollToTop';
+import ArrowDown from '../imgs/arrow_drop_down.svg'
+import { getActiveElement } from '@testing-library/user-event/dist/utils';
+
 
 
 export default function Activities_Page() {
+
+    function openDropDown() {
+        var open = document.getElementById('dropdown');
+
+
+        var displaySetting = open.style.display;
+
+
+
+        if (displaySetting == 'block') {
+
+            open.style.display = 'none';
+            document.getElementById('Arrowdown').style.transform  = "rotate(-90deg)"
+        }
+        else {
+
+            open.style.display = 'block';
+            document.getElementById('Arrowdown').style.transform  = "rotate(0deg)"
+
+        }
+    }
+
     return (
         <>
+            <ScrollToTop />
             <section className="text-gray-600 body-font px-0 lg:px-20 py-20 mx-0 lg:mx-10">
                 <div className="container mx-auto flex px-2 py-24  flex-col lg:flex-row items-center">
                     <div className="lg:flex-grow lg:text-left lg:w-1/2 lg:pr-16 flex flex-col items-center mb-16 md:mb-0 lg:items-start text-center">
@@ -90,9 +117,40 @@ export default function Activities_Page() {
                     </div>
                     <img className="w-[100%] lg:w-[65%] my-10 object-cover object-center rounded" alt="hero" src={Newslatter} />
 
-                       </div>
+                </div>
 
+                <div>
+                    <div className='w-max m-auto dropdown-header mb-20' onClick={openDropDown}>
+                        <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center'>
+                        Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" id='Arrowdown' />
+                        </div>
+                            <ul className=" py-1 text-sm text-gray-700 text-center p-4 bg-white shadow-lg w-64 dropdown" id='dropdown'>
 
+                                <li>
+                                    <a href="https://drive.google.com/file/d/1Ye6yeNgYGNi6ic3yIDPqpogPCSJDYu2M/view?usp=sharing" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Mar'22</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/1R_mIq8WuGSVTiA5hT5-X44tWK5U8YeWi/view?usp=sharing" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Feb'22</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/10ZTFaF7GQKRSjuOJncx2Cp_Xzh6So3yf/view?usp=sharing" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Jan'22</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/1F1uGeMrMwykIRh9nuMfTcZelo85swOb7/view?usp=sharing" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Dec'21</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/u/1/d/15H4cRKjKrII8w5nojBrOmNjpdRWvn0C9/view" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Nov'21</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/1fg9UtYbwoo2xg1eVH_nsALGOyOAVUdnq/view?usp=sharing" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Oct'21</a>
+                                </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/11Sos5fmbVJwwj9ihCNj2MI6ijPGjp6r-/view" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Sep'21</a>
+                                </li>
+                            </ul>
+
+                    </div>
+                </div>
             </section>
 
 
