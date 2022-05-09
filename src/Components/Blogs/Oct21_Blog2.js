@@ -3,6 +3,7 @@ import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
 import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/oct21_2.webp'
+import Share_Blog from './Share_Blog';
 
 export default function Oct21_Blog2() {
   return (
@@ -29,7 +30,7 @@ export default function Oct21_Blog2() {
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch-2k24 | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             Blockchain is the core technology used to create the cryptocurrencies, like bitcoin. As part of the 4th industrial revolution since the invention of steam engine, electricity, and information technology, blockchain technology has been applied in many areas such as finance, judiciary, and commerce. The current paper focused on its potential educational applications and explored how blockchain technology can be used to solve some education problems.
@@ -62,30 +63,10 @@ export default function Oct21_Blog2() {
             The realization of 21st century's security, privacy, trust, and equality can be implemented by blockchain technology. Security refers to the protection of valuable properties and information. Nowadays some people have property but cannot prove ownership, such as intellectual property disputes. It may lead to conflict with others. Blockchain technology can be used by checking the records in the database to prove the properties.
             </div>
           </div>
-          
+
         </div>
 
-
-    <div class="flex justify-center w-[100%] m-auto relative top-0 lg:top-[-200px]">
-
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto border-2">
-            <FaLinkedinIn color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Linkdin
-                </span>
-            </a>
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto  border-2 ">
-            <FaTwitter color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Twitter
-                </span>
-            </a>
-    </div>
-      </div>
-
-      <div>
-        <hr className='border-2 border-primary mb-20 mt-36 lg:mt-0' />
-        <img src={eye} alt="" className='w-20 m-auto relative top-[-115px]'/>
+        <Share_Blog />
       </div>
 
 

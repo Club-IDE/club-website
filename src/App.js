@@ -37,10 +37,10 @@ function App() {
       </Routes>
     </BrowserRouter>
 
+    {/* <Dec21_Blog1/> */}
     <Discord />
     <Footer />
 
-    <Dec21_Blog1/>
 
 
 

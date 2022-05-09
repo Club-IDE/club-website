@@ -11,22 +11,23 @@ function MemberCard(props) {
 
     return (
     <>
+    <div className="scale-[0.7]  md:scale-[1] lg:scale-[1] relative right-[26px] lg:right-0 md:right-0">
         <Flippy
-        className='py-1 lg:ml-20 md:ml-10 bg-white'
+        className='py-1 lg:ml-20 bg-white'
         flipOnHover={true}
         flipOnClick={false}
         flipDirection="horizontal"
         style={{width:"350px", height:"400px" }}
     >
         <FrontSide>
-        <div class="flex flex-col items-center p-4  sm:p-6 rounded-xl ">
+        <div class="flex flex-col items-center p-4  sm:p-6  rounded-xl ">
                     <img class="object-cover w-[250px] rounded-xl " src={props.photo} alt="" />
                     <div className="text-center">
 
                     <h1 class="mt-4 text-2xl font-semibold text-secondary capitalize ">{props.name}</h1>
-                    
+
                     <p class="mt-2 text-primary capitalize">{props.role}</p>
-                
+
                     </div>
                 </div>
         </FrontSide>
@@ -35,7 +36,7 @@ function MemberCard(props) {
                 <p className="mt-12 text-secondary font-semibold">
                 {props.desc}
                 </p>
-            
+
             <a href='' target='blank' className="flex items-center mt-4 text-gray-70 group cursor-pointer">
             <FaLinkedinIn color='#0e76a8'  className='team-card_icon_linkedin lg:text-3xl text-2xl' />
 
@@ -55,6 +56,7 @@ function MemberCard(props) {
                     </div>
         </BackSide>
     </Flippy>
+    </div>
 
 </>
 
