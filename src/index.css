@@ -121,6 +121,12 @@ code {
   fill: #171515;
 }
 
+.team-card_icon_email:hover{
+  transition: all ease-in-out 0.2s;
+  transform: scale(1.1);
+  fill: #c71610;
+}
+
 .member-card{
   transition: all ease-in 0.2s;
 
@@ -348,10 +354,7 @@ code {
   }
 }
 
-.active{
-  color:#3f599D;
-  font-weight: bold;
-}
+
 html{
   scroll-behavior: smooth;
 }

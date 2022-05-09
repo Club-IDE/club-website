@@ -11,7 +11,8 @@ import Discord from './Components/Discord';
 import Footer from './Components/Footer';
 import Activities_Page from './Components/Activities_Page'
 import Blog_card from './Components/Blogs/Blog_card';
-import Eventpage from './Components/EventPage'
+import Eventpage from './Components/EventPage';
+
 
 
 
@@ -38,7 +39,6 @@ function App() {
 
     <Discord />
     <Footer />
-    <Blog_card />
 
 
   </>

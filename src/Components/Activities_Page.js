@@ -98,7 +98,7 @@ export default function Activities_Page() {
                 </div>
 
                 <div>
-                    <div className='w-max m-auto dropdown-header mb-20 '>
+                    <div className='w-max m-auto dropdown-header mb-20'>
                         <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center '>
                         Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" />
                         </div>

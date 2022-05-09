@@ -1,53 +1,52 @@
 import TeamMembers from './TeamMembers';
 import TeamImage from '../imgs/Team.png'
 import ScrollToTop from './ScrollToTop';
+import Akshat_Shah from '../imgs/leads/Akshat_Shah.jpg';
+import Akul_Upadhyay from '../imgs/leads/Akul_Upadhyay.jpg';
+import Bhakti_Trivedi from '../imgs/leads/Bhakti_Trivedi.jpg';
+import Divyesh_Vyas from '../imgs/leads/Divyesh_Vyas.jpeg';
+import Hiren_Pokar from '../imgs/leads/Hiren_Pokar.jpg';
+import Keyur_Unadkat from '../imgs/leads/Keyur_Unadkat.jpg';
+import Krutik_Patel from '../imgs/leads/KRUTIK_PATEL.jpg';
+import Naresh_Purohit from '../imgs/leads/Nareshkumar_Purohit.jpg';
+import Nigam_Patel from '../imgs/leads/Nigam_Patel.jpeg';
+import Param_Radadiya from '../imgs/leads/Param_Radadiya.jpg';
+import Pooja_Ranpara from '../imgs/leads/Pooja_Ranpara.jpg';
+import Shubham_Jitiya from '../imgs/leads/Shubham_Jitiya.jpg';
+import Ashwin_Prajapati from '../imgs/Faculties/Ashwin_Prajapati.jpg';
+import Dhaval_Parikh from '../imgs/Faculties/Dhaval_Parikh.jpg';
+import Yogendra_Tank from '../imgs/Faculties/Yogendra_Tank.jpg';
+import Kunj_Dabhi from '../imgs/Developers/Kunj_Dabhi.jpg';
+import Dhruva_Patel from '../imgs/Developers/Dhruva_Patel.jpg';
+import Jay_Prajapati from '../imgs/Developers/Jay_Prajapati.png';
+
 
 const Team = () => {
 
-    const faculties = [{name: 'Dr.Dhaval Parikh',role: 'HOD/Senior Advisor'},
-    {name: 'john',role: 'lead'},
-    {name: 'max',role: 'developer'}]
+    const faculties = [{name: 'Dr.Dhaval Parikh',role: 'HOD/Senior Advisor', email:'daparikh@gecg28.ac.in', photo:Dhaval_Parikh},
+    {name: 'Prof. Yogendra Tank',role: 'Faculty Coordinator', email:'yogendratank@gecg28.ac.in', photo:Yogendra_Tank},
+    {name: 'Prof. Ashwin Prajapati',role: 'Faculty Coordinator', email:'ashvinkumar@gecg28.ac.in', photo:Ashwin_Prajapati}]
 
     const ClubMembers = [
-        {name:'Param Radadiya' , role:'President'},
-        {name:'Pooja Ranpara' , role:'Vice President'},
-        {name:'Keyur Unadkat' , role:'Secretary'},
-        {name:'Nigam Patel' , role:'Senior Student Chair'},
-        {name:'Akul Upadhyay' , role:'Senior Student Chair'},
-        {name:'Bhakti Trivedi' ,role:'Documentation Head' },
-        {name:'Shubham Jitiya' , role:'Event Head'  },
-        {name:'Hiren Pokar' , role:'Android Development Lead'},
-        {name:'Akshat Shah' , role:'Web Development Lead'},
-        {name:'Naresh Purohit' , role:'Start Up Lead'},
-        {name:'Krutik Patel' , role:'AI/ML Lead'},
-        {name:'Divyesh Vyas' , role:'CP Group Lead'},
+        {name:'Param Radadiya' , role:'President', email:'paramradadiya3@gmail.com' , desc:'Hey I\'m Param Radadiya !! I\'m a quick learner and a DIY person :p I like to conduct events, speak to the peoples. You can found me with my headphones cuz I love to listen the songs 🎧... I\'m a leader, who is creating more leaders : \)', photo:Param_Radadiya},
+        {name:'Pooja Ranpara' , role:'Vice President', email:'poojajranpara15@gmail.com' , desc:'Hello world I am Pooja Ranpara, Just an ordinary person with an extraordinary dreams. My whole world is surrounding just by Coding and debugging. Voodoo Programming', photo:Pooja_Ranpara},
+        {name:'Keyur Unadkat' , role:'Secretary', email:'kryolitimaniac@gmail.com' , desc:'Hi! This is Keyur, a research oriented programming enthusiast who loves to learn new things. I have a never give up attitude which helps me handle complex problems. My key interests include deep learning, data analytics and problem solving. I love to help people with academics and projects.', photo:Keyur_Unadkat},
+        {name:'Nigam Patel' , role:'Senior Student Chair', email:'nigamrrpatel@gmail.com' , desc:'', photo:Nigam_Patel},
+        {name:'Akul Upadhyay' , role:'Senior Student Chair', email:'akulupadhyay19@gmail.com' , desc:'', photo:Akul_Upadhyay},
+        {name:'Bhakti Trivedi' ,role:'Documentation Head' , email:'' , desc:'Hello, I am Bhakti Trivedi, a web developer and competitive programming enthusiast. I like to learn new skills and explore unique algorithms. I am part of club IDE and codechef college chapter at GECGn, enjoying helping and guiding peers.', photo:Bhakti_Trivedi},
+        {name:'Shubham Jitiya' , role:'Event Head', email:'jitiya66@gmail.com'   , desc:'Hello, I\'m Shubham Jitiya, a passionate android developer. I like to teach & guide my peers. I have published 4 android apps on play store, built in java, having 1800+ downloads with positive ratings of 4.9. My other app [GOD - Goal of the day] developed during ASJ is featured by Google. Currently, exploring kotlin and flutter.', photo:Shubham_Jitiya},
+        {name:'Hiren Pokar' , role:'Android Development Lead', email:'pokarhiren7@gmail.com' , desc:'', photo:Hiren_Pokar},
+        {name:'Akshat Shah' , role:'Web Development Lead', email:'shahakshat1304@gmail.com' , desc:'', photo:Akshat_Shah},
+        {name:'Naresh Purohit' , role:'Start Up Lead', email:'nareshkumarpurohit7890@gmail.com ' , desc:'Hey I\'m purohit naresh . I love technology. I always  enjoying to learning  a new things and passionate  about solving  a real world problem with my own vision correction  and build a  revolutionary solution', photo:Naresh_Purohit},
+        {name:'Krutik Patel' , role:'AI/ML Lead', email:'er.krutikpatel31@gmail.com' , desc:'', photo:Krutik_Patel},
+        {name:'Divyesh Vyas' , role:'CP Group Lead', email:'divyeshvyas562@gmail.com' , desc:'Hello, This is Divyesh Vyas! ✨ A web developer and Coding enthusiast.I Like to play with Bits and I\'m Flexible to switch between new software and technologies.  : \)', photo:Divyesh_Vyas},
     ];
-    const GDSCMembers = [
-        {name:'Prof. Yogendra Tank', role:'Faculty Coordinator'},
-        {name:'Param Radadiya', role:'GDSC Lead'},
-        {name:'Akul Upadhyay', role:'Core Team Member'},
-        {name:'Nigam Patel', role:'Core Team Member'},
-        {name:'Divyesh Vyas', role:'Core Team Member'},
-        {name:'Jay Prajapati', role:'Core Team Member'},
-        {name:'Suryadipsinh Vaghela', role:'Volunteer'},
-        {name:'Parth Parmar', role:'Volunteer'},
-        {name:'Viveena Rathi', role:'Volunteer'},
-        {name:'Jevin Mangukiya', role:'Volunteer'},
-    ];
-    const CodechefMembers = [
-        {name:'Prof. Ashvin Prajapati', role:'Faculty Coordinator'},
-        {name:'Divyesh Vyas' , role:'President'},
-        {name:'Bhakti Trivedi' , role:'Event Lead'},
-        {name:'Hardik Kardam' , role:'CP Lead'},
-        {name:'Suryadipsinh Vaghela' , role:'Media & Outreach Lead'}
-    ];
-
     const Developers = [
-        {name:'Kunj Dabhi' , role:'Developer'},
-        {name:'Shlok Jadeja' , role:'Developer'},
-        {name:'Prachi Patel' , role:'Developer'},
-        {name:'Dhruva Patel' , role:'Developer'},
-        {name:'Jay Prajapati' , role:'Developer'},
+        {name:'Kunj Dabhi' , role:'Developer' , email:'kunjdabhi0808@gmail.com', desc:'Hey 👋! This is Kunj. An aspiring Web Developer. Currently Exploring world of Web technologies and learning something new everyday', photo:Kunj_Dabhi},
+        {name:'Shlok Jadeja' , role:'Developer', email:'', desc:'', photo:''},
+        {name:'Prachi Patel' , role:'Developer', email:'', desc:'', photo:''},
+        {name:'Dhruva Patel' , role:'Developer', email:'pateldhruva751@gmail.com', desc:'', photo:Dhruva_Patel},
+        {name:'Jay Prajapati' , role:'Developer', email:'jay54prajapati@gmail.com', desc:'Hi! I\'m Jay. I enjoy designing and creating apps & websites. A machine Learning enthusiast keen on expressing, learning, and open to new opportunities. ', photo:Jay_Prajapati},
 
     ]
 
@@ -72,8 +71,6 @@ const Team = () => {
 
             <TeamMembers title={'Faculties'} members={faculties} />
             <TeamMembers title={'Club Leads'} members={ClubMembers} />
-            <TeamMembers title={'GDSC Leads'} members={GDSCMembers} />
-            <TeamMembers title={'Codechef Leads'} members={CodechefMembers} />
             <TeamMembers title={'Developers'} members={Developers} />
 
 
