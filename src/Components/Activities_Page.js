@@ -11,6 +11,28 @@ import { getActiveElement } from '@testing-library/user-event/dist/utils';
 
 
 export default function Activities_Page() {
+
+    function openDropDown() {
+        var open = document.getElementById('dropdown');
+
+
+        var displaySetting = open.style.display;
+
+
+
+        if (displaySetting == 'block') {
+
+            open.style.display = 'none';
+            document.getElementById('Arrowdown').style.transform  = "rotate(-90deg)"
+        }
+        else {
+
+            open.style.display = 'block';
+            document.getElementById('Arrowdown').style.transform  = "rotate(0deg)"
+
+        }
+    }
+
     return (
         <>
             <ScrollToTop />
@@ -98,11 +120,17 @@ export default function Activities_Page() {
                 </div>
 
                 <div>
+<<<<<<< HEAD
                     <div className='w-max m-auto dropdown-header mb-20'>
                         <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center '>
                         Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" />
+=======
+                    <div className='w-max m-auto dropdown-header mb-20' onClick={openDropDown}>
+                        <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center'>
+                        Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" id='Arrowdown' />
+>>>>>>> 76ecea13145e657ae456fa0240e2d3031e8dfa0c
                         </div>
-                            <ul className=" py-1 text-sm text-gray-700 text-center p-4 bg-white shadow-lg w-64 dropdown">
+                            <ul className=" py-1 text-sm text-gray-700 text-center p-4 bg-white shadow-lg w-64 dropdown" id='dropdown'>
 
                                 <li>
                                     <a href="https://drive.google.com/file/d/1Ye6yeNgYGNi6ic3yIDPqpogPCSJDYu2M/view?usp=sharing" target="_blank" className="block px-4 py-2 hover:bg-gray-100 border-b-[1px] font-semibold">IDE NewsLatter Mar'22</a>

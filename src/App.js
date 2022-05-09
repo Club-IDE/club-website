@@ -10,8 +10,9 @@ import Blogpage from './Components/Blogpage';
 import Discord from './Components/Discord';
 import Footer from './Components/Footer';
 import Activities_Page from './Components/Activities_Page'
+import Dec21_Blog1 from './Components/Blogs/Dec21_Blog1';
 import Blog_card from './Components/Blogs/Blog_card';
-import Eventpage from './Components/EventPage';
+import Eventpage from './Components/EventPage'
 
 
 
@@ -22,7 +23,6 @@ import Eventpage from './Components/EventPage';
 function App() {
   return (
     <>
-
     <BrowserRouter>
       <BackAnimations />
       <Navbar />
@@ -39,6 +39,9 @@ function App() {
 
     <Discord />
     <Footer />
+
+    <Dec21_Blog1/>
+
 
 
   </>

@@ -374,16 +374,12 @@ html{
   animation-duration: 0.5s;
   animation-fill-mode: both;
 }
-.dropdown-header:hover .dropdown{
-  display: block;
-}
+
 
 .Arrowdown{
   transform: rotate(-90deg);
 }
-.dropdown-header:hover .Arrowdown{
-  transform: rotate(0deg);
-}
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
