@@ -45,7 +45,7 @@ const Team = () => {
     ];
     const Developers = [
         {name:'Kunj Dabhi' , role:'Developer' , email:'kunjdabhi0808@gmail.com', desc:'Hey 👋! This is Kunj. An aspiring Web Developer. Currently Exploring world of Web technologies and learning something new everyday', photo:Kunj_Dabhi},
-        {name:'Shlok Jadeja' , role:'Developer', email:'shlokjadeja177@gmail.com', desc:'', photo:Shlok_Jadeja},
+        {name:'Shlok Jadeja' , role:'Developer', email:'shlokjadeja177@gmail.com', desc:'Hello 😁..!! This is Shlok', photo:Shlok_Jadeja},
         {name:'Prachi Patel' , role:'Developer', email:'', desc:'', photo:''},
         {name:'Dhruva Patel' , role:'Developer', email:'pateldhruva751@gmail.com', desc:'', photo:Dhruva_Patel},
         {name:'Jay Prajapati' , role:'Developer', email:'jay54prajapati@gmail.com', desc:'Hi! I\'m Jay. I enjoy designing and creating apps & websites. A machine Learning enthusiast keen on expressing, learning, and open to new opportunities. ', photo:Jay_Prajapati},
