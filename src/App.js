@@ -13,6 +13,7 @@ import Activities_Page from './Components/Activities_Page'
 import Dec21_Blog1 from './Components/Blogs/Dec21_Blog1';
 import Blog_card from './Components/Blogs/Blog_card';
 import Eventpage from './Components/EventPage'
+import SubmitModal from './Components/Modal';
 
 
 
@@ -40,7 +41,8 @@ function App() {
     <Discord />
     <Footer />
 
-    <Dec21_Blog1/>
+    {/* <Dec21_Blog1/> */}
+    <SubmitModal/>
 
 
 
