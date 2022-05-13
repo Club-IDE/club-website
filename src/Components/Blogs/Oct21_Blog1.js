@@ -3,6 +3,7 @@ import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/oct21_1.1.jpg'
+import Share_Blog from './Share_Blog';
 
 export default function Oct21_Blog1() {
   return (
@@ -29,7 +30,7 @@ export default function Oct21_Blog1() {
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             We wake up to this evil world every morning and so we may appreciate ourselves and other people too. It takes lots of guts to survive in this world, I must say. Things are not as simple as they seem to be.
@@ -55,30 +56,10 @@ export default function Oct21_Blog1() {
             It is a task of bravery. And if no one has told these things to you lately, then wake up. I have told you these things today and you need to tell these to yourself every day from today onwards.
             </div>
           </div>
-          
+
         </div>
 
-
-    <div class="flex justify-center w-[100%] m-auto relative top-0 lg:top-[-200px]">
-
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto border-2">
-            <FaLinkedinIn color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Linkdin
-                </span>
-            </a>
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto  border-2 ">
-            <FaTwitter color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Twitter
-                </span>
-            </a>
-    </div>
-      </div>
-
-      <div>
-        <hr className='border-2 border-primary mb-20 mt-36 lg:mt-0' />
-        <img src={eye} alt="" className='w-20 m-auto relative top-[-115px]'/>
+      <Share_Blog />
       </div>
 
 

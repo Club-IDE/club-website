@@ -38,11 +38,15 @@ function App() {
       </Routes>
     </BrowserRouter>
 
+    {/* <Dec21_Blog1/> */}
     <Discord />
     <Footer />
 
+<<<<<<< HEAD
     {/* <Dec21_Blog1/> */}
     <SubmitModal/>
+=======
+>>>>>>> f61afe28a8f92d75b0fd0bf1322626d9f2e6e6be
 
 
 
