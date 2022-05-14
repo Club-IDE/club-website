@@ -15,11 +15,11 @@ const AboutUs = () => {
             <div className="items-center lg:flex">
 
                 <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                        <img className="w-full h-full lg:max-w-2xl" src={Aboutus} alt="Catalogue-pana.svg"/>
+                        <img data-aos="zoom-in-right" className="w-full h-full lg:max-w-2xl" src={Aboutus} alt="Catalogue-pana.svg"/>
                 </div>
 
 
-                    <div className="w-full lg:w-1/2">
+                    <div className="w-full lg:w-1/2" data-aos="zoom-in-left">
                         <div className="mx-0 lg:max-w-lg lg:mx-20">
                             <h1 className="text-primary text-5xl lg:text-6xl font- font-bold">About Us</h1>
                             <p className="mt-6 text-lg text-gray-500 ">It is an initiative by CE/IT Dept of GEC-Gn.
@@ -33,19 +33,19 @@ const AboutUs = () => {
                 <div className=' bg-AboutBackground bg-cover bg-no-repeat px-6'>
                 <div className="items-center lg:flex mt-10">
 
-                        <div className="w-full lg:w-1/2 ">
+                        <div className="w-full lg:w-1/2 "  data-aos="fade-right">
                             <div className="mx-0 lg:max-w-2xl lg:mx-16">
                                 <h1 className="text-primary text-5xl lg:text-6xl font- font-bold text-left">Our Mission & Vision </h1>
                                 <p className="mt-6  text-lg text-gray-500">Our Mission and Vision to develop competencies in the field of technology among the students and help them get deeper dive in the field of the research and entrepreneurship.  </p>
                                  </div>
                         </div>
                         <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                            <img className="w-[140%] h-[140%] lg:max-w-2xl" src={Mission_vision} alt="Catalogue-pana.svg"/>
+                            <img data-aos="zoom-in-up" className="w-[140%] h-[140%] lg:max-w-2xl" src={Mission_vision} alt="Catalogue-pana.svg"/>
                         </div>
 
                 </div>
 
-                    <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+                    <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center" data-aos="zoom-in">
                         <h2 className="text-5xl font-bold tracking-tight text-blue lg:text-6xl lg:mt-10">
                             Join Our Growing Club
                         </h2>

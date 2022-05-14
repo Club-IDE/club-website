@@ -2,12 +2,8 @@ import React from 'react'
 import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
-<<<<<<< HEAD
-import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/dec21_2.3.jpg'
-=======
 import demo from '../../imgs/Blog_Imgs/Post_Imgs/Blog-demo.jpg'
 import Share_Blog from './Share_Blog';
->>>>>>> 628a062b291c38f8ebed77e62996ed4a92d38015
 
 export default function Dec21_Blog2() {
   return (
@@ -34,7 +30,7 @@ export default function Dec21_Blog2() {
               <h2 className='text-gray-400 text-sm ml-4'>~Article from Sandesh News | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             In WhatsApp, users could send a voice message to another user, but they did not get a chance to listen to that voice message before sending it. However, this often led to the user sending the wrong voice message. With this in mind, WhatsApp has changed its feature and given a new feature to give you a chance to listen to it before sending a voice message. This feature will give the user a chance to check if it is appropriate to send them a recorded voice message. Not only that, after hearing it, if it is not suitable, you will get a chance to discard it and record it again.
@@ -80,7 +76,7 @@ export default function Dec21_Blog2() {
               </div>
             </div>
           </div>
-          
+
         </div>
 
 

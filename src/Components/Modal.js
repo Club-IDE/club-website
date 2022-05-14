@@ -13,8 +13,8 @@ export default function SubmitModal() {
       </button>
       {showModal ? (
         <>
-          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none mt-20">
-            <div className="relative my-6 mx-auto w-[90%] lg:w-[60%] md:w-[70%]">
+          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none mt-20" data-aos="zoom-in">
+            <div className="relative my-6 mx-auto w-[90%] lg:w-[30%] md:w-[70%]">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
@@ -34,15 +34,15 @@ export default function SubmitModal() {
                   <form action="" className="flex flex-col justify-center items-center">
                     <input
                       type="text"
-                      className="border-2 bg-[#DBE2E2]  w-[70%] h-10 rounded-6 p-5 placeholder:font-semibold my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600"
+                      className="border-2 bg-[#DBE2E2]  w-[70%] h-10 rounded-6 p-5 placeholder:font-semibold my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full"
                       placeholder="Name"
                     />
                     <input
                       type="email"
-                      className="border-2 bg-[#DBE2E2]  w-[70%] h-10 rounded-6 p-5 placeholder:font-semibold my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600"
+                      className="border-2 bg-[#DBE2E2]  w-[70%] h-10 rounded-6 p-5 placeholder:font-semibold my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full"
                       placeholder="Email"
                     />
-                    <select className="border-2  w-[70%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600">
+                    <select className="border-2  w-[70%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full">
                       <option value="0">Branch</option>
                       <option value="1">CE</option>
                       <option value="2">IT</option>
@@ -52,7 +52,7 @@ export default function SubmitModal() {
                       <option value="6">CIVIL</option>
                       <option value="7">Other</option>
                     </select>
-                    <select className="border-2  w-[70%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600">
+                    <select className="border-2  w-[70%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full">
                       <option value="0">Semester</option>
                       <option value="1">
                         1<sup>st</sup>
@@ -79,7 +79,7 @@ export default function SubmitModal() {
                         8<sup>th</sup>
                       </option>
                     </select>
-                    <select className="border-2 w-[70%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600">
+                    <select className="border-2 w-[70%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full">
                       <option value="0">Domain</option>
                       <option value="1">
                         1<sup>st</sup>

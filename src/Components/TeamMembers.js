@@ -41,10 +41,10 @@ const TeamMembers = ({title, members}) => {
     return (
        <>
        <h1 className='text-center lg:text-4xl text-2xl font-bold mt-5 mb-4'>{title}</h1>
-       <div class="flex justify-center mx-auto mt-1 mb-7">
-                        <span class="inline-block w-40 h-1 bg-secondary rounded-full"></span>
-                        <span class="inline-block w-3 h-1 mx-1 bg-secondary rounded-full"></span>
-                        <span class="inline-block w-1 h-1 bg-secondary rounded-full"></span>
+       <div className="flex justify-center mx-auto mt-1 mb-7">
+                        <span className="inline-block w-40 h-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-3 h-1 mx-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-1 h-1 bg-secondary rounded-full"></span>
                     </div>
       <div className='hidden lg:block mb-10'>
         <Slider { ...settingsForLarge }>

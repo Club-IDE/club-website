@@ -3,6 +3,7 @@ import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import {MdOutlineEmail} from 'react-icons/md';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
 import '../index.css'
+import aos from "aos";
 
 
 
@@ -20,20 +21,20 @@ function MemberCard(props) {
         style={{width:"350px", height:"400px" }}
     >
         <FrontSide>
-        <div class="flex flex-col items-center p-4  sm:p-6  rounded-xl ">
-                    <img class="object-cover w-[250px] rounded-xl " src={props.photo} alt="" />
+        <div className="flex flex-col items-center p-4  sm:p-6  rounded-xl ">
+                    <img className="object-cover w-[250px] rounded-xl " src={props.photo} alt="" />
                     <div className="text-center">
 
-                    <h1 class="mt-4 text-2xl font-semibold text-secondary capitalize ">{props.name}</h1>
+                    <h1 className="mt-4 text-2xl font-semibold text-secondary capitalize ">{props.name}</h1>
 
-                    <p class="mt-2 text-primary capitalize">{props.role}</p>
+                    <p className="mt-2 text-primary capitalize">{props.role}</p>
 
                     </div>
                 </div>
         </FrontSide>
         <BackSide>
         <div className="flex justify-center flex-col">
-                <p className="mt-12 text-secondary font-semibold">
+                <p className="mt-2 text-secondary font-semibold text-justify">
                 {props.desc}
                 </p>
 
