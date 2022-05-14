@@ -46,8 +46,8 @@ export default function Nov21_Blog1() {
             </div>
           </div>
           <div className='pt-5'>
-            <div className='text-base'>
-            "Stop being sad just because you don't have something you don't need. Instead, start living, invest the time in yourself! If you want to achieve heights then you should start right away! I had no one to tell me this and I was a fool not to understand this by myself. You should not repeat this mistake of mine!"
+            <div className='text-base text-center inline-block w-max text-[20px] ml-0 lg:ml-20' ><blockquote className='text-center'> Stop being sad just because you don't have something you don't need. Instead, start living, invest the time in yourself! If you want to achieve heights then you should start right away! I had no one to tell me this and I was a fool not to understand this by myself. You should not repeat this mistake of mine!</blockquote>
+           
             </div>
           </div>
           <div className='pt-5'>
