@@ -45,9 +45,13 @@ const Team = () => {
     ];
     const Developers = [
         {name:'Kunj Dabhi' , role:'Developer' , email:'kunjdabhi0808@gmail.com', desc:'Hey 👋! This is Kunj. An aspiring Web Developer. Currently Exploring world of Web technologies and learning something new everyday', photo:Kunj_Dabhi},
-        {name:'Shlok Jadeja' , role:'Developer', email:'shlokjadeja177@gmail.com', desc:'Hello 😁..!! This is Shlok', photo:Shlok_Jadeja},
+
+        {name:'Shlok Jadeja' , role:'Developer', email:'shlokjadeja177@gmail.com', desc:'Hi!😁 Shlok Jadeja signing in on a journey of web dev and diving into the world of computers. I am the glue to the team, well not really, nobody listens to me here. Yet, when in need - I love to work together with them and tackle problems while making a change. Call me a leader yet? Shlok Jadeja out.', photo:Shlok_Jadeja},
+
         {name:'Prachi Patel' , role:'Developer', email:'', desc:'', photo:''},
-        {name:'Dhruva Patel' , role:'Developer', email:'pateldhruva751@gmail.com', desc:'', photo:Dhruva_Patel},
+
+        {name:'Dhruva Patel' , role:'Developer', email:'pateldhruva751@gmail.com', desc:'Greetings!✨ Dhruva Patel buzzing with teach this side. A tech enthusiast who loves exploring various fields but web devlopment has always grabbed my attention. I enjoy Interacting with people and making tasks interesting is my side hustle, because of course nobody likes boring , right!? On a journey to learn with so much fun, cannot stop me now! ', photo:Dhruva_Patel},
+
         {name:'Jay Prajapati' , role:'Developer', email:'jay54prajapati@gmail.com', desc:'Hi! I\'m Jay. I enjoy designing and creating apps & websites. A machine Learning enthusiast keen on expressing, learning, and open to new opportunities. ', photo:Jay_Prajapati},
 
     ]
