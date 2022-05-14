@@ -12,12 +12,7 @@ import Footer from './Components/Footer';
 import Activities_Page from './Components/Activities_Page'
 import Blog_card from './Components/Blogs/Blog_card';
 import Eventpage from './Components/EventPage'
-<<<<<<< HEAD
-import Dec21_Blog2 from './Components/Blogs/Dec21_Blog2';
-import Nov21_Blog1 from './Components/Blogs/Nov21_Blog1';
-=======
 import SubmitModal from './Components/Modal';
->>>>>>> 628a062b291c38f8ebed77e62996ed4a92d38015
 
 
 
@@ -45,17 +40,6 @@ function App() {
     {/* <Dec21_Blog1/> */}
     <Discord />
     <Footer />
-
-<<<<<<< HEAD
-    <Nov21_Blog1/>
-=======
-<<<<<<< HEAD
-    {/* <Dec21_Blog1/> */}
-    <SubmitModal/>
-=======
->>>>>>> f61afe28a8f92d75b0fd0bf1322626d9f2e6e6be
->>>>>>> 628a062b291c38f8ebed77e62996ed4a92d38015
-
 
 
   </>
