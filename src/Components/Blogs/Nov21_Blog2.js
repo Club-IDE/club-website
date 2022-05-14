@@ -3,6 +3,7 @@ import Author1 from '../../imgs/Blog_Imgs/Author_Imgs/Sept21_Blog-1_Author.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
 import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/nov21_2.2.jpg'
+import Share_Blog from './Share_Blog';
 
 export default function Nov21_Blog2() {
   return (
@@ -91,30 +92,10 @@ export default function Nov21_Blog2() {
             Web 3's network is decentralized, meaning it is not controlled by a single organization, and the decentralized applications (apps) created on top of it are open.
             </div>
           </div>
-                  
+
         </div>
 
-
-    <div class="flex justify-center w-[100%] m-auto relative top-0 lg:top-[-200px]">
-
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto border-2">
-            <FaLinkedinIn color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Linkdin
-                </span>
-            </a>
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto  border-2 ">
-            <FaTwitter color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Twitter
-                </span>
-            </a>
-    </div>
-      </div>
-
-      <div>
-        <hr className='border-2 border-primary mb-20 mt-36 lg:mt-0' />
-        <img src={eye} alt="" className='w-20 m-auto relative top-[-115px]'/>
+        <Share_Blog />
       </div>
 
 

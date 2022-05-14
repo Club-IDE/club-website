@@ -3,6 +3,7 @@ import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/nov21_1.jpg'
+import Share_Blog from './Share_Blog';
 
 export default function Nov21_Blog1() {
   return (
@@ -29,7 +30,7 @@ export default function Nov21_Blog1() {
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             We all have had a phase where we feel lonely and left out! This is one of the toughest parts of life, but eventually, we all get through it. We grow stronger. We grow out bigger than the problems we are facing. Some do this in days while some can take a few years. But this is required. Trust me.
@@ -55,30 +56,10 @@ export default function Nov21_Blog1() {
             Well, think about this by spending a few minutes with yourself. I also want those people to reach out to other people and seek for guidance. Not to fall in some 2 day friendship which ends up hurting you even more. Read books! As they say, “Books are the bestest friends of humans.”
             </div>
           </div>
-          
+
         </div>
 
-
-    <div class="flex justify-center w-[100%] m-auto relative top-0 lg:top-[-200px]">
-
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto border-2">
-            <FaLinkedinIn color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Linkdin
-                </span>
-            </a>
-            <a href='/' class="flex items-center justify-center px-5 py-1 text-black transition-colors duration-200 transform bg-white focus:outline-none sm:w-auto  border-2 ">
-            <FaTwitter color='black'  className='team-card_icon_linkedin lg:text-3xl text-xl mr-5' />
-                <span class="text-xs font-bold lg:text-xl md:text-lg">
-                    Share on Twitter
-                </span>
-            </a>
-    </div>
-      </div>
-
-      <div>
-        <hr className='border-2 border-primary mb-20 mt-36 lg:mt-0' />
-        <img src={eye} alt="" className='w-20 m-auto relative top-[-115px]'/>
+        <Share_Blog />
       </div>
 
 
