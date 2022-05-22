@@ -1,9 +1,10 @@
 import React from 'react'
-import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Ayush Solanki.PNG'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
-import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/Blog2.png'
+import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/sept21_2.png'
 import Share_Blog from './Share_Blog';
+import Img from '../../imgs/In_Blog_Imgs/sept21_blog2.png'
 
 export default function Sept21_Blog2() {
   return (
@@ -18,13 +19,13 @@ export default function Sept21_Blog2() {
         <div className='countiner bg-white border-2 border-gray-100 shadow-lg w-[90%] lg:w-[60%] m-auto h-[max-content] my-10 px-8 pt-10 lg:px-14 relative top-[0px] lg:top-[-400px] pb-10'>
           <h1 className='h1 text-2xl font-bold lg:text-5xl'>Internet Of Things</h1>
           <div className='pt-5'>
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">#Git</span>
-            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#GitHub</span>
-            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#Javascrpit</span>
-            <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#WebDev</span>
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">#iot</span>
+            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#InternetOfThings</span>
+            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#automation</span>
+            <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#technology</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={img} alt="Rounded avatar" />
+            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Ayush Solanki</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~IT Batch-2k24 | 5 min read</h2>
@@ -38,13 +39,15 @@ export default function Sept21_Blog2() {
           </div>
 
           <div className='pt-5'>
-            <div className='text-base'>
-            Sensors can sense the human presence, atmospheric pressure, soil state, human body status etc. Sensors are connected with a microcontroller centralized device that controls all the data sent sensors. Two famous microcontroller devices are Arduino and Raspberry Pi.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-            Arduino is a microcontroller device that constantly works on a loop to gather data from the sensors attached to it. Raspberry PI is a very powerful microcomputer that has its own Raspberry PI Operating System which even supports code editors like VS Code and can be used as a mini-computer.
+            <div class="imagebox">
+              <div className='text-img'>
+                Sensors can sense the human presence, atmospheric pressure, soil state, human body status etc. Sensors are connected with a microcontroller centralized device that controls all the data sent sensors. Two famous microcontroller devices are Arduino and Raspberry Pi.
+                <br></br><br></br>
+                Arduino is a microcontroller device that constantly works on a loop to gather data from the sensors attached to it. Raspberry PI is a very powerful microcomputer that has its own Raspberry PI Operating System which even supports code editors like VS Code and can be used as a mini-computer.
+              </div>
+              <div className='image'>
+                    <img src={Img} class="center" width="100%" height="100%"></img>
+              </div>
             </div>
           </div>
           <div className='pt-5'>
