@@ -1,13 +1,16 @@
 
+import { Link } from "react-router-dom";
 
 
-const Bloglist = () => {
+const Bloglist = (props) => {
+  const LinkOfBlog = props.link;
+
     return (
 
 
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%] mx-2 my-5">
             <img
-              src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={props.img}
               className="object-cover w-full h-64"
               alt=""
             />
@@ -17,31 +20,30 @@ const Bloglist = () => {
                   href="/"
                   className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
                   aria-label="Category"
-                  title="traveling"
+                  title=""
                 >
-                  traveling
+                  {props.category}
                 </span>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+                <span className="text-gray-600">— {props.date}</span>
               </p>
-              <a
-                href="/"
+              <Link
+                to={props.link}
                 aria-label="Category"
                 title="Visit the East"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Visit the East
-              </a>
+                {props.BlogName}
+              </Link>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque. lorem25
+                {props.Desc}
               </p>
-              <a
-                href="/"
+              <Link
+                to= {LinkOfBlog}
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more ➡️
-              </a>
+              </Link>
             </div>
           </div>
 
