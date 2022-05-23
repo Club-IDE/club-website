@@ -440,6 +440,7 @@ blockquote:after {
   bottom: 1rem;
 }
 
+
 @media screen and (max-width: 820px) {
 
   blockquote:before,
