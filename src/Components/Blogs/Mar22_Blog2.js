@@ -18,27 +18,27 @@ export default function Mar22_Blog2() {
       <div>
         <div className='countiner bg-white border-2 border-gray-100 shadow-lg w-[90%] lg:w-[60%] m-auto h-[max-content] my-10 px-8 pt-10 lg:px-14 relative top-[0px] lg:top-[-400px] pb-10'>
           <h1 className='h1 text-2xl font-bold lg:text-5xl'>Bol Behen Chatbot</h1>
-          <div className='pt-5'>
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">#WhatsAppChatbot</span>
-            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#ArtificialIntelligence</span>
-            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#wellbeing</span>
-            <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#technology</span>
+          <div className='pt-5 flex flex-wrap'>
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 my-2">#WhatsAppChatbot</span>
+            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 my-2">#ArtificialIntelligence</span>
+            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 my-2">#wellbeing</span>
+            <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900 my-2">#technology</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
+            <img className="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Jinal Raval</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             The chatbot runs on AI and will help educate women about general and sexual well-being. According to News18, the chatbot will be available in both Hindi and English. "Bol Behen" will cover an array of topics, ranging from relationships, and sexuality, to reproductive health. When translated to English, Bol Behen means "Yes, sister?" or "Ask, sister."
             </div>
           </div>
           <div>
-            <img src={Img1} alt="Couldn't load the image..." width="70%" height="70%" class="center"></img>
+            <img src={Img1} alt="Couldn't load the image..." className=" w-full f-full center lg:w-[70%] lg:h-[70%]"></img>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
@@ -52,13 +52,13 @@ export default function Mar22_Blog2() {
           </div>
           <div className='pt-5 py-2'>
             <h1 className='text-2xl font-bold'>"A digital big sister"</h1>
-          </div>        
+          </div>
           <div className='pt-5'>
-            <div class="imagebox">
+            <div className="imagebox flex flex-wrap lg:flex-nowrap md:flex-nowrap">
               <div className='text-img'>
                 Bol Behen was first launched in 2020 on Facebook Messenger in India. That chatbot has reached 100,000 conversations with 1.6 million messages, News18 reported. Girl Effect also runs a similar bot in South Africa. So far, all of Girl Effect's bots have clocked in 148,000 conversations in total with over 2.8 million messages sent to the bot by girls.
               </div>
-              <div class="image">
+              <div className="lg:w-[70%] my-3">
                 <img src={Img2} alt="Couldn't load the image..."></img>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function Mar22_Blog2() {
           </div>
           <div className='pt-5'>
             <div className='text-base'>
-            5G may have the capacity to handle up to a million devices per square kilometre3. You will have less concern with dropped connections or how many devices you have connected to the network, it's that much more reliable. 
+            5G may have the capacity to handle up to a million devices per square kilometre3. You will have less concern with dropped connections or how many devices you have connected to the network, it's that much more reliable.
             </div>
           </div>
           <div className='pt-5'>

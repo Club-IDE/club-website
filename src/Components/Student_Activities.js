@@ -19,6 +19,11 @@ const Student_Activities = (props) => {
     return (
         <section className="text-gray-600 body-font">
             <h2 className="text-[3rem] font-bold text-black text-center mt-28">Student Activities</h2>
+            <div className="flex justify-center mx-auto mt-1 mb-7">
+                        <span className="inline-block w-40 h-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-3 h-1 mx-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-1 h-1 bg-secondary rounded-full"></span>
+                    </div>
         <div className="container px-5 py-24 mx-auto">
 
         <div className="flex flex-wrap -m-4">

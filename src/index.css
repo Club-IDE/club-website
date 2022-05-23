@@ -422,6 +422,7 @@ blockquote {
 
 blockquote:before,
 blockquote:after {
+  text-align: center;
   position: absolute;
   color: #3f599D;
   font-size: 8rem;
@@ -453,14 +454,14 @@ blockquote:after {
   }
   blockquote:before {
     content: '“';
-    left: -3.2rem;
+    left: -5rem;
     top: -1rem;
   }
 
   blockquote:after {
     content: '”';
     right: -3.2rem;
-    bottom: 0rem;
+    bottom: 1rem;
   }
 
 }
@@ -476,24 +477,25 @@ cite {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 3%;
+  padding-top: 0px;
 }
 
 /*image and text alignment*/
 
-.imagebox{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-.image {
-  flex: 50%;
-  padding-right: 20px;
+
+
+ .text-img {
+  flex: 60%;
+  margin: 0px 10px;
+  text-align: justify;
 }
 
-.text-img {
-  font-size: 1rem/* 16px */;
-  line-height: 1.5rem/* 24px */;
-  padding-right: 20px;
-  flex: 60%;
+@media screen and (max-width: 800px) {
+  .text-img{
+    margin: 0px;
+  }
+}
+
+.text-base{
+  text-align: justify;
 }

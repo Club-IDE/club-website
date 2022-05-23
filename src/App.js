@@ -48,31 +48,30 @@ function App() {
       </Routes>
     </BrowserRouter>
 
-   
+
     <Discord />
     <Footer />
-     
-    <Sept21_Blog1/>
-    <Sept21_Blog2/>
-    <Oct21_Blog1/>
-    <Oct21_Blog2/>
-    <Nov21_Blog1/>
+
+    <Jan22_Blog1 />
+    <Jan22_Blog2 />
+    <Dec21_Blog1 />
+    <Dec21_Blog2 />
+    <Nov21_Blog1 />
     <Nov21_Blog2/>
-    <Dec21_Blog1/>
-    <Dec21_Blog2/>
-    <Jan22_Blog1/>
-    <Jan22_Blog2/>
-    <Feb22_Blog1/>
+    <Mar22_Blog1 />
+    <Mar22_Blog2 />
+    <Sept21_Blog1 />
+    <Sept21_Blog2 />
+    <Oct21_Blog1 />
+    <Oct21_Blog2 />
     <Feb22_Blog2/>
-    <Mar22_Blog1/>
-    <Mar22_Blog2/>
     <Apr22_Blog1/>
     <Apr22_Blog2/>
-    
+
 
     <SubmitModal/>
 
-    
+
 
 
   </>

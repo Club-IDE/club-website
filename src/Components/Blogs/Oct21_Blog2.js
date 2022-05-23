@@ -26,7 +26,7 @@ export default function Oct21_Blog2() {
             <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#WebDev</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
+            <img className="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Jinal Raval</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch-2k24 | 5 min read</h2>
@@ -39,7 +39,7 @@ export default function Oct21_Blog2() {
             </div>
           </div>
           <div>
-            <img src={Img1} alt="Couldn't load this image..." width="50%" height="50%" class="center"></img>
+            <img src={Img1} alt="Couldn't load this image..." className="center w-[100%]"></img>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
@@ -54,7 +54,7 @@ export default function Oct21_Blog2() {
           <div className='pt-5'>
             <div className='text-base'>
               From the technical point of view, blockchain technology has four features:
-              <div class="imagebox">
+              <div className="flex flex-wrap">
                 <div className='text-img'>
                   <div ul>
                     <li>Decentralization</li>
@@ -63,8 +63,8 @@ export default function Oct21_Blog2() {
                     <li>Currency properties</li>
                   </div>
                 </div>
-                <div class="image">
-                  <img src={Img2} alt="Couldn't load this image..." width="40%" height="40%"></img>
+                <div className="">
+                  <img src={Img2} alt="Couldn't load this image..." className='w-full h-full lg:w-[40%] center'></img>
                 </div>
               </div>
             </div>

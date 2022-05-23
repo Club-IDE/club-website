@@ -19,32 +19,32 @@ export default function Feb22_Blog2() {
       <div>
         <div className='countiner bg-white border-2 border-gray-100 shadow-lg w-[90%] lg:w-[60%] m-auto h-[max-content] my-10 px-8 pt-10 lg:px-14 relative top-[0px] lg:top-[-400px] pb-10'>
           <h1 className='h1 text-2xl font-bold lg:text-5xl'>5G Technology</h1>
-          <div className='pt-5'>
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">#5g</span>
-            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#network</span>
-            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#internet</span>
-            <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#technology</span>
+          <div className='pt-5 flex flex-wrap'>
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 my-2">#5g</span>
+            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 my-2">#network</span>
+            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 my-2">#internet</span>
+            <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900 my-2">#technology</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
+            <img className="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Jinal Raval</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             5G is the fifth-generation wireless connectivity that would make digitalization more accessible for businesses, public services, and individual households to reap the benefits of IoT, industry 4.0, and the explosion of intelligent devices. The next generation of wireless connectivity, or 5G, acts as a catalyst that promotes the advancement of intelligent connectivity. With speeds up to 100x faster than 4G LTE, 5G networks offer unlimited mobile broadband, low latency, ultra-high reliability, and massive machine-to-machine communications.
             </div>
           </div>
           <div className='pt-5'>
-            <div class="imagebox">
+            <div className="flex flex-wrap md:flex-nowrap lg:flex-nowrap">
               <div className='text-img'>
                 5G and other cellular mobile networks such as 4G LTE use radio waves or radio frequency (RF) electromagnetic fields (EMF) to communicate with the base stations. However, 5G utilizes a higher EMF spectrum with higher frequencies. Moreover, 5G uses a new digital technology that enables devices to connect with multiple base stations and antennas simultaneously with multiple targeted beams to provide 5G users with enhanced speed and bandwidth within a wide coverage area. This technology is called Massive MIMO, which stands for Multiple-Input Multiple-Output.
               </div>
-              <div class="image">
-                <img src={Img1} alt="Couldn't load this image..." width="100%" height="100%"></img>
+              <div className="image">
+                <img src={Img1} alt="Couldn't load this image..." ></img>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Feb22_Blog2() {
           </div>
           <div className='pt-5 py-2'>
             <h2 className='text-2xl font-bold'>Low Band 5G</h2>
-          </div>         
+          </div>
           <div className='pt-5'>
             <div className='text-base'>
             Low band spectrum 5G is best understood as a blanket layer for nationwide coverage. It will be a baseline level of 5G. One low band 5G tower — transmitting on the same frequency that was once used for TV broadcasts
@@ -87,12 +87,12 @@ export default function Feb22_Blog2() {
             <h2 className='text-2xl font-bold'>5G Vs 4G</h2>
           </div>
           <div className='pt-5'>
-            <div class="imagebox">
+            <div className="flex flex-wrap md:flex-nowrap lg:flex-nowrap">
               <div className='text-img'>
                 5G may have the capacity to handle up to a million devices per square kilometre3. You will have less concern with dropped connections or how many devices you have connected to the network, it's that much more reliable.
               </div>
-              <div class="image">
-                <img src={Img2} alt="Couldn't load this image..." width="80%" height="80%"></img>
+              <div className='w-full lg:w-[50%] my-4'>
+                <img src={Img2} alt="Couldn't load this image..." className='w-full h-full md:w-[70%] lg:w-[80%]'></img>
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function Feb22_Blog2() {
             </div>
           </div>
           <div>
-            <img src={Img3} alt="Couldn't load this image..." width="70%" height="70%" class="center"></img>
+            <img src={Img3} alt="Couldn't load this image..." width="70%" height="70%" className="center"></img>
           </div>
         </div>
 

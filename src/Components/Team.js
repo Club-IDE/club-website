@@ -27,7 +27,10 @@ const Team = () => {
 
     const faculties = [{name: 'Dr.Dhaval Parikh',role: 'HOD/Senior Advisor', email:'daparikh@gecg28.ac.in', photo:Dhaval_Parikh},
     {name: 'Prof. Yogendra Tank',role: 'Faculty Coordinator', email:'yogendratank@gecg28.ac.in', photo:Yogendra_Tank},
-    {name: 'Prof. Ashwin Prajapati',role: 'Faculty Coordinator', email:'ashvinkumar@gecg28.ac.in', photo:Ashwin_Prajapati}]
+    {name: 'Prof. Ashwin Prajapati',role: 'Faculty Coordinator', email:'ashvinkumar@gecg28.ac.in', photo:Ashwin_Prajapati},
+    {name: 'Prof. Ashwin Prajapati',role: 'Faculty Coordinator', email:'ashvinkumar@gecg28.ac.in', photo:Ashwin_Prajapati}
+
+]
 
     const ClubMembers = [
         {name:'Param Radadiya' , role:'President', email:'paramradadiya3@gmail.com' , desc:'Hey, I\'m Param Radadiya!! I\'m a quick learner and a DIY person :p I like to conduct events and interact with people. You can find me with my headphones b\'cuz I love to listen to the songs 🎧... I\'m a leader, who is creating more leaders : \)', photo:Param_Radadiya},

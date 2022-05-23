@@ -110,8 +110,14 @@ export default function Activities_Page() {
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
                     <div className="text-center lg:w-2/3 w-full">
+
                         <h1 className="title-font text-5xl mb-4 font-bold text-gray-900">Subscribe To Our <span className='text-primary'>Newsletter</span></h1>
                         <p className="mb-8 leading-relaxed text-xl font-semibold">Never miss an update about industry, opportunities, scholarships, events, jobs and more!</p>
+                        <div className="flex justify-center mx-auto mt-1 mb-7">
+                        <span className="inline-block w-40 h-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-3 h-1 mx-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-1 h-1 bg-secondary rounded-full"></span>
+                    </div>
                         <div className="flex justify-center">
                         </div>
                     </div>
@@ -122,6 +128,7 @@ export default function Activities_Page() {
                 <div>
                     <div className='w-max m-auto dropdown-header mb-20' onClick={openDropDown}>
                         <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center'>
+
                         Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" id='Arrowdown' />
                         </div>
                             <ul className=" py-1 text-sm text-gray-700 text-center p-4 bg-white shadow-lg w-64 dropdown" id='dropdown'>

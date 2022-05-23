@@ -17,27 +17,27 @@ export default function Mar22_Blog1() {
       <div>
         <div className='countiner bg-white border-2 border-gray-100 shadow-lg w-[90%] lg:w-[60%] m-auto h-[max-content] my-10 px-8 pt-10 lg:px-14 relative top-[0px] lg:top-[-400px] pb-10'>
           <h1 className='h1 text-2xl font-bold lg:text-5xl'>Value Addition</h1>
-          <div className='pt-5'>
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">#values</span>
-            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#motivation</span>
-            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#inspiration</span>
-            <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#impactful</span>
+          <div className='pt-5 flex flex-wrap'>
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 my-2">#values</span>
+            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 my-2">#motivation</span>
+            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 my-2">#inspiration</span>
+            <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900 my-2">#impactful</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
+            <img className="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Parth Parmar</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | @thatp2blog | 5 min read</h2>
             </span>
           </div>
-          
+
           <div className='pt-5'>
             <div className='text-base'>
             <blockquote>Be assertive, be attentive and be creative.<br></br>The world needs people who can add value.</blockquote>
             </div>
           </div>
           <div>
-            <img src={Img} class="center" width="60%" height="50%"></img>
+            <img src={Img} className="center" width="60%" height="50%"></img>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
@@ -48,7 +48,7 @@ export default function Mar22_Blog1() {
             <div className='text-base'>
             From my perspective, this quote has a deep meaning so let us try to understand it in the next few paragraphs.
             </div>
-          </div>         
+          </div>
           <div className='pt-5'>
             <div className='text-base'>
             Now you imagine a situation where I am a creator (expect the entertainment industry) and you are my audience, so think about the question "Why would you watch me?"

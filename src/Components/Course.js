@@ -14,6 +14,11 @@ export default function Course() {
             <div className="container mx-auto">
                 <div className="text-center mb-20">
                     <h1 className="text-3xl font-bold text-center title-font text-gray-900 mb-4 md:text-5xl">Club IDE Revolves Around</h1>
+                    <div className="flex justify-center mx-auto mt-1 mb-7">
+                        <span className="inline-block w-40 h-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-3 h-1 mx-1 bg-secondary rounded-full"></span>
+                        <span className="inline-block w-1 h-1 bg-secondary rounded-full"></span>
+                    </div>
                 </div>
                 <div className="flex flex-wrap justify-evenly">
                     <div className=' my-5 w-80 h-16 border-4 border-primary rounded text-center pt-2 lg:my-0 hover:text-white hover:bg-primary course_hover'>

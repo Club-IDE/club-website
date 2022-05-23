@@ -18,14 +18,14 @@ export default function Dec21_Blog1() {
       <div>
         <div className='countiner bg-white border-2 border-gray-100 shadow-lg w-[90%] lg:w-[60%] m-auto h-[max-content] my-10 px-8 pt-10 lg:px-14 relative top-[0px] lg:top-[-400px] pb-10'>
           <h1 className='h1 text-2xl font-bold lg:text-5xl'>A Common Man</h1>
-          <div className='pt-5'>
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">#commonman</span>
-            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900">#lifestyle</span>
-            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">#struggle</span>
-            <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#hardwork</span>
+          <div className='pt-5 flex flex-wrap'>
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 my-2">#commonman</span>
+            <span className="bg-pink-100 text-pink-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-pink-200 dark:text-pink-900 my-2">#lifestyle</span>
+            <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900 my-2">#struggle</span>
+            <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900 my-2">#hardwork</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
+            <img className="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Viveena Rathi</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | 5 min read</h2>
@@ -43,8 +43,8 @@ export default function Dec21_Blog1() {
             </div>
           </div>
           <div className='pt-5'>
-            <div class="imagebox">
-              <div class="image">
+            <div className="flex flex-wrap md:flex-nowrap lg:flex-nowrap">
+              <div className="">
                 <img src={Img} alt="Couldn't load this image..." width="100%" height="100%"></img>
               </div>
               <div className='text-img'>
@@ -55,7 +55,7 @@ export default function Dec21_Blog1() {
                 Difficulty makes them earn anyhow.
                 <br></br><br></br>
                 Many manage to do this but others don't. Not only they suffer but with them, their family suffers. And if he is the only earning hand in the family then trust me that family is not able to satisfy their needs properly. This leads everyone to a halfway up, halfway down situation. They will have to try and try and try and they can't even give up because it's the only option for them. Sometimes even they get confused because they don't understand the difference between what they do and what should be done. Something goes wrong with their brains. Sometimes they get stressed too.
-              </div>             
+              </div>
             </div>
           </div>
           <div className='pt-5'>

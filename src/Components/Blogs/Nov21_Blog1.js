@@ -38,7 +38,7 @@ export default function Nov21_Blog1() {
             </div>
           </div>
           <div>
-            <img src={Img} alt="Couldn't load this image..." width="50%" height="50%" class="center"></img>
+            <img src={Img} alt="Couldn't load this image..." className="center w-full h-full md:w-[75%] lg:w-[75%] lg:h-[50%]"></img>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
