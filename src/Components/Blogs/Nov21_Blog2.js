@@ -1,9 +1,13 @@
 import React from 'react'
-import Author1 from '../../imgs/Blog_Imgs/Author_Imgs/Sept21_Blog-1_Author.jpg'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Bhakti Trivedi.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
-import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/nov21_2.2.jpg'
+import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/nov21_2.jpg'
 import Share_Blog from './Share_Blog';
+import Img1 from '../../imgs/In_Blog_Imgs/nov21_blog2_1.png'
+import Img2 from '../../imgs/In_Blog_Imgs/nov21_blog2_2.png'
+import Img3 from '../../imgs/In_Blog_Imgs/nov21_blog2_3.png'
+import Img4 from '../../imgs/In_Blog_Imgs/nov21_blog2_4.png'
 
 export default function Nov21_Blog2() {
   return (
@@ -24,7 +28,7 @@ export default function Nov21_Blog2() {
             <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#technology</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={Author1} alt="Rounded avatar" />
+            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Bhakti Trivedi</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch-2k23 | 5 min read</h2>
@@ -35,8 +39,11 @@ export default function Nov21_Blog2() {
             We are constantly connected to devices. These devices communicate with each other to make our lives easier. We've become so immersed in technology that we don't even notice that a simple smartwatch app is replacing heavier equipment to keep our health vitals in check. Web 3.0 is the next step in the web's growth, and it aims to make the internet more intelligent.Over the last few years, the World Wide Web has developed, bringing with it new tools and strategies. Web 1.0, 2.0, and 3.0 are typical names for these stages. Now let's understand each of these.
             </div>
           </div>
+          <div>
+            <img src={Img1} alt="Couldn't load this image..." width="75%" height="75%" class="center"></img>
+          </div>
           <div className='pt-5 py-2'>
-          <h1 className='text-2xl font-bold'>Web 1.0</h1>
+            <h1 className='text-2xl font-bold'>Web 1.0</h1>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
@@ -44,16 +51,18 @@ export default function Nov21_Blog2() {
             </div>
           </div>
           <div className='pt-5 py-2'>
-          <h1 className='text-2xl font-bold'>Web 2.0</h1>
+            <h1 className='text-2xl font-bold'>Web 2.0</h1>
           </div>
           <div className='pt-5'>
-            <div className='text-base'>
-            It is the second stage in the evolution of the web, which is also referred to as the read-write web. It's just a better version of the first world wide web, marked by the shift from static to dynamic or user-generated content, as well as the rise of social media.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-            Some of the famous Web 2.0 applications are Google Maps, Facebook, Twitter, YouTube, WordPress, etc. Web technologies such as HTML5, CSS3, and Javascript frameworks such as ReactJs, AngularJs, VueJs, and others enable users to come up with new concepts, allowing users to contribute more to this Social Web.
+            <div class="imagebox">
+              <div className='text-img'>
+              It is the second stage in the evolution of the web, which is also referred to as the read-write web. It's just a better version of the first world wide web, marked by the shift from static to dynamic or user-generated content, as well as the rise of social media.
+              <br></br><br></br>
+              Some of the famous Web 2.0 applications are Google Maps, Facebook, Twitter, YouTube, WordPress, etc. Web technologies such as HTML5, CSS3, and Javascript frameworks such as ReactJs, AngularJs, VueJs, and others enable users to come up with new concepts, allowing users to contribute more to this Social Web.
+              </div>
+              <div class="image">
+                  <img src={Img2} alt="Couldn't load this image..." width="80%" height="80%"></img>
+              </div>
             </div>
           </div>
           <div className='pt-5 py-2'>
@@ -68,6 +77,9 @@ export default function Nov21_Blog2() {
             <div className='text-base'>
             Web3 applications or DApps, are developed on decentralized peer-to-peer networks like Ethereum and IPFS. These networks are developed, operated, and maintained by their users, rather than by a business. They self-organize and don't have a single point of failure.
             </div>
+          </div>
+          <div>
+            <img src={Img3} alt="Couldn't load this image..." width="75%" height="75%" class="center"></img>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
@@ -86,6 +98,9 @@ export default function Nov21_Blog2() {
             <div className='text-base'>
             Web 3's major benefit is that it seeks to solve the most serious issue that has arisen as a result of Web 2: the gathering of personal data by private networks, which is subsequently sold to marketers or potentially stolen by hackers.
             </div>
+          </div>
+          <div>
+            <img src={Img4} alt="Couldn't load this image..." width="65%" height="65%" class="center"></img>
           </div>
           <div className='pt-5'>
             <div className='text-base'>

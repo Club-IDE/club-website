@@ -1,8 +1,8 @@
 import React from 'react'
-import img from '../../imgs/Blog_Imgs/Author_Imgs/demo.jpg'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Viveena Rathi.PNG'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
-import demo from '../../imgs/Blog_Imgs/Post_Imgs/Blog-demo.jpg'
+import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/jan22_1.jpg'
 
 export default function Jan22_Blog1() {
   return (
@@ -11,7 +11,7 @@ export default function Jan22_Blog1() {
         <div className="py-5 ">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>
         </div>
-        <img src={demo} className="scale-[0.8] w-[98.5vw] h-auto lg:scale-[1]" alt="..." />
+        <img src={Blog1} className="scale-[0.8] w-[98.5vw] h-auto lg:scale-[1]" alt="..." />
       </div>
       <div>
         <div className='countiner bg-white border-2 border-gray-100 shadow-lg w-[90%] lg:w-[60%] m-auto h-[max-content] my-10 px-8 pt-10 lg:px-14 relative top-[0px] lg:top-[-400px] pb-10'>
@@ -23,7 +23,7 @@ export default function Jan22_Blog1() {
             <span className='"bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900"'>#knowing</span>
           </div>
           <div className='flex mt-5'>
-            <img class="w-10 h-10 rounded-full " src={img} alt="Rounded avatar" />
+            <img class="w-10 h-10 rounded-full " src={Auth} alt="Rounded avatar" />
             <span>
               <h4 className='mx-5 my-0'>Viveena Rathi</h4>
               <h2 className='text-gray-400 text-sm ml-4'>~CE Batch 2k24 | 5 min read</h2>
@@ -37,68 +37,38 @@ export default function Jan22_Blog1() {
           </div>
 
           <div className='pt-5 py-2'>
-          <h1 className='text-2xl font-bold'>2. When to use Stash</h1>
+          <h1 className='text-2xl font-bold'>Understand the difference?</h1>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
+            It's not necessary to have such scientific knowledge. But it is necessary to have some knowledge. You can never learn and know about all the things worldwide in just a single life. So when someone tries to teach you something new or tries to tell you something about which you have never heard before then pay attention to it. Show some interest in it. You never know when that might be useful to you. Life is unpredictable. You may be a billionaire tomorrow or you may be a fast-food worker. Anyways, all that is under God.
             </div>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
+            We just need to play our roles perfectly. Never say no to know something new. You should have that hunger inside you. Your hunger should never diminish. You have to have that bookworm somewhere inside. You have to have that interest to learn from anything and everything.
             </div>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
+            Sometimes you also have that knowledge but there's is no harm if you act foolishly. When someone teaches you something they do it from their heart. And we all know how it feels when a heart is broken (almost all of us know). So better listen to them instead of acting over-smart.
+            </div>
+          </div>
+          <div className='pt-5'>
+            <div className='text-base text-center inline-block text-[20px] ml-0 lg:mx-10'><blockquote>Stay hungry, stay foolish.</blockquote>
+            </div>
+          </div>
+          <div className='pt-5'>
+            <div className='text-base text-left'>
+            -Steve Jobs
             </div>
           </div>
           <div className='pt-5'>
             <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
+            Show your moves on the stage, not backstage.
             </div>
           </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
-          <div className='pt-5'>
-            <div className='text-base'>
-              Lacinia ut gravida tempus sollicitudin condimentum sit urna cursus malesuada. Eu lacus dis et tempor non. Odio tristique dignissim lorem ipsum vestibulum. Cras quisque praesent.
-            </div>
-          </div>
+          
         </div>
 
 

@@ -13,12 +13,22 @@ import Activities_Page from './Components/Activities_Page'
 import Blog_card from './Components/Blogs/Blog_card';
 import Eventpage from './Components/EventPage'
 import SubmitModal from './Components/Modal';
+import Sept21_Blog2 from './Components/Blogs/Sept21_Blog2';
+import Sept21_Blog1 from './Components/Blogs/Sept21_Blog1';
+import Oct21_Blog1 from './Components/Blogs/Oct21_Blog1';
+import Oct21_Blog2 from './Components/Blogs/Oct21_Blog2';
 import Nov21_Blog1 from './Components/Blogs/Nov21_Blog1';
-
-
-
-
-
+import Nov21_Blog2 from './Components/Blogs/Nov21_Blog2';
+import Dec21_Blog1 from './Components/Blogs/Dec21_Blog1';
+import Dec21_Blog2 from './Components/Blogs/Dec21_Blog2';
+import Jan22_Blog1 from './Components/Blogs/Jan22_Blog1';
+import Jan22_Blog2 from './Components/Blogs/Jan22_Blog2';
+import Feb22_Blog1 from './Components/Blogs/Feb22_Blog1';
+import Feb22_Blog2 from './Components/Blogs/Feb22_Blog2';
+import Mar22_Blog1 from './Components/Blogs/Mar22_Blog1';
+import Mar22_Blog2 from './Components/Blogs/Mar22_Blog2';
+import Apr22_Blog1 from './Components/Blogs/Apr22_Blog1';
+import Apr22_Blog2 from './Components/Blogs/Apr22_Blog2';
 
 
 function App() {
@@ -38,13 +48,31 @@ function App() {
       </Routes>
     </BrowserRouter>
 
-    {/* <Dec21_Blog1/> */}
+   
     <Discord />
     <Footer />
+     
+    <Sept21_Blog1/>
+    <Sept21_Blog2/>
+    <Oct21_Blog1/>
+    <Oct21_Blog2/>
+    <Nov21_Blog1/>
+    <Nov21_Blog2/>
+    <Dec21_Blog1/>
+    <Dec21_Blog2/>
+    <Jan22_Blog1/>
+    <Jan22_Blog2/>
+    <Feb22_Blog1/>
+    <Feb22_Blog2/>
+    <Mar22_Blog1/>
+    <Mar22_Blog2/>
+    <Apr22_Blog1/>
+    <Apr22_Blog2/>
+    
 
     <SubmitModal/>
 
-    <Nov21_Blog1/>
+    
 
 
   </>
