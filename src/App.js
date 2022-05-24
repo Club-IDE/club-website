@@ -14,6 +14,7 @@ import Blog_card from './Components/Blogs/Blog_card';
 import Eventpage from './Components/EventPage'
 import SubmitModal from './Components/Modal';
 import Sept21_Blog1 from './Components/Blogs/Sept21_Blog1'
+import GECG from './Components/GECG';
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <>
     <BrowserRouter>
       <BackAnimations />
+      <GECG />
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />

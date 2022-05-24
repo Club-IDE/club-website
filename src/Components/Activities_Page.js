@@ -1,12 +1,13 @@
 import React from 'react'
 import Activities_Home from '../imgs/Activities_Home.gif'
-import { IoMdArrowRoundForward } from 'react-icons/io';
 import Blog from '../imgs/Blog.png'
 import Achievement from '../imgs/Achievement.png'
 import Newslatter from '../imgs/Newslatter.png'
 import ScrollToTop from './ScrollToTop';
 import ArrowDown from '../imgs/arrow_drop_down.svg'
 import { getActiveElement } from '@testing-library/user-event/dist/utils';
+import SubmitModal from './Modal'
+import { Link } from 'react-router-dom';
 
 
 
@@ -44,7 +45,7 @@ export default function Activities_Page() {
                         </h1>
                         <p className="my-10 leading-relaxed text-xl font-semibold">Learn new technologies and upgrade your skiils with <span className='text-primary'>Club IDE</span>. Stay updated with upcoming events </p>
                         <div className="flex justify-center">
-                            <a href='/' className="w-full h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold md:mb-20">Explore</a>
+                            <a href='/' className="w-full h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold md:mb-20 rounded">Explore</a>
 
                         </div>
                     </div>
@@ -64,22 +65,16 @@ export default function Activities_Page() {
 
                         <div className="mt-12 sm:-mx-2 ">
                             <div className="inline-flex w-full overflow-hidden shadow sm:w-auto sm:mx-2 mb-10">
-                                <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white  bg-primary  hover:bg-secondary">
+                                <Link to="/BlogPage" className="inline-flex items-center justify-center w-full px-10 py-3 rounded text-base font-medium text-white  bg-primary  hover:bg-secondary">
 
                                     <span className="">
                                         Checkout
                                     </span>
-                                </a>
+                                </Link>
                             </div>
-                            <div className="inline-flex w-full overflow-hidden shadow sm:w-auto  border-4 ml-0 lg:ml-5 border-primary">
-                                <a href="#" className="inline-flex items-center justify-center w-full px-10 py-2 text-base font-medium text-white  bg-primary  hover:bg-secondary">
+                                <SubmitModal />
+</div>
 
-                                    <span className="py-[1px]">
-                                        Submit <IoMdArrowRoundForward className=" inline-block  font-bold pb-1 text-lg ml-3" />
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                     <div className="lg:max-w-lg w-[100%]">
                         <img className="object-cover object-center rounded" alt="hero" src={Blog} />
@@ -99,7 +94,7 @@ export default function Activities_Page() {
                         <p className="my-10 leading-relaxed text-xl font-semibold w-[95%] m-auto">Our Community members’ inspirational achievements are here....</p>
 
                         <div className="flex justify-center m-auto">
-                            <a href='/' className="w-full  h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold ">Explore</a>
+                            <a href='/' className="w-full  h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold rounded">Explore</a>
 
                         </div>
                     </div>
@@ -127,7 +122,7 @@ export default function Activities_Page() {
 
                 <div>
                     <div className='w-max m-auto dropdown-header mb-20' onClick={openDropDown}>
-                        <div className='w-64 py-2 bg-primary text-white text-base rounded font-semibold text-center'>
+                        <div className='w-64 py-2 pl-4 bg-primary text-white text-base rounded font-semibold text-center'>
 
                         Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" id='Arrowdown' />
                         </div>
