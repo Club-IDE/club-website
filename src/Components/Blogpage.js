@@ -10,6 +10,7 @@ import Sept21_Blog1 from './Blogs/Sept21_Blog1'
 const Blogpage = () => {
     return (
         <>
+       
      <ScrollToTop />
 
         <div className="pt-32 ">
@@ -20,15 +21,18 @@ const Blogpage = () => {
             <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium">Non Technical</button>
         </div>
 
-        <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[0.9]">
-        <Bloglist img = {Sep21_Blog1_img} category = " Motivational " date = "Sep 2021" BlogName = "Motivation comes from within" Desc = "Many times people think that motivation comes from reading inspirational stories, watching real-life inspired movies, hearing motivational speakers, etc." link = "/Sept21_Blog1" />
-        <Bloglist/>
-        <Bloglist/>
-        <BlogList_Horizontal />
-        <Bloglist/>
-        <Bloglist/>
-        <Bloglist/>
-        <BlogList_Horizontal />
+        <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[0.9]"> 
+        
+
+            <Bloglist img = {Sep21_Blog1_img} category = " Motivational " date = "Sep 2021" BlogName = "Motivation comes from within" Desc = "Many times people think that motivation comes from reading inspirational stories, watching real-life inspired movies, hearing motivational speakers, etc." link='sept21_blog1' />
+            <Bloglist img = {Sep21_Blog1_img} category = " Motivational " date = "Sep 2021" BlogName = "Motivation comes from within" Desc = "Many times people think that motivation comes from reading inspirational stories, watching real-life inspired movies, hearing motivational speakers, etc." link='sept21_blog2' />
+            
+            {/* <Routes>
+                <Route path='sept21_blog1' element={<Sept21_Blog1 />}></Route>
+            </Routes> */}
+
+            <Outlet />
+
 
         </div>
 
