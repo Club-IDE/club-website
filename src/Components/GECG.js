@@ -6,7 +6,7 @@ import line from '../imgs/line.svg'
 
 export default function GECG() {
   return (
-    <div className="bg-white flex justify-between px-2 border-2 w-full fixed z-[51] ">
+    <div className="bg-white flex justify-between px-2 border-2 w-full fixed z-[51] lg:border-none">
         <div className='flex lg:hidden ml-2 md:ml-24'>
          <img src={Logo} alt="logo" className='w-14 h-14' />
           </div>

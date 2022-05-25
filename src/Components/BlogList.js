@@ -1,7 +1,6 @@
 
 import { Link } from "react-router-dom";
 
-
 const Bloglist = (props) => {
   const LinkOfBlog = props.link;
 

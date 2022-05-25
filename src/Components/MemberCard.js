@@ -41,7 +41,7 @@ function MemberCard(props) {
             <a href='' target='blank' className="flex items-center mt-4 text-gray-70 group cursor-pointer">
             <FaLinkedinIn color='#0e76a8'  className='team-card_icon_linkedin lg:text-3xl text-2xl' />
 
-                <h1 className="px-2 text-sm font-bold group-hover:text-[#0e76a8]  transition-all">California</h1>
+                <h1 className="px-2 text-sm font-bold group-hover:text-[#0e76a8]  transition-all">India</h1>
             </a>
 
             <a className="flex items-center mt-4 text-gray-700 group cursor-pointer">
