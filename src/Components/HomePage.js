@@ -26,6 +26,7 @@ function HomePage() {
   return (
     <>
   <ScrollToTop />
+  <BackAnimations />
   <Hero />
   <Members />
   <Course />
