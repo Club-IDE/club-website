@@ -14,6 +14,8 @@ import Blog_card from './Components/Blogs/Blog_card';
 import Eventpage from './Components/EventPage'
 import SubmitModal from './Components/Modal';
 import Sept21_Blog1 from './Components/Blogs/Sept21_Blog1'
+import Sept21_Blog2 from './Components/Blogs/Sept21_Blog2'
+import Bloglist from './Components/BlogList';
 
 
 
@@ -28,14 +30,18 @@ function App() {
         <Route path='/activities' element={<Activities_Page />} />
         <Route path='/team' element={<Team />} />
         <Route path='/aboutus' element={<AboutUs />} />
-        <Route path='/BlogPage' element={<Blogpage />} />
-        <Route path='/EventPage' element={<Eventpage />} />
-        <Route path='/Sept21_Blog1' element = {<Sept21_Blog1 />} />
+        <Route path='/blogpage' element={<Blogpage />} />
+        <Route path='/blogpage/sept1_blog1' element={<Sept21_Blog1/>} />
+        <Route path='/blogpage/sept1_blog2' element={<Sept21_Blog2/>} />
+        
+            
+        <Route path='/eventpage' element={<Eventpage />} />
+
 
       </Routes>
     </BrowserRouter>
 
-
+    
     <Discord />
     <Footer />
 
