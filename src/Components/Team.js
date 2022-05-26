@@ -20,6 +20,7 @@ import Kunj_Dabhi from '../imgs/Developers/Kunj_Dabhi.jpg';
 import Dhruva_Patel from '../imgs/Developers/Dhruva_Patel.jpg';
 import Jay_Prajapati from '../imgs/Developers/Jay_Prajapati.png';
 import Shlok_Jadeja from '../imgs/Developers/Shlok_Jadeja.jpg'
+import Prachi_Patel from '../imgs/Developers/Prachi_Patel.jpg'
 
 
 
@@ -52,7 +53,7 @@ const Team = () => {
 
         {name:'Shlok Jadeja' , role:'Developer', email:'shlokjadeja177@gmail.com', desc:'Hi!😁 Shlok Jadeja signing in on a journey of web dev and diving into the world of computers. I am the glue to the team, well not really, nobody listens to me here. Yet, when in need - I love to work together with them and tackle problems while making a change. Call me a leader yet? Shlok Jadeja out.', photo:Shlok_Jadeja},
 
-        {name:'Prachi Patel' , role:'Developer', email:'', desc:'', photo:''},
+        {name:'Prachi Patel' , role:'Developer', email:'4340prachi@gmail.com', desc:'hey 👋🏻 everyone! Myself Prachi Patel. I like to do creative and efficient work. I am flexible to switch between new software and technologies coz i always like to learn something new and i am ready for challenge', photo:Prachi_Patel},
 
         {name:'Dhruva Patel' , role:'Developer', email:'pateldhruva751@gmail.com', desc:'Greetings!✨ Dhruva Patel buzzing with tech this side. A tech enthusiast who loves exploring various fields but web devlopment has always grabbed my attention. I enjoy interacting with people and making tasks interesting is my side hustle, because of course \'nobody likes boring\', right!? On a journey to learn with so much fun, cannot stop me now! ', photo:Dhruva_Patel},
 
