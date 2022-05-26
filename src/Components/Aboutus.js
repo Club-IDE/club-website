@@ -7,7 +7,9 @@ import Footer from './Footer';
 import ScrollToTop from './ScrollToTop';
 
 const AboutUs = () => {
+
     return (
+
         <>
         <ScrollToTop />
         <div className=" container px-6 py-0 mx-auto  pt-32 pt lg:pt-28">

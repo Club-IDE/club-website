@@ -79,7 +79,7 @@ function App() {
 
     <Discord />
     <Footer />
-    <BlogDetails />
+    {/* <BlogDetails /> */}
 
     {/* <SubmitModal/> */}
 

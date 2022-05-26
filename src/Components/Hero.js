@@ -9,7 +9,9 @@ import { useEffect } from 'react';
 const Hero = (props) => {
     useEffect(() => {
         aos.init({duration : 2000});
-
+        aos.init({
+            once: true,
+            });
       }, [])
     return (
         <>

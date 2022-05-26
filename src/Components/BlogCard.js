@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import aos from "aos";
+import 'aos/dist/aos.css';
 
 
 const BlogCard = ({ data_blogcard }) => {
@@ -6,20 +8,26 @@ const BlogCard = ({ data_blogcard }) => {
   return (
     <>
 
+
     {blogcards.map(blogcard => {
       if (blogcard.AppreanceNumber % 4 != 0) {
 
+
+        aos.init({
+          once: true,
+          });
 
         return (
 
             <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%] mx-2 my-10 h-max lg:h-[550px]" key={blogcard.id} >
               <Link to={`/blogpage/${blogcard.id}`}>
                 <img
+                   data-aos = "fade-right"
                   src={blogcard.backImage}
                   className="object-cover w-full h-64"
                   alt=""
                   />
-                <div className="p-5 flex-col justify-evenly content-evenly">
+                <div data-aos = "fade-left" className="p-5 flex-col justify-evenly content-evenly">
                   <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
                     <span
                       href="/"
@@ -44,7 +52,7 @@ const BlogCard = ({ data_blogcard }) => {
 
                   <div aria-label=""
                     className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
-                    Learn more ➡️
+                    Read more ➡️
                   </div>
 
                 </div>
@@ -53,12 +61,13 @@ const BlogCard = ({ data_blogcard }) => {
 
 )
 }
-        else {
+        else{
           return (
 
             <Link to={`/blogpage/${blogcard.id}`}>
-            <div className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[95%] w-[90%] mx-4 lg:mx-8" key={blogcard.id} >
+            <div data-aos = "zoom-in" className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[95%] w-[90%] mx-4 lg:mx-8" key={blogcard.id} >
                 <img
+
                   src={blogcard.backImage}
                   className="object-cover w-full h-72"
                   alt=""
@@ -82,13 +91,12 @@ const BlogCard = ({ data_blogcard }) => {
                   <p className="my-4 text-gray-700">
                     {blogcard.desc}
                   </p>
-                  <a
-                    href="/"
-                    aria-label=""
+                  <div
+
                     className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
                     >
-                    Learn more ➡️
-                  </a>
+                    Read more ➡️
+                  </div>
                 </div>
             </div>
             </Link>

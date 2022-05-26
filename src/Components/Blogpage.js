@@ -3,7 +3,7 @@ import BlogList_Horizontal from "./BlogList_Horizontal";
 import Navbar from "./Navbar";
 import ScrollToTop from "./ScrollToTop";
 import { Routes, Route, Outlet, Link , BrowserRouter } from "react-router-dom";
-import Sep21_Blog1_img from '../imgs/Blog_Imgs/Post_Imgs/sept21_1.jpg'
+
 import Sept21_Blog1 from './Blogs/Sept21_Blog1'
 import BlogCard from "./BlogCard";
 import Blog_1042022 from "../imgs/Blog_Imgs/Post_Imgs/apr22_1.jpg";
@@ -179,7 +179,7 @@ const Blogpage = () => {
           date:'Oct-21',
           title: 'Blockchain',
           type: 'Techonology',
-          desc:`Blockchain is the core technology used to create the cryptocurrencies, like bitcoin. As part of the 4th industrial revolution since the invention of steam engine, electricity, and information technology, blockchain technology has been applied in many areas such as finance, judiciary, and commerce. The current paper focused on its potential educational applications and explored how blockchain technology can be used to solve some education problems`,
+          desc:`Blockchain is the core technology used to create the cryptocurrencies, like bitcoin. As part of the 4th industrial revolution since the invention of steam engine, electricity, and information technology, blockchain technology has been applied in many areas such as finance, judiciary, and commerce. The current paper focused on its potential`,
           category: 'technical',
           AppreanceNumber: '3',
         },
@@ -222,9 +222,6 @@ const Blogpage = () => {
         <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[1] lg:scale-[0.9]">
 
             <BlogCard data_blogcard={blogCards}/>
-
-
-
             {/* <Routes>
                 <Route path='sept21_blog1' element={<Sept21_Blog1 />}></Route>
             </Routes> */}
