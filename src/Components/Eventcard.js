@@ -1,7 +1,7 @@
 const Eventcard = (props) => {
     return ( 
         <>
-        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[23%] w-[90%] mx-2 my-5">
+        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[29%] w-[90%] mx-2 my-5">
             <img
               src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
               className="object-cover w-full h-64"
@@ -12,7 +12,7 @@ const Eventcard = (props) => {
                 <p className="my-1 text-lg">Date:{props.date}</p>
                 <p className="my-1 text-lg">Time:{props.Time}</p>
                 <a href="#" className="block my-1 text-lg">Event Description</a>
-                <button className=" bg-white px-4 py-1 text-md border-2 border-secondary rounded-md my-1">Register</button>
+                <button className=" bg-white px-4 py-1 text-md border-2 border-secondary rounded-md my-1 hover:bg-secondary hover:text-white transition">Register</button>
               
             </div>
           </div>

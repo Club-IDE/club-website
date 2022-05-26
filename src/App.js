@@ -18,6 +18,7 @@ import Sept21_Blog2 from './Components/Blogs/Sept21_Blog2'
 import Nov21_Blog2 from './Components/Blogs/Nov21_Blog2'
 import Bloglist from './Components/BlogList';
 import BlogDetails from './Components/BlogDetails';
+import Eventcard from './Components/Eventcard';
 
 
 
@@ -47,7 +48,7 @@ function App() {
     
     <Discord />
     <Footer />
-    <BlogDetails />
+    <Eventcard />
 
     {/* <SubmitModal/> */}
 

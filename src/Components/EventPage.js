@@ -17,19 +17,12 @@ const Eventpage = () => {
         </div>
 
 
-        <div className="items-center lg:flex mt-16">
+        <div className="flex flex-wrap justify-evenly lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[0.9]">
 
-                <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                        <img className="w-[50%] h-[50%] lg:max-w-2xl" src={events} alt="Catalogue-pana.svg"/>
-                </div>
-
-
-                    <div className="w-full lg:w-1/2">
-                        <div className="mx-0 lg:max-w-lg lg:mx-20">
-                            <p className="mt-6 lg:text-3xl text-center text-xl text-gray-500 leading-9">We're Wroking on event ideas<br />Stay Tuned </p>
-
-                        </div>
-                    </div>
+                <Eventcard />
+                <Eventcard />
+                <Eventcard />
+                <Eventcard />
         </div>
 
 
