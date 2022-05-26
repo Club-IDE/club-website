@@ -4,12 +4,14 @@ import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Parth Parmar.PNG'
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/mar22_1.jpg'
 import Img from '../../imgs/In_Blog_Imgs/mar22_blog1.jpg'
 import Share_Blog from './Share_Blog';
+import ScrollToTop from '../ScrollToTop';
 
 export default function Mar22_Blog1() {
   return (
     <>
+    <ScrollToTop />
       <div className='container pt-28 w-max m-auto '>
-        <div className="py-5 ">
+        <div className="pt-16 lg:pt-8">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>
         </div>
         <img src={Blog1} className="scale-[0.8] w-[98.5vw] h-auto lg:scale-[1]" alt="..." />

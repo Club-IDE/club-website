@@ -5,12 +5,14 @@ import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/apr22_1.jpg'
 import Img1 from '../../imgs/In_Blog_Imgs/apr22_blog1_2.jpg'
 import Share_Blog from './Share_Blog';
 import Img2 from '../../imgs/In_Blog_Imgs/apr22_blog1_1.jpg'
+import ScrollToTop from '../ScrollToTop';
 
 export default function Apr22_Blog1() {
   return (
     <>
+      <ScrollToTop />
       <div className='container pt-28 w-max m-auto '>
-        <div className="py-5 ">
+        <div className="pt-16 lg:pt-8">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>
         </div>
         <img src={Blog1} className="scale-[0.8] w-[98.5vw] h-auto lg:scale-[1]" alt="..." />

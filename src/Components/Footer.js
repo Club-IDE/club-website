@@ -42,9 +42,9 @@ export default function Footer() {
                         <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
                             <div>
                                 <p className="font-semibold tracking-wide text-teal-accent-400">
-                                    Menu
+                                    Oraganization
                                 </p>
-                                <ul className="mt-2 space-y-2">
+                                <ul className="mt-2 space-y-2 flex flex-col justify-center">
                                     <li>
                                         <a
                                             href="/"
@@ -74,14 +74,14 @@ export default function Footer() {
                                             href="/"
                                             className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                         >
-                                            News-latter
+                                            About
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <p className="font-semibold tracking-wide text-teal-accent-400">
-                                    Course
+                                    Domain
                                 </p>
                                 <ul className="mt-2 space-y-2">
                                     <li>
@@ -113,7 +113,7 @@ export default function Footer() {
                                             href="/"
                                             className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                         >
-                                            **********
+
                                         </a>
                                     </li>
                                     <li>
@@ -121,14 +121,14 @@ export default function Footer() {
                                             href="/"
                                             className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                         >
-                                            **********
+
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <p className="font-semibold tracking-wide text-teal-accent-400">
-                                    Apples
+                                    Community
                                 </p>
                                 <ul className="mt-2 space-y-2">
                                     <li>
@@ -136,7 +136,7 @@ export default function Footer() {
                                             href="/"
                                             className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                         >
-                                            Media
+                                            Event
                                         </a>
                                     </li>
                                     <li>
@@ -144,38 +144,15 @@ export default function Footer() {
                                             href="/"
                                             className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                         >
-                                            Brochure
+                                            Newsletter
                                         </a>
                                     </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Nonprofit
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Educational
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Projects
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </div>
                             <div>
                                 <p className="font-semibold tracking-wide text-teal-accent-400">
-                                    Business
+                                    Reach Us At
                                 </p>
                                 <ul className="mt-2 space-y-2">
                                     <li>
@@ -183,33 +160,15 @@ export default function Footer() {
                                             href="/"
                                             className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                         >
-                                            Infopreneur
+                                            ideclub@gecg28ac.in
                                         </a>
                                     </li>
                                     <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Personal
-                                        </a>
+
+                                            Follow us to get latest updates.
+
                                     </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Wiki
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Forum
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>

@@ -2,6 +2,7 @@ import Eventcard from "./Eventcard";
 import Navbar from "./Navbar";
 import ScrollToTop from "./ScrollToTop";
 import events from '../imgs/event.png'
+import EventList from "./EventList";
 
 const Eventpage = () => {
     return (
@@ -15,15 +16,9 @@ const Eventpage = () => {
             <button className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Upcoming Events</button>
             <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Past Events</button>
         </div>
-
-
-        <div className="flex flex-wrap justify-evenly lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[0.9]">
-
-                <Eventcard />
-                <Eventcard />
-                <Eventcard />
-                <Eventcard />
-        </div>
+  
+                <EventList />
+       
 
 
         <div className="pt-32 ">

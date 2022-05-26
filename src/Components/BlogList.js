@@ -4,7 +4,6 @@ import BlogCard from "./BlogCard";
 
 import { Link, useParams } from "react-router-dom";
 
-
 const Bloglist = (props) => {
   
   
