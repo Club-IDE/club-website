@@ -33,6 +33,7 @@ import Oct21_Blog1 from './Components/Blogs/Oct21_Blog1';
 import Oct21_Blog2 from './Components/Blogs/Oct21_Blog2';
 import Apr22_Blog2 from './Components/Blogs/Apr22_Blog2';
 import Apr22_Blog1 from './Components/Blogs/Apr22_Blog1';
+import Eventcard from './Components/Eventcard';
 
 
 

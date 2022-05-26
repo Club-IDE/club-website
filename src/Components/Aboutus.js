@@ -57,7 +57,7 @@ const AboutUs = () => {
                         </p>
                         <br/>
                         <br/>
-                        <button className="w-full h-10 px-6 py-2 text-s text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold">See Current Openings </button>
+                        <button className="w-full h-10 px-6 py-2 text-s text-white items-center  transition-colors duration-200 transform   lg:w-auto button-site">See Current Openings </button>
 
                     </div>
 

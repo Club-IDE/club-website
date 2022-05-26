@@ -6,10 +6,12 @@ import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/oct21_2.webp'
 import Share_Blog from './Share_Blog';
 import Img1 from '../../imgs/In_Blog_Imgs/oct21_blog2_1.jpg'
 import Img2 from '../../imgs/In_Blog_Imgs/oct21_blog2_2.jpg'
+import ScrollToTop from '../ScrollToTop';
 
 export default function Oct21_Blog2() {
   return (
     <>
+    <ScrollToTop />
       <div className='container pt-28 w-max m-auto '>
         <div className="pt-16 lg:pt-8">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>

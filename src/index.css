@@ -499,3 +499,32 @@ cite {
 .text-base{
   text-align: justify;
 }
+
+/*Button CSS*/
+
+.button-site {
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #3f599D;
+  background-image: linear-gradient(45deg, #182A59 0%, #3f599D  51%, #182A59  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-site:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-site:active {
+  transform: scale(0.95);
+}

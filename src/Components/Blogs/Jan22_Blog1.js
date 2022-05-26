@@ -3,10 +3,12 @@ import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Viveena Rathi.PNG'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/jan22_1.jpg'
+import ScrollToTop from '../ScrollToTop';
 
 export default function Jan22_Blog1() {
   return (
     <>
+    <ScrollToTop />
       <div className='container pt-28 w-max m-auto '>
         <div className="pt-16 lg:pt-8">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>

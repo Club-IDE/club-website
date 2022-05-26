@@ -32,7 +32,7 @@ export default function Discord() {
 
                     <div className="mt-12 sm:-mx-2 ">
                         <div className="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
-                            <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white  bg-primary  hover:bg-secondary">
+                            <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white button-site">
 
                                 <span className="mx-2">
                                     Become a Member

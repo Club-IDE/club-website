@@ -8,10 +8,12 @@ import Img1 from '../../imgs/In_Blog_Imgs/nov21_blog2_1.png'
 import Img2 from '../../imgs/In_Blog_Imgs/nov21_blog2_2.png'
 import Img3 from '../../imgs/In_Blog_Imgs/nov21_blog2_3.png'
 import Img4 from '../../imgs/In_Blog_Imgs/nov21_blog2_4.png'
+import ScrollToTop from '../ScrollToTop';
 
 export default function Nov21_Blog2() {
   return (
     <>
+    <ScrollToTop />
       <div className='container pt-28 w-max m-auto '>
         <div className="pt-16 lg:pt-8">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>

@@ -5,10 +5,12 @@ import eye from '../../imgs/eye.svg'
 import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/sept21_2.png'
 import Share_Blog from './Share_Blog';
 import Img from '../../imgs/In_Blog_Imgs/sept21_blog2.png'
+import ScrollToTop from '../ScrollToTop';
 
 export default function Sept21_Blog2() {
   return (
     <>
+      <ScrollToTop />
       <div className='container pt-28 w-max m-auto '>
         <div className="pt-16 lg:pt-8">
           <h1 className="mb-20 pb-5 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blog Details</h1>
