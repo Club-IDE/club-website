@@ -199,7 +199,8 @@ const Blogpage = () => {
           date:'Sept-21',
           title: 'Internet Of Things',
           type: 'InternetOfThings',
-          desc:` Many times people think that motivation comes from reading inspirational stories, watching real-life inspired movies, hearing motivational speakers, etc. This may help you for a short period of time; like you have heard or watched something motivational, you feel inspired and when you are exhausted, you stop. But what I believe is that motivation comes from within.`,
+          desc:`As the word itself describes, the Internet of Things (IoT), is a technology that connects real-world objects or things to the Internet. These objects are controlled using a smartphone through the Internet. Various sensors are used for the detection of different factors.
+          Sensors can sense the human presence, atmospheric pressure, soil state, human body status etc. Sensors are connected with a microcontroller centralized device that controls all the data sent sensors. Two famous microcontroller devices are Arduino and Raspberry Pi.`,
           category: 'non-technical',
           AppreanceNumber: '1',
         },

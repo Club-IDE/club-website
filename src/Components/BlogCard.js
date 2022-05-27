@@ -19,7 +19,7 @@ const BlogCard = ({ data_blogcard }) => {
 
         return (
 
-            <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%] mx-2 my-10 h-max lg:h-[550px]" key={blogcard.id} >
+            <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%] mx-2 my-10 h-max lg:h-[550px] event-shadow" key={blogcard.id} >
               <Link to={`/blogpage/${blogcard.id}`}>
                 <img
                    data-aos = "fade-right"
@@ -46,8 +46,8 @@ const BlogCard = ({ data_blogcard }) => {
                     {blogcard.title}
                   </div>
 
-                  <p className="mb-2 text-gray-700">
-                    {blogcard.desc}
+                  <p className="mb-2 text-gray-700 text-justifys">
+                    {blogcard.desc.slice(0 , 371)}
                   </p>
 
                   <div aria-label=""
@@ -65,7 +65,7 @@ const BlogCard = ({ data_blogcard }) => {
           return (
 
             <Link to={`/blogpage/${blogcard.id}`}>
-            <div data-aos = "zoom-in" className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded  blog-card  lg:w-[95%] w-[90%] mx-4 lg:mx-8 " key={blogcard.id} >
+            <div data-aos = "zoom-in" className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded  blog-card  lg:w-[95%] w-[90%] mx-4 lg:mx-8 event-shadow" key={blogcard.id} >
                 <img
 
                   src={blogcard.backImage}
@@ -88,8 +88,8 @@ const BlogCard = ({ data_blogcard }) => {
                     className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">
                     {blogcard.title}
                   </div>
-                  <p className="my-4 text-gray-700">
-                    {blogcard.desc}
+                  <p className="my-4 text-gray-700 text-justify">
+                    {blogcard.desc.slice(0 , 490)}
                   </p>
                   <div
 
