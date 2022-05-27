@@ -65,7 +65,7 @@ const BlogCard = ({ data_blogcard }) => {
           return (
 
             <Link to={`/blogpage/${blogcard.id}`}>
-            <div data-aos = "zoom-in" className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[95%] w-[90%] mx-4 lg:mx-8" key={blogcard.id} >
+            <div data-aos = "zoom-in" className=" lg:flex overflow-hidden transition-shadow duration-300 bg-white rounded  blog-card  lg:w-[95%] w-[90%] mx-4 lg:mx-8 " key={blogcard.id} >
                 <img
 
                   src={blogcard.backImage}

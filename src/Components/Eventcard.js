@@ -3,7 +3,7 @@ const Eventcard = (props) => {
     const event = props.events;
     return (
         <>
-        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[25%] w-[90%] min-h-[550px] relative scale-[0.9] border-2">
+        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card lg:w-[25%] w-[90%] min-h-[550px] relative scale-[0.85] border-2 hover:scale-[0.90] event-shadow">
             <img
               src={event.thumbnail}
               className="object-stretch w-full h-64"
