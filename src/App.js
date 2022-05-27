@@ -28,7 +28,7 @@ import Apr22_Blog2 from './Components/Blogs/Apr22_Blog2';
 import Apr22_Blog1 from './Components/Blogs/Apr22_Blog1';
 import PreLoader from './Components/PreLoader';
 import { useEffect, useState } from 'react';
-
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   const [ Loading, setLoading ] = useState(true);
@@ -37,7 +37,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 4000)
+    }, 400)
   }, []);
 
   return (
@@ -50,6 +50,7 @@ function App() {
             <BrowserRouter>
               <GECG />
               <Navbar />
+              <ScrollToTop color='white' width='40'  smooth />
               <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/activities' element={<Activities_Page />} />

@@ -64,7 +64,7 @@ const TeamMembers = ({title, members}) => {
               })}
         </Slider>
       </div>
-      <div className='hidden md:block lg:hidden mb-10'>
+      <div className='hidden md:block lg:hidden mb-10 ml-12'>
         <Slider { ...settingsForMedium }>
         {members.map((member)=>{
                      return (
