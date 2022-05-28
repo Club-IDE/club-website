@@ -1,7 +1,8 @@
 
 import Navbar from "./Navbar";
 import ScrollToTop from "./ScrollToTop";
-import events from '../imgs/event.png'
+import events from '../imgs/event.png';
+import { useState } from "react";
 // import EventList from "./EventList";
 import Eventcard from "./Eventcard";
 import WebCampaign from '../imgs/Events/may18_webCampaign.webp';
@@ -32,7 +33,7 @@ import IDE from '../imgs/Events/IDELogo.png';
 
 const Eventpage = () => {
 
-    const events =[
+    let events =[
         {
             name: 'Club Introductory session',
             host: 'Akul Upadhyay',
@@ -328,7 +329,7 @@ const Eventpage = () => {
             date: '18th May 2022',
             club: 'GDSC GECG',
             thumbnail: WebCampaign,
-            isCompleted: true,
+            isCompleted: false,
         },
         {
             name: 'C/CPP FOR CPP BOOTCAMP',
@@ -342,6 +343,15 @@ const Eventpage = () => {
 
     ]
 
+    let [eventsFiltered , setEventsFiltered] = useState(events.reverse());
+    const showPastEvents = ()=>{
+        eventsFiltered = events.filter(event=> event.isCompleted === true);
+        setEventsFiltered(eventsFiltered);
+    }
+    const showUpcomingEvents = ()=>{
+        eventsFiltered = events.filter(event=> event.isCompleted === false);
+        setEventsFiltered(eventsFiltered.reverse());
+    }
 
     return (
         <>
@@ -351,12 +361,12 @@ const Eventpage = () => {
             <h1 className=" pb-4  text-6xl font-bold w-max m-auto text-primary">Events</h1>
         </div>
         <div className="flex justify-evenly items-center w-[100%] m-auto">
-            <button className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Upcoming Events</button>
-            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl">Past Events</button>
+            <button className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl" onClick={showUpcomingEvents}>Upcoming Events</button>
+            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl" onClick={showPastEvents}>Past Events</button>
         </div>
   
         <div className="flex flex-wrap justify-evenly lg:gap-8 gap-0 items-center mt-20 lg:px-10 md:px-12">
-            {events.reverse().map((event)=>{
+            {eventsFiltered.map((event)=>{
                 return <Eventcard events={event} />
             })}
         </div>

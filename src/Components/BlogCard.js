@@ -12,8 +12,9 @@ const BlogCard = ({ data_blogcard }) => {
     {blogcards.map(blogcard => {
       if (blogcard.AppreanceNumber % 4 != 0) {
 
-
+        aos.init({duration : 700});
         aos.init({
+          
           once: true,
           });
 

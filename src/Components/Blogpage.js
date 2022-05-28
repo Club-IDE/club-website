@@ -2,6 +2,7 @@ import Bloglist from "./BlogList";
 import BlogList_Horizontal from "./BlogList_Horizontal";
 import Navbar from "./Navbar";
 import ScrollToTop from "./ScrollToTop";
+import {useEffect, useState} from 'react';
 import { Routes, Route, Outlet, Link , BrowserRouter } from "react-router-dom";
 
 import Sept21_Blog1 from './Blogs/Sept21_Blog1'
@@ -41,7 +42,7 @@ import Blog_2092021 from '../imgs/Blog_Imgs/Post_Imgs/sept21_2.png';
 
 const Blogpage = () => {
 
-    const blogCards = [
+    let blogCards = [
       {
         id: 1042022,
         backImage: Blog_1042022 ,
@@ -207,6 +208,19 @@ const Blogpage = () => {
 
 
       ];
+      let [blogCardsFiltered , setBlogCardsFiltered] = useState(blogCards);
+      const showTechnical = ()=>{
+        blogCardsFiltered = blogCards.filter(blogcard=> blogcard.category === 'technical');
+        setBlogCardsFiltered(blogCardsFiltered);
+      }
+      const showNonTechnical = ()=>{
+        blogCardsFiltered = blogCards.filter(blogcard=> blogcard.category === 'non-technical');
+        setBlogCardsFiltered(blogCardsFiltered);
+      }
+      
+
+      // const nums = [1,2,3,4,5,6,7];
+      // console.log(nums.filter(num=>num>3));
     return (
         <>
 
@@ -216,13 +230,13 @@ const Blogpage = () => {
             <h1 className=" pb-4 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blogs</h1>
         </div>
         <div className="flex justify-evenly items-center mb-24 lg:mb-0 ">
-            <button className="mt-20 bg-white shadow-lg shadow-gray-600 px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium">Technical</button>
-            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium">Non Technical</button>
+            <button className="mt-20 bg-white shadow-lg shadow-gray-600 px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium" onClick={showTechnical}>Technical</button>
+            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium" onClick={showNonTechnical}>Non Technical</button>
         </div>
 
         <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[1] lg:scale-[0.9]">
 
-            <BlogCard data_blogcard={blogCards}/>
+            <BlogCard data_blogcard={blogCardsFiltered}/>
             {/* <Routes>
                 <Route path='sept21_blog1' element={<Sept21_Blog1 />}></Route>
             </Routes> */}
