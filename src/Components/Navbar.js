@@ -44,10 +44,10 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/partneres"
+              to="/blogpage"
               className="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:font-bold hover:text-primary"
             >
-              Partners
+              Blog
             </Link>
           </li>
           <li>
@@ -98,12 +98,12 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        to="/partners"
+                        to="/blogpage"
                         aria-label="Product pricing"
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Partners
+                        Blog
                       </Link>
                     </li>
                     <li>

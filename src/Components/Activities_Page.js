@@ -45,7 +45,7 @@ export default function Activities_Page() {
                         </h1>
                         <p className="my-10 leading-relaxed text-xl font-semibold">Learn new technologies and upgrade your skiils with <span className='text-primary'>Club IDE</span>. Stay updated with upcoming events </p>
                         <div className="flex justify-center">
-                            <a href='/' className="w-full h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold md:mb-20 rounded">Explore</a>
+                            <a href='/' className="w-full h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold md:mb-20 rounded button-site">Explore</a>
 
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export default function Activities_Page() {
 
                         <div className="mt-12 sm:-mx-2 ">
                             <div className="inline-flex w-full overflow-hidden shadow sm:w-auto sm:mx-2 mb-10">
-                                <Link to="/BlogPage" className="inline-flex items-center justify-center w-full px-10 py-3 rounded text-base font-medium text-white  bg-primary  hover:bg-secondary">
+                                <Link to="/BlogPage" className="inline-flex items-center justify-center w-full px-10 py-3 rounded text-base font-medium text-white button-site">
 
                                     <span className="">
                                         Checkout
@@ -94,7 +94,7 @@ export default function Activities_Page() {
                         <p className="my-10 leading-relaxed text-xl font-semibold w-[95%] m-auto">Our Community members’ inspirational achievements are here....</p>
 
                         <div className="flex justify-center m-auto">
-                            <a href='/' className="w-full  h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold rounded">Explore</a>
+                            <a href='/' className="w-full  h-10 px-20 py-2 text-small text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold rounded button-site">Explore</a>
 
                         </div>
                     </div>
@@ -122,7 +122,7 @@ export default function Activities_Page() {
 
                 <div>
                     <div className='w-max m-auto dropdown-header mb-20' onClick={openDropDown}>
-                        <div className='w-64 py-2 pl-4 bg-primary text-white text-base rounded font-semibold text-center'>
+                        <div className='w-64 py-2 pl-4  text-base rounded font-semibold text-center button-site'>
 
                         Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" id='Arrowdown' />
                         </div>

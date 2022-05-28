@@ -12,11 +12,11 @@ function MemberCard(props) {
 
     return (
     <>
-    <div className="scale-[0.7]  md:scale-[1] lg:scale-[1] relative right-[26px] lg:right-0 md:right-0">
+    <div className="scale-[0.7]  md:scale-[1] lg:scale-[1] ">
         <Flippy
         className='py-1 lg:ml-20 bg-white'
         flipOnHover={true}
-        flipOnClick={false}
+        flipOnClick={true}
         flipDirection="horizontal"
         style={{width:"350px", height:"400px" }}
     >

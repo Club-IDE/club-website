@@ -3,7 +3,7 @@ import BlogList_Horizontal from "./BlogList_Horizontal";
 import Navbar from "./Navbar";
 import ScrollToTop from "./ScrollToTop";
 import { Routes, Route, Outlet, Link , BrowserRouter } from "react-router-dom";
-import Sep21_Blog1_img from '../imgs/Blog_Imgs/Post_Imgs/sept21_1.jpg'
+
 import Sept21_Blog1 from './Blogs/Sept21_Blog1'
 import BlogCard from "./BlogCard";
 import Blog_1042022 from "../imgs/Blog_Imgs/Post_Imgs/apr22_1.jpg";
@@ -179,7 +179,7 @@ const Blogpage = () => {
           date:'Oct-21',
           title: 'Blockchain',
           type: 'Techonology',
-          desc:`Blockchain is the core technology used to create the cryptocurrencies, like bitcoin. As part of the 4th industrial revolution since the invention of steam engine, electricity, and information technology, blockchain technology has been applied in many areas such as finance, judiciary, and commerce. The current paper focused on its potential educational applications and explored how blockchain technology can be used to solve some education problems`,
+          desc:`Blockchain is the core technology used to create the cryptocurrencies, like bitcoin. As part of the 4th industrial revolution since the invention of steam engine, electricity, and information technology, blockchain technology has been applied in many areas such as finance, judiciary, and commerce. The current paper focused on its potential`,
           category: 'technical',
           AppreanceNumber: '3',
         },
@@ -199,7 +199,8 @@ const Blogpage = () => {
           date:'Sept-21',
           title: 'Internet Of Things',
           type: 'InternetOfThings',
-          desc:` Many times people think that motivation comes from reading inspirational stories, watching real-life inspired movies, hearing motivational speakers, etc. This may help you for a short period of time; like you have heard or watched something motivational, you feel inspired and when you are exhausted, you stop. But what I believe is that motivation comes from within.`,
+          desc:`As the word itself describes, the Internet of Things (IoT), is a technology that connects real-world objects or things to the Internet. These objects are controlled using a smartphone through the Internet. Various sensors are used for the detection of different factors.
+          Sensors can sense the human presence, atmospheric pressure, soil state, human body status etc. Sensors are connected with a microcontroller centralized device that controls all the data sent sensors. Two famous microcontroller devices are Arduino and Raspberry Pi.`,
           category: 'non-technical',
           AppreanceNumber: '1',
         },
@@ -222,9 +223,6 @@ const Blogpage = () => {
         <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[1] lg:scale-[0.9]">
 
             <BlogCard data_blogcard={blogCards}/>
-
-
-
             {/* <Routes>
                 <Route path='sept21_blog1' element={<Sept21_Blog1 />}></Route>
             </Routes> */}

@@ -6,7 +6,7 @@ export default function SubmitModal() {
     <>
     <div className="inline-flex w-full overflow-hidden shadow sm:w-auto sm:mx-2 mb-10">
       <button
-        className="inline-flex items-center justify-center w-full px-10 py-3 rounded text-base font-medium text-white  bg-primary  hover:bg-secondar"
+        className="inline-flex items-center justify-center w-full px-10 py-3 rounded text-base button-site"
         type="button"
         onClick={() => setShowModal(true)}
       >

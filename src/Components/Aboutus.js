@@ -7,7 +7,9 @@ import Footer from './Footer';
 import ScrollToTop from './ScrollToTop';
 
 const AboutUs = () => {
+
     return (
+
         <>
         <ScrollToTop />
         <div className=" container px-6 py-0 mx-auto  pt-32 pt lg:pt-28">
@@ -55,7 +57,7 @@ const AboutUs = () => {
                         </p>
                         <br/>
                         <br/>
-                        <button className="w-full h-10 px-6 py-2 text-s text-white items-center  transition-colors duration-200 transform bg-primary  lg:w-auto hover:bg-secondary font-bold">See Current Openings </button>
+                        <button className="w-full h-10 px-6 py-2 text-s text-white items-center  transition-colors duration-200 transform   lg:w-auto button-site">See Current Openings </button>
 
                     </div>
 
