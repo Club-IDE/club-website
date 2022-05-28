@@ -15,10 +15,7 @@ const Eventcard = (props) => {
                 <a href="#" className="block my-1 text-md">Event Description</a>
                 {event.isCompleted && <a href="#" target='_blank' className=" bg-white px-5 py-1 text-md border-2 border-secondary rounded-md my-1 hover:bg-secondary hover:text-white transition absolute bottom-5 left-[50%] -translate-x-[50%] ">Download Report</a>}
                 {!event.isCompleted && <a href="#" target='_blank' className=" bg-white px-5 py-1 text-md border-2 border-secondary rounded-md my-1 hover:bg-secondary hover:text-white transition absolute bottom-5 left-[50%] -translate-x-[50%] ">Register Now</a>}
-                
-                
-                
-              
+
             </div>
           </div>
         </>

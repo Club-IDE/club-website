@@ -161,7 +161,7 @@ const Blogpage = () => {
           title: 'History of Web',
           type: 'internet',
           desc:`We are constantly connected to devices. These devices communicate with each other to make our lives easier. We've become so immersed in technology that we don't even notice that a simple smartwatch app is replacing heavier equipment to keep our health vitals in check. Web 3.0 is the next step in the web's growth `,
-          category: 'non-technical',
+          category: 'technical',
           AppreanceNumber: '5',
         },
         {
@@ -202,22 +202,25 @@ const Blogpage = () => {
           type: 'InternetOfThings',
           desc:`As the word itself describes, the Internet of Things (IoT), is a technology that connects real-world objects or things to the Internet. These objects are controlled using a smartphone through the Internet. Various sensors are used for the detection of different factors.
           Sensors can sense the human presence, atmospheric pressure, soil state, human body status etc. Sensors are connected with a microcontroller centralized device that controls all the data sent sensors. Two famous microcontroller devices are Arduino and Raspberry Pi.`,
-          category: 'non-technical',
+          category: 'technical',
           AppreanceNumber: '1',
         },
 
 
       ];
       let [blogCardsFiltered , setBlogCardsFiltered] = useState(blogCards);
+
+
       const showTechnical = ()=>{
         blogCardsFiltered = blogCards.filter(blogcard=> blogcard.category === 'technical');
         setBlogCardsFiltered(blogCardsFiltered);
+        ;
       }
       const showNonTechnical = ()=>{
         blogCardsFiltered = blogCards.filter(blogcard=> blogcard.category === 'non-technical');
         setBlogCardsFiltered(blogCardsFiltered);
       }
-      
+
 
       // const nums = [1,2,3,4,5,6,7];
       // console.log(nums.filter(num=>num>3));

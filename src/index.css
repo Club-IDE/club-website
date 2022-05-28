@@ -3,16 +3,19 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nunito&display=swap');
 
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Mukta', sans-serif;
 
 }
 
@@ -165,10 +168,11 @@ code {
 .blog-buttons {
   border-color: #182A59;
   color: #000;
-  background-image: linear-gradient(45deg, #182A59 50%, transparent 50%);
+  background-image: linear-gradient(90deg, #182A59 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
-  transition: all 0.5s ease-in-out;
+  animation-delay: 0s;
+  transition: all 2.5s cubic-bezier(0, 0.96, 0.67, 0.92);
 }
 
 .blog-buttons:hover {
@@ -750,8 +754,11 @@ html {
 }
 
 .styles_scroll-to-top__2A70v{
-  background-color: #182A59 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  background-image: url('./imgs/ScrollTopButton.svg');
+  background-size: cover;
+  border: 2px solid #182A59;
   transform: scale(1.2);
-  border-radius: 100px !important;
-
+  border-radius: 0px !important;
 }
