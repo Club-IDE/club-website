@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#182A59;}
+	.st3{clip-path:url(#SVGID_00000014603761460072189000000012071779141833988483_);}
+</style>
+<rect x="609.5" y="390.6" class="st0" width="373.9" height="196.6"/>
+<polygon class="st1" points="260.6,410.1 209.4,372.4 260.6,334.1 260.6,298.4 162.6,372.4 260.6,445.9 "/>
+<polygon class="st1" points="304.7,410.1 350.5,372.4 304.7,334.1 304.7,298.4 392.3,372.4 304.7,445.9 "/>
+<ellipse class="st2" cx="299.6" cy="363" rx="205" ry="200.7"/>
+<g>
+	<g>
+		<defs>
+			<ellipse id="SVGID_1_" cx="300.5" cy="363" rx="187.7" ry="180"/>
+		</defs>
+		<clipPath id="SVGID_00000057121846930607741630000010681085007901614010_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000057121846930607741630000010681085007901614010_);">
+			<g>
+				<defs>
+					<rect id="SVGID_00000074429999251794396390000008604972342645815190_" x="107.8" y="178" width="385.4" height="370"/>
+				</defs>
+				<clipPath id="SVGID_00000057133391674762444090000017529081729009302409_">
+					<use xlink:href="#SVGID_00000074429999251794396390000008604972342645815190_"  style="overflow:visible;"/>
+				</clipPath>
+				<g style="clip-path:url(#SVGID_00000057133391674762444090000017529081729009302409_);">
+					
+						<image style="overflow:visible;" width="804" height="772" xlink:href="4C8B356.jpg"  transform="matrix(0.48 0 0 0.48 107.52 177.58)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<polygon class="st1" points="276,401 224.8,363.2 276,325 276,289.2 178,363.2 276,436.7 "/>
+<polygon class="st1" points="320.1,401 365.9,363.2 320.1,325 320.1,289.2 407.7,363.2 320.1,436.7 "/>
+</svg>
