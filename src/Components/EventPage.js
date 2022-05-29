@@ -42,6 +42,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: IDE,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/10mSgb2EUkgKqJQOJWzGScMURGkntttvF/view"
         },
         {
             name: 'General Discussion',
@@ -51,6 +52,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: IDE,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1i38iFODIIJAtYPPORu4mICZyNwipmopB/view"
         },
         {
             name: 'Web Development Introduction',
@@ -60,6 +62,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: WebDevelopment,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1yMj3zfccDpaXr4YMse0Xc-mZoV1X0UMo/view"
         },
         {
             name: 'Android Development',
@@ -69,6 +72,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: Android,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1qHw5Cfz3n66x6CnJABeDU8fTAN3Qlg7v/view"
         },
         {
             name: 'Competitive Programming',
@@ -78,6 +82,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: CP,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1DRIY7CPMKtxJFdprjmp9WVieP4tHq-fJ/view"
         },
         {
             name: 'Artificial Intelligence/ Machine Learning',
@@ -87,6 +92,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: ML,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1xfqed6pLjrMtdXoRTNj-4WSSHc18Qpid/view"
         },
         {
             name: 'Entrepreneurship and Startup',
@@ -96,6 +102,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: Enterprenurship,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/19zVkHZ-vHrB-ZrvC-ZEKLgs5D1BEZPU-/view"
         },
         {
             name: 'IDE Code Sprint 1.0 - A Coding Contest',
@@ -105,6 +112,7 @@ const Eventpage = () => {
             club: 'Club IDE + CodeChef GecgGn Chapter',
             thumbnail: IDE,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/13JVlN_Gc-UNdJ-QcRqP7XOJsMhAPlHN0/view"
         },
         {
             name: 'Entrepreneurship and Start-up Basic',
@@ -114,6 +122,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: Enterprenurship,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1jo2_NYB0yAkiBp7DwLq9YZOPvSTM_V-m/view"
         },
         {
             name: 'AI/ML Session 0',
@@ -123,6 +132,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: ML,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1fj1RV68k3vXonYAFAABg6y77wwihSo52/view"
         },
         {
             name: 'Engineer’s day celebration',
@@ -132,6 +142,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: Engineer,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1gIwE6O1V3f_2vVISiMy5HszieLc0nvR4/view"
         },
         {
             name: 'Everything About Hacktoberfest',
@@ -141,6 +152,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Hectoberfest,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1gIwE6O1V3f_2vVISiMy5HszieLc0nvR4/view"
         },
         {
             name: 'Codechef College Chapter Introduction',
@@ -150,6 +162,7 @@ const Eventpage = () => {
             club: 'Codechef GecGn Chapter',
             thumbnail: CodechefIntro,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1aoEx6umBuHvH_Ggv5YZwcM7wBGSWm-sj/view"
         },
         {
             name: 'Android Discussion',
@@ -159,6 +172,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Android,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/18WD1paR0yYqLcxbHJtw5Xl3trS5SKypN/view"
         },
         {
             name: 'Platform tour & Getting started with CP',
@@ -168,6 +182,7 @@ const Eventpage = () => {
             club: 'Codechef GecGn Chapter',
             thumbnail: CP,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1urq0sLESvA467EzkefdOCFNa02CL37oF/view"
         },
         {
             name: 'Info Session GDSC GEC Gandhinagar',
@@ -177,6 +192,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: GDSCInfo,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1e34yCnJnxLUwsT7-9DVUOYxpbNyprBcm/view"
         },
         {
             name: 'Analysis of algorithm and its importance',
@@ -186,6 +202,7 @@ const Eventpage = () => {
             club: 'Club IDE + Codechef GecGn Chapter',
             thumbnail: Algorithm,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1cnZy5rbQqJuUIHuHULaQhSlaRsrKxVc-/view"
         },
         {
             name: 'Pathway to the future – Web',
@@ -195,6 +212,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: WebDevelopment,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1BAdbPAw6kGBTaWHXNRWUmeOjy9DDem-5/view"
         },
         {
             name: 'Pathway to the future – Android',
@@ -204,6 +222,7 @@ const Eventpage = () => {
             club: 'Club IDE',
             thumbnail: Android,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1V1MsfTzsagsbe_Hrs3jatGWYmkLljeBQ/view"
         },
         {
             name: 'Andoid Study JAM - 1',
@@ -213,6 +232,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: AndroidStudyjam1,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1Xxam5r0pk4DyPCW4EiYpbreyURojVm3-/view"
         },
         {
             name: 'Andoid Study JAM - 2',
@@ -222,6 +242,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: AndroidStudyjam2,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1_R5I2DPQpif5Nau_CaOetH0DKQl6YcnW/view"
         },
         {
             name: 'Andoid Study JAM - 3',
@@ -231,6 +252,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: AndroidStudyjam3,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/10tjg4TZjVQI00uaCW9GY3UaUBd28XY2H/view"
         },
         {
             name: 'Bit Manipulation',
@@ -240,6 +262,7 @@ const Eventpage = () => {
             club: 'Codechef GecGn Chapter',
             thumbnail: BitManipulation,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1nINNcJdJJ03tNzelM_6SOaWylJ8sgWKl/view"
         },
         {
             name: 'Flutter Festival - 1 (Introduction)',
@@ -249,6 +272,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Flutter1,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1iUMuy2fdsRlpjo0uDMq8t-wxrW_BaI0i/view"
         },
         {
             name: 'Flutter Festival - 2 (Basics of Flutter)',
@@ -258,6 +282,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Flutter2,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1Yjo_dN1V8hRso0TdVtdArQuh2-bHrvQX/view"
         },
         {
             name: 'Interview Preparation & Resume Building',
@@ -267,6 +292,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Resume,
             isCompleted: true,
+            Reportlink: ""
         },
         {
             name: 'Flutter Festival - 3 (UI in Flutter)',
@@ -276,6 +302,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Flutter3,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1RYmIRBn-AwR_damdmwCn1nIMON4FDAD8/view"
         },
         {
             name: 'Flutter Festival - 4 (APIs in Flutter)',
@@ -285,6 +312,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Flutter4,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1InSKHIyIjsx24bUB1Qe33s4JCaFGxQly/view"
         },
         {
             name: 'Flutter Festival - 5 (Firebase with Flutter)',
@@ -294,6 +322,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: Flutter5,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1AtJc8K-hQ4Xodp0Q0MDEqT2DKbHQCNS1/view"
         },
         {
             name: 'Getting Started with ML & Crowdsource - ML Study Jams',
@@ -303,6 +332,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: ML1,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1EtPXcVGe8zKIYtE1U0dhH8mF4a-TozRG/view"
         },
         {
             name: 'Explore ML with Neural Networks - ML Study Jams',
@@ -312,6 +342,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: ML2,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1Lhoe2iHaz1LubMm73dbwG_ojwCHt5Bnb/view"
         },
         {
             name: 'Build a First Model Using Python - ML Study Jams',
@@ -321,6 +352,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: ML3,
             isCompleted: true,
+            Reportlink: "https://drive.google.com/file/d/1Lhoe2iHaz1LubMm73dbwG_ojwCHt5Bnb/view"
         },
         {
             name: 'Learn HTML/CSS Out of the Box',
@@ -330,6 +362,7 @@ const Eventpage = () => {
             club: 'GDSC GECG',
             thumbnail: WebCampaign,
             isCompleted: false,
+            Reportlink: "https://drive.google.com/file/d/1R29UML11_uiNQe3KhMCKyg9YiQmrf-FQ/view"
         },
         {
             name: 'C/CPP FOR CPP BOOTCAMP',
@@ -339,7 +372,9 @@ const Eventpage = () => {
             club: 'Codechef GecGn Chapter, Club IDE',
             thumbnail: CP,
             isCompleted: false,
+            Reportlink: ""
         },
+
 
     ]
 
@@ -364,13 +399,13 @@ const Eventpage = () => {
             <button className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl" onClick={showUpcomingEvents}>Upcoming Events</button>
             <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3  border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium text-sm lg:text-xl" onClick={showPastEvents}>Past Events</button>
         </div>
-  
+
         <div className="flex flex-wrap justify-evenly lg:gap-8 gap-0 items-center mt-20 lg:px-10 md:px-12">
             {eventsFiltered.map((event)=>{
                 return <Eventcard events={event} />
             })}
         </div>
-       
+
 
 
         <div className="pt-32 ">

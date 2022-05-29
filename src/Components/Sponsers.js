@@ -22,8 +22,16 @@ const Sponsers = () => {
             <div className="h-72"></div>
             <h2 className="text-center lg:text-3xl text-lg font-bold">We have been accociated with global communities like</h2>
             <div className='flex justify-center items-center xl:flex-row flex-col'>
-            <img data-aos="fade-left" src={GDSCLogo} className="w-1/2"/>
-            <img data-aos="fade-right" src={CodeChefLogo} className="w-1/3 h-1/3"/>
+            <div className="w-1/2">
+                <a href="https://gdsc.community.dev/government-engineering-college-gandhinagar/" target="_blank">
+            <img data-aos="fade-left" src={GDSCLogo} />
+            </a>
+            </div>
+            <div className="w-1/3 h-1/3">
+                <a href="https://www.codechef.com/campus_chapter/CodeChef_GECGN_Chapter" target="_blank">
+            <img data-aos="fade-right" src={CodeChefLogo} />
+            </a>
+            </div>
             </div>
         </div>
         </>

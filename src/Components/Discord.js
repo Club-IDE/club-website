@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import DiscordLogo from '../imgs/DiscordLogo.png'
 import Vector from '../imgs/FooterVector.png'
-import WhatsappLogo from '../imgs/WhatsappLogo.svg'
+import TwitterLogo from '../imgs/TwitterLogo.svg'
 import InstagramLogo from '../imgs/InstagramLogo.svg'
 import LinkedinLogo from '../imgs/LinkedinLogo.svg'
 import aos from "aos";
@@ -32,16 +32,13 @@ export default function Discord() {
 
                     <div className="mt-12 sm:-mx-2 ">
                         <div className="inline-flex w-full overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2">
-                            <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white button-site">
-
-                                <span className="mx-2">
+                                    <button className='inline-flex items-center justify-center w-full px-12 py-3 text-base font-medium text-white button-site' disabled = {true}>
                                     Become a Member
-                                </span>
-                            </a>
+                                    </button>
                         </div>
 
                         <div className="inline-flex w-full mt-4 overflow-hidden rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 lg:ml-32 border-4 border-primary">
-                            <a href="#" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto">
+                            <a href="https://discord.com/invite/vXNCpKXzET" className="inline-flex items-center justify-center w-full px-10 py-3 text-base font-medium text-white transition-colors duration-150 transform sm:w-auto" target="_blank">
 
                                 <span className="mx-8">
                                     Join Discord
@@ -60,13 +57,13 @@ export default function Discord() {
       <p className="lg:w-2/3 mx-auto leading-relaxed  text-gray-50 text-2xl pt-5">Do not miss any updates</p>
     </div>
     <div className="pb-0 flex w-max m-auto">
-        <a href="/">
-      <img src={WhatsappLogo} alt="" className='w-14 mx-5 lg:mx-10 icon'/>
+        <a href="https://twitter.com/club_ide" target="_blank">
+      <img src={TwitterLogo} alt="" className='w-14 mx-5 lg:mx-10 icon'/>
       </a>
-      <a href="/">
+      <a href="https://www.instagram.com/clubide/" target="_blank">
       <img src={InstagramLogo} alt="" className='w-14 mx-5 lg:mx-10 icon insta'/>
       </a>
-      <a href="/">
+      <a href="https://www.linkedin.com/company/the-ide-club" target="_blank">
       <img src={LinkedinLogo} alt="" className='w-14 mx-5 lg:mx-10  icon linkdin'/>
       </a>
     </div>

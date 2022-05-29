@@ -1,5 +1,5 @@
 import React from 'react'
-import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Aditya Chaturvedi.png'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Aditya Chaturvedi.jpg'
 
 import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/apr22_2.jpg'
 import Img1 from '../../imgs/In_Blog_Imgs/apr22_blog2_1.jpg'

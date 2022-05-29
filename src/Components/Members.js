@@ -27,7 +27,7 @@ export default function Members() {
                         <div className="border-2 border-gray-200 px-4 py-6 rounded-lg hover:bg-gradient-to-r from-primary to-secondary hover:shadow-2xl Member_hover flex justify-center items-center flex-col">
                            <TiGroupOutline color="#3f599D" size='4rem' className="members-group_icon mb-4"/>
                             <h2 className="title-font font-medium text-3xl text-gray-900 count">
-                                <CountUp end={2015} duration={2} />
+                                <CountUp end={487} duration={4} />
 
                             </h2>
                             <p className="leading-relaxed">Members</p>
@@ -37,7 +37,7 @@ export default function Members() {
                         <div className="border-2 border-gray-200 px-4 py-6 rounded-lg hover:bg-gradient-to-r from-primary to-secondary hover:shadow-2xl Member_hover flex justify-center items-center flex-col">
                         <RiGroupLine color="#3f599D" size='4rem' className="members-group_icon mb-4"/>
                             <h2 className="title-font font-medium text-3xl text-gray-900">
-                                <CountUp end={5016} duration={2} />
+                                <CountUp end={2007} duration={4} />
                             </h2>
                             <p className="leading-relaxed">Attendence</p>
                         </div>
@@ -47,7 +47,7 @@ export default function Members() {
                         <RiOrganizationChart color="#3f599D" size='4rem' className="members-group_icon mb-4"/>
 
                             <h2 className="title-font font-medium text-3xl text-gray-900">
-                                <CountUp end={48} duration={2} />
+                                <CountUp end={26} duration={4} />
                             </h2>
                             <p className="leading-relaxed">Organizer</p>
                         </div>
@@ -57,7 +57,7 @@ export default function Members() {
                         <VscCalendar color="#3f599D" size='4rem' className="members-group_icon mb-4"/>
 
                             <h2 className="title-font font-medium text-3xl text-gray-900">
-                                <CountUp end={52} duration={2} />
+                                <CountUp end={41} duration={4} />
                             </h2>
                             <p className="leading-relaxed">Event & Workshop</p>
                         </div>

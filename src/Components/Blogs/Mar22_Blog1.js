@@ -1,5 +1,5 @@
 import React from 'react'
-import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Parth Parmar.PNG'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Parth Parmar.jpg'
 
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/mar22_1.jpg'
 import Img from '../../imgs/In_Blog_Imgs/mar22_blog1.jpg'

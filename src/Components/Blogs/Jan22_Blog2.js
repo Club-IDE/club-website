@@ -1,5 +1,5 @@
 import React from 'react'
-import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Ayush Solanki.PNG'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Ayush Solanki.jpg'
 
 import Blog2 from '../../imgs/Blog_Imgs/Post_Imgs/jan22_2.jpg'
 import Share_Blog from './Share_Blog';

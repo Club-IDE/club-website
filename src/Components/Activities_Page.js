@@ -1,6 +1,6 @@
 import React from 'react'
 import Activities_Home from '../imgs/Activities_Home.gif'
-import Blog from '../imgs/Blog.png'
+import Blog from '../imgs/Blog.jpg'
 import Achievement from '../imgs/Achievement.png'
 import Newslatter from '../imgs/Newslatter.png'
 import ScrollToTop from './ScrollToTop';
@@ -76,7 +76,7 @@ export default function Activities_Page() {
 </div>
 
                     </div>
-                    <div className="lg:max-w-lg w-[100%]">
+                    <div className="w-[100%] lg:w-[80%] pl-0 lg:pl-40">
                         <img className="object-cover object-center rounded" alt="hero" src={Blog} />
                     </div>
                 </div>
