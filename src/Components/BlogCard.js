@@ -11,21 +11,21 @@ const BlogCard = ({ data_blogcard }) => {
 
     {blogcards.map(blogcard => {
         aos.init({
-
+            duration: 500,
           once: true,
           });
 
         return (
 
-            <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%]  mx-auto my-10 h-max lg:h-[550px] event-shadow" key={blogcard.id} >
+            <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%]  mx-auto my-10 h-max lg:h-[550px] event-shadow" key={blogcard.id}>
               <Link to={`/blogpage/${blogcard.id}`}>
                 <img
-                   data-aos = "zoom-in"
+
                   src={blogcard.backImage}
                   className="object-cover w-full h-64"
                   alt=""
                   />
-                <div data-aos = "zoom-in" className="p-5 flex-col justify-evenly content-evenly">
+                <div className="p-5 flex-col justify-evenly content-evenly">
                   <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
                     <span
                       href="/"

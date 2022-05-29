@@ -122,7 +122,7 @@ export default function Activities_Page() {
 
                 <div>
                     <div className='w-max m-auto dropdown-header mb-20' onClick={openDropDown}>
-                        <div className='w-64 py-2 pl-4  text-base rounded font-semibold text-center button-site'>
+                        <div className='w-68 py-2 pl-4  text-base rounded font-semibold text-center button-site'>
 
                         Latest Isuue of IDE Insiders <img src={ArrowDown} className="w-8 relative bottom-[1px] inline-block Arrowdown" id='Arrowdown' />
                         </div>

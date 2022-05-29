@@ -48,7 +48,7 @@ const AboutUs = () => {
                 </div>
 
                     <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center" data-aos="zoom-in">
-                        <h2 className="text-5xl font-bold tracking-tight text-blue lg:text-6xl lg:mt-10">
+                        <h2 className="text-5xl font-bold tracking-tight text-blue lg:text-6xl lg:mt-10 text-primary">
                             Join Our Growing Club
                         </h2>
 

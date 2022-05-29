@@ -524,7 +524,6 @@ cite {
   touch-action: manipulation;
   text-align: center;
 }
-
 .button-site:hover {
   background-position: right center;
   /* change the direction of the change here */
@@ -761,4 +760,19 @@ html {
   border: 2px solid #182A59;
   transform: scale(1.2);
   border-radius: 0px !important;
+}
+
+
+/*File Uplod Button*/
+::-webkit-file-upload-button{
+  position: relative;
+  right: 16px;
+  height: 40px;
+  border: 0px solid rgba(75, 85, 99);
+  width: 150px;
+  border-radius: 50px;
+  background-color: rgba(75, 85, 99);
+  color: white;
+  opacity: 5;
+  font-weight: 500;
 }
