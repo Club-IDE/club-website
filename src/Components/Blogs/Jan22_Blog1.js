@@ -1,5 +1,5 @@
 import React from 'react'
-import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Viveena Rathi.PNG'
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Viveena Rathi.jpg'
 import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import eye from '../../imgs/eye.svg'
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/jan22_1.jpg'

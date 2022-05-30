@@ -23,7 +23,8 @@ const Hero = (props) => {
                                 By the Students
                                 For the Students</h1>
                             <p className="mt-6 text-gray-800  font-bold text-lg"><span className='text-primary'> Club IDE</span> is initiative by Governement Engineering College, Gandhinagar (CE/IT Department) for all the enthusiastic students of  institution.</p>
-                            <button className="w-full h-10 px-8 py-2 mt-6 text-xs text-white uppercase transition-colors duration-200 transform bg-primary rounded-md lg:w-auto hover:bg-secondary font-bold button-site">join us <IoMdArrowRoundForward className=" inline-block  font-bold pb-1 text-lg"/></button>
+                            <a href="https://drive.google.com/file/d/15mFHXusz_QFfxvFOkBM9lpc5CSmHXc4f/view" target='_blank'>
+                            <button className="w-full h-10 px-8 py-2 mt-6 text-xs text-white uppercase transition-colors duration-200 transform bg-primary rounded-md lg:w-auto hover:bg-secondary font-bold button-site">Know more <IoMdArrowRoundForward className=" inline-block  font-bold pb-1 text-lg"/></button></a>
                         </div>
                     </div>
 

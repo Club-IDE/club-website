@@ -44,10 +44,12 @@ function MemberCard(props) {
                 <h1 className="px-2 text-sm font-bold group-hover:text-[#0e76a8]  transition-all">India</h1>
             </a>
 
-            <a className="flex items-center mt-4 text-gray-700 group cursor-pointer">
+            <a href={props.email} className="flex items-center mt-4 text-gray-700 group cursor-pointer">
                 <MdOutlineEmail color='#c71610' className='team-card_icon_email lg:text-3xl text-2xl ' />
 
-                <h1 className="px-2 text-sm font-bold group-hover:text-[#c71610] ">{props.email}</h1>
+                <h1 className="px-2 text-sm font-bold group-hover:text-[#c71610] ">
+
+                    {props.email.slice(7,50)}</h1>
             </a>
             <a href='' target='blank'className="flex items-center mt-4 text-gray-700 group cursor-pointer">
                 <FaGithub color='#171515' className='team-card_icon_github lg:text-3xl text-2xl' />

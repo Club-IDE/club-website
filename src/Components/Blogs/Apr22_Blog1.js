@@ -1,6 +1,5 @@
 import React from 'react'
-import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Mitesh Makvana.png'
-
+import Auth from '../../imgs/Blog_Imgs/Author_Imgs/Mitesh Makvana.jpg'
 import Blog1 from '../../imgs/Blog_Imgs/Post_Imgs/apr22_1.jpg'
 import Img1 from '../../imgs/In_Blog_Imgs/apr22_blog1_2.jpg'
 import Share_Blog from './Share_Blog';
