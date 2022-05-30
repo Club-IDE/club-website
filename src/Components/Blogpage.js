@@ -233,11 +233,11 @@ const Blogpage = () => {
             <h1 className=" pb-4 border-b-4 border-yellow text-6xl font-bold w-max m-auto text-primary">Blogs</h1>
         </div>
         <div className="flex justify-evenly items-center mb-24 lg:mb-0 ">
-            <button className="mt-20 bg-white shadow-lg shadow-gray-600 px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium" onClick={showTechnical}>Technical</button>
-            <button  className="mt-20 bg-white shadow-lg shadow-gray-600  px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium" onClick={showNonTechnical}>Non Technical</button>
+            <button className="mt-16 bg-white shadow-lg shadow-gray-600 px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium" onClick={showTechnical}>Technical</button>
+            <button  className="mt-16 bg-white shadow-lg shadow-gray-600  px-6 py-3 text-xl border-l-4 border-secondary hover:drop-shadow-xl blog-buttons font-medium" onClick={showNonTechnical}>Non Technical</button>
         </div>
 
-        <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center mt-0 lg:px-10 md:px-12  scale-[1] lg:scale-[0.9]">
+        <div className="flex flex-wrap justify-center lg:gap-5 gap-0 items-center lg:px-10 md:px-12 mt-12  ">
 
             <BlogCard data_blogcard={blogCardsFiltered}/>
             {/* <Routes>

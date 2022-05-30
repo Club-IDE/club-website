@@ -1,9 +1,10 @@
-import React, {useState} from "react";
-import {FaTwitter , FaLinkedinIn , FaGithub} from 'react-icons/fa';
+import React from "react";
+import {FaLinkedinIn , FaGithub} from 'react-icons/fa';
 import {MdOutlineEmail} from 'react-icons/md';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
 import '../index.css'
-import aos from "aos";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
@@ -22,9 +23,8 @@ function MemberCard(props) {
     >
         <FrontSide>
         <div className="flex flex-col items-center p-4  sm:p-6  rounded-xl ">
-                    <img className="object-cover w-[250px] rounded-xl " src={props.photo} alt="" />
+                    <LazyLoadImage effect="blur" className="object-cover w-[250px] rounded-xl " src={props.photo} useIntersectionObserver='true' alt="" />
                     <div className="text-center">
-
                     <h1 className="mt-4 text-2xl font-semibold text-secondary capitalize ">{props.name}</h1>
 
                     <p className="mt-2 text-primary capitalize">{props.role}</p>

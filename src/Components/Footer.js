@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import IDELogo from '../imgs/IDELogo.png'
 
 export default function Footer() {
@@ -44,42 +45,30 @@ export default function Footer() {
                                 <p className="font-semibold tracking-wide text-teal-accent-400">
                                     Oraganization
                                 </p>
-                                <ul className="mt-2 space-y-2 flex flex-col justify-center">
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            Team
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/"
-                                            className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                                        >
-                                            About
-                                        </a>
-                                    </li>
-                                </ul>
+                                {/* <div className="mt-2 space-y-2 flex flex-col justify-center">
+                                        <Link to="/">
+                                    <div>
+                                            <p className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Home</p>
+                                    </div>
+                                        </Link>
+                                        <Link to="/blogpage">
+                                    <div>
+                                            <p className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400" >Blog</p>
+                                    </div>
+                                        </Link>
+                                        <Link to="/team">
+                                    <div>    
+                                            <p className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400" >Team</p>
+                                    </div>
+                                        </Link>
+                                    <Link to="/aboutus">
+                                    <div>
+                                            <p className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400" >About</p>
+                                    </div>
+                                    </Link>
+                                </div>
                             </div>
-                            <div>
+                            <div> */}
                                 <p className="font-semibold tracking-wide text-teal-accent-400">
                                     Domain
                                 </p>

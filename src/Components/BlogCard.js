@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import aos from "aos";
 import 'aos/dist/aos.css';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 const BlogCard = ({ data_blogcard }) => {
@@ -19,11 +21,13 @@ const BlogCard = ({ data_blogcard }) => {
 
             <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card hover:drop-shadow-xl lg:w-[30%] w-[90%]  mx-auto my-10 h-max lg:h-[550px] event-shadow" key={blogcard.id}>
               <Link to={`/blogpage/${blogcard.id}`}>
-                <img
-
+                <LazyLoadImage
+                  effect="blur"
                   src={blogcard.backImage}
                   className="object-cover w-full h-64"
                   alt=""
+                  width='100%'
+                  useIntersectionObserver='true'
                   />
                 <div className="p-5 flex-col justify-evenly content-evenly">
                   <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
