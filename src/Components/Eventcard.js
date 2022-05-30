@@ -1,13 +1,17 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 const Eventcard = (props) => {
 
     const event = props.events;
     return (
         <>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm blog-card lg:w-[25%] w-[90%] min-h-[550px] relative scale-[0.85] border-2 hover:scale-[0.90] event-shadow">
-            <img
+            <LazyLoadImage
+              effect='blur'
               src={event.thumbnail}
               className="object-contain w-full h-64 hover:object-cover transition-all duration-1000"
-              alt=""
+              width='100%'
+              alt={event.name}
             />
             <div className="p-5 flex-col items-center content-evenly">
                 <h2 className="text-2xl mt-3">{event.name}</h2>
