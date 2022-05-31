@@ -5,17 +5,17 @@ import Flippy, {FrontSide, BackSide} from 'react-flippy';
 import '../index.css'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
-
+import aos from "aos";
 
 
 function MemberCard(props) {
 
     return (
     <>
-    <div className="scale-[0.7]  md:scale-[1] lg:scale-[1] ">
+    <div className="scale-[0.8]  md:scale-[1] lg:scale-[1]">
         <Flippy
-        className='py-1 lg:ml-20 bg-white'
+        data-aos = "fade-up"
+        className='py-1 ml-12 md:ml-20  lg:ml-20 bg-white'
         flipOnHover={true}
         flipOnClick={true}
         flipDirection="horizontal"
