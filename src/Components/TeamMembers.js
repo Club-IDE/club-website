@@ -41,13 +41,14 @@ const TeamMembers = ({ title, members }) => {
         ssr={true} // means to render carousel on server-side.
         infinite={true}
         autoPlaySpeed={1000}
-        autoPlay = {false}
+        autoPlay = {true}
         keyBoardControl={false}
-        transitionDuration={500}
+        transitionDuration={1000}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
         renderDotsOutside = {true}
+        pauseOnHover={true}
         >
       {members.map((member)=>{
                      return (
