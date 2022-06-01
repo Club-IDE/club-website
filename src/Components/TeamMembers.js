@@ -22,7 +22,8 @@ const TeamMembers = ({ title, members }) => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 1,
+      partialVisibilityGutter: 40 
     }
   }
 
@@ -49,7 +50,8 @@ const TeamMembers = ({ title, members }) => {
         dotListClass="custom-dot-list-style"
         renderDotsOutside = {true}
         pauseOnHover={true}
-        >
+        partialVisbile={true}
+        className='mb-20'>
       {members.map((member)=>{
                      return (
                         <MemberCard name={member.name} role={member.role} email={member.email} desc={member.desc} photo={member.photo}/>
