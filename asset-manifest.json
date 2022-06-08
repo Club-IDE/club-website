@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/club-website/static/css/main.a6838382.css",
-    "main.js": "/club-website/static/js/main.e55aba32.js",
+    "main.js": "/club-website/static/js/main.01ecd29d.js",
     "static/js/787.d3667da7.chunk.js": "/club-website/static/js/787.d3667da7.chunk.js",
     "static/media/Nareshkumar_Purohit.jpg": "/club-website/static/media/Nareshkumar_Purohit.da9e08224b4c1dbdc326.jpg",
     "static/media/Mission_Vision.gif": "/club-website/static/media/Mission_Vision.68a0deb91e5a8073394e.gif",
@@ -122,11 +122,11 @@
     "static/media/line.svg": "/club-website/static/media/line.4e66e000697489805d901bd1f06e7c06.svg",
     "static/media/arrow_drop_down.svg": "/club-website/static/media/arrow_drop_down.f1e7c5145218cbf7cea5b9f02770212a.svg",
     "main.a6838382.css.map": "/club-website/static/css/main.a6838382.css.map",
-    "main.e55aba32.js.map": "/club-website/static/js/main.e55aba32.js.map",
+    "main.01ecd29d.js.map": "/club-website/static/js/main.01ecd29d.js.map",
     "787.d3667da7.chunk.js.map": "/club-website/static/js/787.d3667da7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6838382.css",
-    "static/js/main.e55aba32.js"
+    "static/js/main.01ecd29d.js"
   ]
 }
