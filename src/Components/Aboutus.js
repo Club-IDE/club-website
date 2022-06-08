@@ -32,7 +32,7 @@ const AboutUs = () => {
 
             </div>
 
-                <div className=' bg-AboutBackground bg-cover bg-no-repeat px-6'>
+                <div className='bg-AboutBackground bg-cover bg-no-repea container  py-0 mx-auto lg:pt-5'>
                 <div className="items-center lg:flex mt-10">
 
                         <div className="w-full lg:w-1/2 "  data-aos="fade-right">

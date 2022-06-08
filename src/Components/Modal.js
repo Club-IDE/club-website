@@ -32,13 +32,15 @@ export default function SubmitModal() {
                       type="text"
                       className="border-2 bg-[#DBE2E2]  w-[80%] h-10 rounded-6 p-5 placeholder:font-semibold my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full"
                       placeholder="Name"
+                      required = {true}
                     />
                     <input
                       type="email"
                       className="border-2 bg-[#DBE2E2]  w-[80%] h-10 rounded-6 p-5 placeholder:font-semibold my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full"
                       placeholder="Email"
+                      required = {true}
                     />
-                    <select className="border-2  w-[80%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full">
+                    <select className="border-2  w-[80%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full" required={true}>
                       <option value="0">Branch</option>
                       <option value="1">CE</option>
                       <option value="2">IT</option>
@@ -48,7 +50,7 @@ export default function SubmitModal() {
                       <option value="6">CIVIL</option>
                       <option value="7">Other</option>
                     </select>
-                    <select className="border-2  w-[80%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full">
+                    <select className="border-2  w-[80%] h-10 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full" required={true}>
                       <option value="0">Semester</option>
                       <option value="1">
                         1<sup>st</sup>
@@ -75,25 +77,25 @@ export default function SubmitModal() {
                         8<sup>th</sup>
                       </option>
                     </select>
-                    <input class="border-2 w-[80%] h-11 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full" id="formFileLg" type="file" />
+                    <input class="border-2 w-[80%] h-11 px-4 bg-[#DBE2E2] rounded-6 my-3 shadow-sm shadow-gray-500 font-semibold text-gray-600 rounded-full" id="formFileLg" type="file" required={true}/>
+                    {/*footer*/}
+                    <a href=""><span className=" text-blue-600">Click Here </span>to Show Basic Format of blog</a>
+                    <div className="flex justify-between my-5">
+                      <button
+                        className="button-site uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        type="button"
+                        onClick={() => setShowModal(false)}
+                      >
+                        Close
+                      </button>
+
+                    <button
+                      type="submit"
+                      className="uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 button-site"
+
+                    >Submit</button>
+                    </div>
                   </form>
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-center p-6">
-                  <button
-                    className="button-site uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </button>
-                  <button
-                    className="uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 button-site"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    submit
-                  </button>
                 </div>
               </div>
             </div>

@@ -48,7 +48,7 @@ function App() {
           <PreLoader />
           :
           <>
-            <BrowserRouter>
+            <BrowserRouter basename='/club-website'>
               <GECG />
               <Navbar />
               <ScrollToTop color='#182a5900' width='40'  smooth />
